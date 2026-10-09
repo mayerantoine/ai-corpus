@@ -38,7 +38,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:49+00:00"
+      "extracted_at": "2026-09-13T17:54:49+00:00",
+      "url": "https://arxiv.org/abs/1407.7502",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "15791445.pdf",
@@ -57,7 +59,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:49+00:00"
+      "extracted_at": "2026-09-13T17:54:49+00:00",
+      "url": null,
+      "url_source": null
     },
     {
       "filename": "1701.06538.pdf",
@@ -82,7 +86,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:49+00:00"
+      "extracted_at": "2026-09-13T17:54:49+00:00",
+      "url": "https://arxiv.org/abs/1701.06538",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "1706.05098.pdf",
@@ -101,7 +107,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:49+00:00"
+      "extracted_at": "2026-09-13T17:54:49+00:00",
+      "url": "https://arxiv.org/abs/1706.05098",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "1805.12471.pdf",
@@ -122,7 +130,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:49+00:00"
+      "extracted_at": "2026-09-13T17:54:49+00:00",
+      "url": "https://arxiv.org/abs/1805.12471",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2020-01-0737.pdf",
@@ -139,7 +149,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:49+00:00"
+      "extracted_at": "2026-09-13T17:54:49+00:00",
+      "url": "https://doi.org/10.4271/2020-01-0737",
+      "url_source": "publisher"
     },
     {
       "filename": "2022-AI-Index-Report_Master.pdf",
@@ -156,7 +168,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:49+00:00"
+      "extracted_at": "2026-09-13T17:54:49+00:00",
+      "url": "https://hai.stanford.edu/ai-index/2022-ai-index-report",
+      "url_source": "publisher"
     },
     {
       "filename": "2022.emnlp-main.388.pdf",
@@ -177,7 +191,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:55+00:00"
+      "extracted_at": "2026-09-13T17:54:55+00:00",
+      "url": "https://aclanthology.org/2022.emnlp-main.388/",
+      "url_source": "publisher"
     },
     {
       "filename": "2106.09685.pdf",
@@ -203,7 +219,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2110.07602.pdf",
@@ -228,7 +246,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2110.07602",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2201.11903v6.pdf",
@@ -256,7 +276,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2201.11903",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2203.08442.pdf",
@@ -281,7 +303,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2203.08442",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2203.11171v4.pdf",
@@ -308,7 +332,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2203.11171",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2205.10625v3.pdf",
@@ -338,7 +364,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2205.10625",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2205.11916v4.pdf",
@@ -359,7 +387,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2205.11916",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2208.02813.pdf",
@@ -382,7 +412,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2208.02813",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2210.03493v1.pdf",
@@ -405,7 +437,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2210.03493",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2210.11610v2.pdf",
@@ -430,7 +464,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2210.11610",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2211.01910v2.pdf",
@@ -455,7 +491,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2211.01910",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2302.01107.pdf",
@@ -479,7 +517,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:56+00:00"
+      "extracted_at": "2026-09-13T17:54:56+00:00",
+      "url": "https://arxiv.org/abs/2302.01107",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2302.13971v1.pdf",
@@ -512,7 +552,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2302.13971",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2303.08774v6.pdf",
@@ -531,7 +573,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2303.08774",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2305.10601v2.pdf",
@@ -557,7 +601,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2305.10601",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2305.14314.pdf",
@@ -579,7 +625,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2305.14314",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2307.09288v2.pdf",
@@ -627,7 +675,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2307.09288",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2310.03714v1.pdf",
@@ -658,7 +708,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2310.03714",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2310.06825v1.pdf",
@@ -694,7 +746,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2310.06825",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2310.12931v2.pdf",
@@ -721,7 +775,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2310.12931",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2402.01135v1.pdf",
@@ -742,7 +798,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2402.01135",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2407.21075v1.pdf",
@@ -759,7 +817,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2407.21075",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2407.21783v3.pdf",
@@ -776,7 +836,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2407.21783",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2410.21333v3.pdf",
@@ -800,7 +862,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:57+00:00"
+      "extracted_at": "2026-09-13T17:54:57+00:00",
+      "url": "https://arxiv.org/abs/2410.21333",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2412.15249v2.pdf",
@@ -819,7 +883,9 @@
       ],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:58+00:00"
+      "extracted_at": "2026-09-13T17:54:58+00:00",
+      "url": "https://arxiv.org/abs/2412.15249",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2506.23485v1.pdf",
@@ -841,7 +907,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:58+00:00"
+      "extracted_at": "2026-09-13T17:54:58+00:00",
+      "url": "https://arxiv.org/abs/2506.23485",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2605.05242v1.pdf",
@@ -881,7 +949,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:58+00:00"
+      "extracted_at": "2026-09-13T17:54:58+00:00",
+      "url": "https://arxiv.org/abs/2605.05242",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "2606.08610v1.pdf",
@@ -905,7 +975,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:58+00:00"
+      "extracted_at": "2026-09-13T17:54:58+00:00",
+      "url": "https://arxiv.org/abs/2606.08610",
+      "url_source": "arxiv-filename"
     },
     {
       "filename": "ACE.pdf",
@@ -936,7 +1008,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:58+00:00"
+      "extracted_at": "2026-09-13T17:54:58+00:00",
+      "url": "https://arxiv.org/abs/2510.04618",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "AI Agent architecture.pdf",
@@ -953,7 +1027,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:58+00:00"
+      "extracted_at": "2026-09-13T17:54:58+00:00",
+      "url": "https://arxiv.org/abs/2601.01743",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "Agemt memory.pdf",
@@ -978,7 +1054,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:58+00:00"
+      "extracted_at": "2026-09-13T17:54:58+00:00",
+      "url": "https://arxiv.org/abs/2512.13564",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "Agen Methodology.pdf",
@@ -1019,7 +1097,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:58+00:00"
+      "extracted_at": "2026-09-13T17:54:58+00:00",
+      "url": "https://arxiv.org/abs/2503.21460",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "Agent Context survey.pdf",
@@ -1047,7 +1127,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:58+00:00"
+      "extracted_at": "2026-09-13T17:54:58+00:00",
+      "url": "https://arxiv.org/abs/2507.13334",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "Agent Context.pdf",
@@ -1075,7 +1157,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:59+00:00"
+      "extracted_at": "2026-09-13T17:54:59+00:00",
+      "url": "https://arxiv.org/abs/2507.13334",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "AgentSLR.pdf",
@@ -1108,7 +1192,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:59+00:00"
+      "extracted_at": "2026-09-13T17:54:59+00:00",
+      "url": "https://arxiv.org/abs/2603.22327",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "AgentsMdEval.pdf",
@@ -1129,7 +1215,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:59+00:00"
+      "extracted_at": "2026-09-13T17:54:59+00:00",
+      "url": "https://arxiv.org/abs/2602.11988",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "DAB.pdf",
@@ -1159,7 +1247,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:59+00:00"
+      "extracted_at": "2026-09-13T17:54:59+00:00",
+      "url": "https://arxiv.org/abs/2603.20576",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "DABbenchmark.pdf",
@@ -1189,7 +1279,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:59+00:00"
+      "extracted_at": "2026-09-13T17:54:59+00:00",
+      "url": "https://arxiv.org/abs/2603.20576",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "DRA Systematic Exam.pdf",
@@ -1220,7 +1312,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:59+00:00"
+      "extracted_at": "2026-09-13T17:54:59+00:00",
+      "url": "https://arxiv.org/abs/2506.18096",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "Day_1_v3 (1).pdf",
@@ -1241,7 +1335,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:59+00:00"
+      "extracted_at": "2026-09-13T17:54:59+00:00",
+      "url": null,
+      "url_source": null
     },
     {
       "filename": "Decentralized Context.pdf",
@@ -1261,7 +1357,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:54:59+00:00"
+      "extracted_at": "2026-09-13T17:54:59+00:00",
+      "url": "https://arxiv.org/abs/2606.10662",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "GEPA.pdf",
@@ -1296,7 +1394,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:00+00:00"
+      "extracted_at": "2026-09-13T17:55:00+00:00",
+      "url": "https://arxiv.org/abs/2507.19457",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "Meta-harness.pdf",
@@ -1318,7 +1418,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:00+00:00"
+      "extracted_at": "2026-09-13T17:55:00+00:00",
+      "url": "https://arxiv.org/abs/2603.28052",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "PaperQAv2.pdf",
@@ -1346,7 +1448,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:00+00:00"
+      "extracted_at": "2026-09-13T17:55:00+00:00",
+      "url": "https://arxiv.org/abs/2409.13740",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "Survey Memory.pdf",
@@ -1373,7 +1477,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:00+00:00"
+      "extracted_at": "2026-09-13T17:55:00+00:00",
+      "url": "https://arxiv.org/abs/2404.13501",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "Taxonomy-context.pdf",
@@ -1397,7 +1503,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:00+00:00"
+      "extracted_at": "2026-09-13T17:55:00+00:00",
+      "url": "https://arxiv.org/abs/2509.19125",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "Terminalbench.pdf",
@@ -1445,7 +1553,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:00+00:00"
+      "extracted_at": "2026-09-13T17:55:00+00:00",
+      "url": "https://arxiv.org/abs/2601.11868",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "The-Complete-Guide-to-Building-Skill-for-Claude.pdf",
@@ -1462,7 +1572,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:00+00:00"
+      "extracted_at": "2026-09-13T17:55:00+00:00",
+      "url": null,
+      "url_source": null
     },
     {
       "filename": "WhyDRAFails.pdf",
@@ -1481,7 +1593,9 @@
       ],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:00+00:00"
+      "extracted_at": "2026-09-13T17:55:00+00:00",
+      "url": "https://arxiv.org/abs/2601.22984",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "X-sum.pdf",
@@ -1503,7 +1617,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:00+00:00"
+      "extracted_at": "2026-09-13T17:55:00+00:00",
+      "url": "https://arxiv.org/abs/2505.16349",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "harbor.pdf",
@@ -1527,7 +1643,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:01+00:00"
+      "extracted_at": "2026-09-13T17:55:01+00:00",
+      "url": "https://arxiv.org/abs/2606.08610",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "harborindex.pdf",
@@ -1575,7 +1693,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:01+00:00"
+      "extracted_at": "2026-09-13T17:55:01+00:00",
+      "url": "https://arxiv.org/abs/2609.04298",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "hermes-kanban-v1-spec (1).pdf",
@@ -1594,7 +1714,9 @@
       ],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:01+00:00"
+      "extracted_at": "2026-09-13T17:55:01+00:00",
+      "url": null,
+      "url_source": null
     },
     {
       "filename": "insight_data_agent.pdf",
@@ -1614,7 +1736,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:01+00:00"
+      "extracted_at": "2026-09-13T17:55:01+00:00",
+      "url": "https://arxiv.org/abs/2601.20048",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "keywordsearch.pdf",
@@ -1641,7 +1765,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:01+00:00"
+      "extracted_at": "2026-09-13T17:55:01+00:00",
+      "url": "https://arxiv.org/abs/2602.23368",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "know your rag.pdf",
@@ -1666,7 +1792,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:01+00:00"
+      "extracted_at": "2026-09-13T17:55:01+00:00",
+      "url": "https://arxiv.org/abs/2411.19710",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "memoryeval.pdf",
@@ -1689,7 +1817,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:01+00:00"
+      "extracted_at": "2026-09-13T17:55:01+00:00",
+      "url": "https://arxiv.org/abs/2606.24775",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "min2report.pdf",
@@ -1717,7 +1847,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:01+00:00"
+      "extracted_at": "2026-09-13T17:55:01+00:00",
+      "url": "https://arxiv.org/abs/2601.04879",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "paper_banana.pdf",
@@ -1740,7 +1872,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:02+00:00"
+      "extracted_at": "2026-09-13T17:55:02+00:00",
+      "url": "https://arxiv.org/abs/2601.23265",
+      "url_source": "arxiv-pdf-stamp"
     },
     {
       "filename": "the-agentic-sdlc.pdf",
@@ -1757,7 +1891,9 @@
       "flags": [],
       "manually_edited": false,
       "error": null,
-      "extracted_at": "2026-09-13T17:55:02+00:00"
+      "extracted_at": "2026-09-13T17:55:02+00:00",
+      "url": null,
+      "url_source": null
     }
   ]
 }

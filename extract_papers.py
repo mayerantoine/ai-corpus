@@ -571,18 +571,22 @@ ARXIV_NEW = re.compile(r"^(\d{4}\.\d{4,5})(?:v\d+)?$")
 ARXIV_OLD = re.compile(r"^([a-z-]+(?:\.[A-Z]{2})?/\d{7})(?:v\d+)?$")
 
 
-def paper_link(filename: str, title: str | None) -> str:
-    """Public URL for a paper.
+def paper_link(paper: dict) -> tuple[str, str]:
+    """(url, label) for a paper entry.
 
-    Filenames that carry an arXiv ID resolve to the arXiv abstract page. For the
-    rest we have no identifier on disk, so link a title search instead of
-    inventing a URL that may not exist.
+    Prefers the verified ``url`` recorded in papers.json. Falls back to a title
+    search for the handful of entries with no public canonical URL (slide decks,
+    internal specs) rather than inventing one.
     """
-    stem = Path(filename).stem
-    m = ARXIV_NEW.match(stem) or ARXIV_OLD.match(stem)
-    if m:
-        return f"https://arxiv.org/abs/{m.group(1)}"
-    return f"https://www.semanticscholar.org/search?q={quote_plus(title or stem)}"
+    url = paper.get("url")
+    if url:
+        if "arxiv.org" in url:
+            return url, "arxiv"
+        if "doi.org" in url:
+            return url, "doi"
+        return url, "link"
+    title = paper.get("title") or Path(paper["filenames"][0]).stem
+    return f"https://www.semanticscholar.org/search?q={quote_plus(title)}", "search"
 
 
 def anchor(topic: str) -> str:
@@ -626,8 +630,7 @@ def generate_readme(json_path="papers.json", readme_path="README.md", quiet=Fals
             names = g["authors"]
             who = ", ".join(names[:3]) + (f", +{len(names) - 3} more" if len(names) > 3 else "")
             flag = " ⚠️" if g["needs_review"] else ""
-            link = paper_link(g["filenames"][0], g["title"])
-            host = "arxiv" if "arxiv.org" in link else "search"
+            link, host = paper_link(g)
             lines.append(f"- **{title}**{flag}")
             lines.append(f"  {who or '_authors not detected_'} — [{host}]({link})")
         lines.append("")
