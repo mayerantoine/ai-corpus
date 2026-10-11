@@ -6,28 +6,49 @@ about*. GEPA is a **method** paper about prompting; a survey of prompt optimizer
 share its topic but not its type.
 
 Why bother: the type tells you how a paper can fail, and therefore how to read it.
-A method paper fails if its baselines were weak. An empirical paper fails if its
-measurement was confounded. A benchmark fails if its tasks don't represent the real
-distribution. Knowing the type tells you where to aim your skepticism.
+A method paper fails if its baselines were weak. An evaluation fails if its setup was
+confounded. A benchmark fails if its tasks don't represent the real distribution.
+Knowing the type tells you where to aim your skepticism.
+
+## Classify from the abstract, never the title
+
+**This is a rule, not a suggestion.** Titles systematically mislead about contribution
+type, and this corpus is full of examples:
+
+| Title suggests | Abstract says | Actual type |
+| --- | --- | --- |
+| *Why Your Deep Research Agent Fails?* — a failure study | "we introduce the PING Taxonomy ... curate DeepHalluBench" | `benchmark` |
+| *Evaluating AGENTS.md* — an evaluation harness | measures existing agents on SWE-bench; releases nothing | `evaluation` |
+| *Agent Skill Evaluation and Evolution: Frameworks and Benchmarks* | "**In this survey**, we systematically examine..." | `survey` |
+| *Are We Ready For An Agent-Native Memory System?* — a position piece | "we evaluate 12 representative memory systems across 11 datasets" | `evaluation` |
+| *Keyword search is all you need* — a method claim | "we question how much value ... systematic comparison" | `evaluation` |
+| *Agent Skills Can Be Harmful: An Empirical Study* | differential framework instantiated on *existing* SkillsBench | `evaluation` |
+| *Language agents achieve superhuman synthesis* — a result | "we developed a rigorous human-AI comparison methodology" | `evaluation` |
+
+The decisive questions are all answered in the abstract, not the title:
+
+1. **Does it release a reusable artifact?** → `benchmark` or `system`
+2. **Does it propose a named technique and beat baselines?** → `method`
+3. **Does it say "in this survey/review" or impose a taxonomy on others' work?** → `survey`
+4. **Does it assess how well systems or practices perform?** → `evaluation`
+5. **Does it explain a mechanism without grading anything?** → `empirical`
 
 ## The types
 
-Ordered by how often they appear in this corpus.
-
 | Type | One-line test | Count here |
 | --- | --- | --- |
-| [`method`](#method) | Could I implement the thing it proposes? | 32 |
-| [`survey`](#survey) | Does it organize others' work rather than add its own? | 12 |
-| [`benchmark`](#benchmark) | Does it ship something others will measure against? | 9 |
-| [`empirical`](#empirical) | Does it report findings but propose no technique? | 6 |
+| [`method`](#method) | Could I implement the thing it proposes? | 31 |
+| [`survey`](#survey) | Does it organize others' work rather than add its own? | 13 |
+| [`benchmark`](#benchmark) | Does it ship something others will measure against? | 8 |
+| [`evaluation`](#evaluation) | Does it assess how well systems/practices perform? | 6 |
 | [`tech-report`](#tech-report) | Is it an artifact disclosure from whoever built it? | 6 |
 | [`practitioner`](#practitioner) | Is it a guide/spec rather than a research paper? | 5 |
-| [`system`](#system) | Is the contribution a working, usable artifact? | 4 |
-| [`position`](#position) | Is it an argument about what the field should do? | 1 |
+| [`empirical`](#empirical) | Does it explain a mechanism, grading nothing? | 3 |
+| [`system`](#system) | Is the contribution a thing you install? | 3 |
 
-Counts cover all 75 papers in the corpus and sum to 75 — each assigned its single
-primary type. Where a paper is a genuine hybrid, the primary type is the one that
-survives; see [Hybrids](#hybrids).
+Counts cover all 75 papers and sum to 75, each assigned one primary type from its
+abstract. A paper may carry **at most two types** — one primary, one optional secondary
+— see [Hybrids](#hybrids).
 
 ---
 
@@ -36,11 +57,11 @@ survives; see [Hybrids](#hybrids).
 **Claim:** "Here is a new technique, and it outperforms the alternatives."
 
 A named mechanism plus experiments against baselines. The lasting contribution is
-something reusable: after reading, you could implement it.
+reusable: after reading, you could implement it.
 
 **Rubric — expect all of:**
-- [ ] Names its contribution so others can cite it ("GEPA", "LoRA", "Tree of Thoughts")
-- [ ] Positions against a baseline class, often in the title
+- [ ] Abstract contains "we propose / we introduce / we present" + a named thing
+- [ ] Positions against a baseline class
 - [ ] Reports experiments where the proposed thing wins
 - [ ] Ablations isolating which component does the work
 
@@ -48,17 +69,19 @@ something reusable: after reading, you could implement it.
 technique — that's `benchmark` or `system`.
 
 **How it fails:** weak or stale baselines; wins that vanish under tuning parity;
-ablations that don't actually isolate the mechanism.
+ablations that don't isolate the mechanism.
 
-**In this corpus (32):** GEPA, LoRA, QLoRA, Chain-of-Thought, Tree of Thoughts, DSPy,
+**In this corpus (31):** GEPA, LoRA, QLoRA, Chain-of-Thought, Tree of Thoughts, DSPy,
 Self-Consistency, Least-to-Most, Auto-CoT, Zero-Shot Reasoners, LLMs Can Self-Improve,
-Human-Level Prompt Engineers, AdaMix, P-Tuning v2, Sparsely-Gated MoE, SkillOpt,
-Trace2Skill, Mind2Report, Eureka, Meta-Harness, Agentic Context Engineering,
-Decentralized Multi-Agent Systems with Shared Context, Beyond Semantic Similarity,
-Keyword Search Is All You Need, Ask/Retrieve/Summarize, PaperQA2 (*Language agents
-achieve superhuman synthesis*), Context-Aware Hierarchical Taxonomy Generation,
-Multi-Agent Conversational Recommender, Thought-Augmented Planning, seq2seq
-pretraining for NMT, RNN translation techniques, RL for autonomous vehicle control
+APE (*Human-Level Prompt Engineers*), AdaMix, P-Tuning v2, Sparsely-Gated MoE, SkillOpt,
+Trace2Skill, Mind2Report, Eureka, Meta-Harness, ACE (*Agentic Context Engineering*),
+Decentralized Multi-Agent Systems with Shared Context, Beyond Semantic Similarity (DCI),
+Ask/Retrieve/Summarize, Context-Aware Hierarchical Taxonomy Generation, LitLLMs,
+Multi-Agent Conversational Recommender, Thought-Augmented Planning, PaperBanana,
+RNN translation techniques, RL for autonomous vehicle control
+
+Note *LitLLMs, Are we there yet?* lands here despite its question-title: the abstract
+introduces "a novel two-step search strategy" and a re-ranking mechanism.
 
 ---
 
@@ -66,30 +89,29 @@ pretraining for NMT, RNN translation techniques, RL for autonomous vehicle contr
 
 **Claim:** "Here is the landscape, organized."
 
-Contributes a taxonomy and a map of existing work. You finish knowing the field's
-shape, with nothing new to implement.
+Contributes a taxonomy and a map of existing work. You finish knowing the field's shape,
+with nothing new to implement.
 
 **Rubric — expect most of:**
+- [ ] Abstract self-identifies: "in this survey", "this review", "we survey"
 - [ ] Taxonomy or axes imposed on prior work
 - [ ] Broad citation coverage over a defined scope
 - [ ] No new technique evaluated against baselines
-- [ ] Often an explicit "open problems" or roadmap section
 
 **Variant — `sok` (Systematization of Knowledge):** re-derives the framing rather than
-cataloging, usually in security venues. Tag as `survey` unless the venue's own label
-matters to you; it's a stronger claim than a survey, since the organizing argument *is*
-the contribution.
+cataloging, usually in security venues. Tagged `survey` here; it's a stronger claim,
+since the organizing argument *is* the contribution.
 
-**How it fails:** a taxonomy whose categories don't carve reality (everything lands in
-one bucket); coverage that silently stops at the authors' subfield; staleness.
+**How it fails:** a taxonomy whose categories don't carve reality; coverage that stops
+at the authors' subfield; staleness.
 
-**In this corpus (12):** *A Survey of Context Engineering*, *Deep Research Agents: A
+**In this corpus (13):** *A Survey of Context Engineering*, *Deep Research Agents: A
 Systematic Examination and Roadmap*, *Agent Skills for LLMs*, *Externalization in LLM
-Agents*, *Memory in the Age of AI Agents: A Survey*, *A Survey on the Memory Mechanism
-of LLM-based Agents*, *LLM Agent: A Survey on Methodology*, *A Survey on Efficient
-Training of Transformers*, *An Overview of Multi-Task Learning*, *AI Agent Systems:
+Agents*, *Memory in the Age of AI Agents*, *A Survey on the Memory Mechanism of
+LLM-based Agents*, *LLM Agent: A Survey on Methodology*, *A Survey on Efficient Training
+of Transformers*, *An Overview of Multi-Task Learning*, *AI Agent Systems:
 Architectures, Applications, and Evaluation*, *Understanding Random Forests*,
-*SoK: Agentic Skills*
+*Agent Skill Evaluation and Evolution*, *SoK: Agentic Skills*
 
 ---
 
@@ -101,49 +123,76 @@ The lasting contribution is the artifact others evaluate *against*. Nearly alway
 baseline results too, but those age while the benchmark persists.
 
 **Rubric — expect all of:**
-- [ ] A named, releasable task set / dataset / metric
-- [ ] Documented construction and validation of the tasks
+- [ ] A **named, releasable** task set / dataset / metric / harness
+- [ ] Documented construction and validation
 - [ ] Multiple existing systems scored on it
 - [ ] Intended for reuse by others, not just this paper
 
-**Distinguishing from `empirical`:** does the paper *build* the measuring stick, or
-measure with someone else's? *Agent Skills Can Be Harmful* analyzes 307 failures but
-evaluates on existing SkillsBench — that's `empirical`. *Why Your Deep Research Agent
-Fails?* builds DeepHalluBench — that's `benchmark`.
+**The dividing line with `evaluation`:** does the paper *build* the measuring stick, or
+measure with someone else's? This is the single question that separates them, and it is
+answerable only from the abstract. *Why Your Deep Research Agent Fails?* curates
+DeepHalluBench → `benchmark`. *Agent Skills Can Be Harmful* instantiates its framework
+on existing SkillsBench → `evaluation`.
 
-**How it fails:** tasks unrepresentative of real use; saturation; contamination from
-training data; metrics that reward the wrong thing.
+**How it fails:** tasks unrepresentative of real use; saturation; training-data
+contamination; metrics that reward the wrong thing.
 
-**In this corpus (9):** Terminal-Bench, DAB (*Can AI Agents Answer Your Data
-Questions?*), GitSkills, *Why Your Deep Research Agent Fails?*, *Know Your RAG*,
-*Agent Skill Evaluation and Evolution*, Harbor-Index, *Neural Network Acceptability
-Judgments* (CoLA), *Evaluating AI-based Scientific Knowledge Synthesis*
+**In this corpus (8):** Terminal-Bench, DAB, GitSkills, *Why Your Deep Research Agent
+Fails?* (DeepHalluBench + PING), *Know Your RAG*, Harbor-Index, AgentSLR
+(*Evaluating AI-based Scientific Knowledge Synthesis*), CoLA (*Neural Network
+Acceptability Judgments*)
+
+---
+
+### `evaluation`
+
+**Claim:** "Here is how well existing systems or practices actually perform."
+
+An assessment study. The goal is to *grade* something — a system, a tool, a widespread
+practice — against a question, using benchmarks and harnesses that mostly already exist.
+Verdicts are frequently negative, which is much of their value.
+
+**Rubric — expect all of:**
+- [ ] A question of the form "does X actually work / how well?"
+- [ ] Named existing systems or practices as the subject under test
+- [ ] Measurement on existing benchmarks, or a purpose-built setup not pitched for reuse
+- [ ] A verdict, often deflationary
+
+**Distinguish from `benchmark`:** no reusable measuring stick is the deliverable.
+**Distinguish from `empirical`:** the object is a *system or practice being graded*, not
+a mechanism being explained.
+
+**How it fails:** confounds; too few systems to generalize; a setup that quietly
+advantages one condition; conclusions overreaching the measurement.
+
+**In this corpus (6):** *Evaluating AGENTS.md*, *Demystifying Agent Skills*, *Agent
+Skills Can Be Harmful*, *Are We Ready For An Agent-Native Memory System?*, *Keyword
+search is all you need*, PaperQA2 (*Language agents achieve superhuman synthesis*)
 
 ---
 
 ### `empirical`
 
-**Claim:** "Here is what is actually true, measured."
+**Claim:** "Here is why this works, mechanistically."
 
-No new technique. The contribution is a *finding* — often a surprising or deflationary
-one. These are the papers that change how you use methods you already have.
+Measures or analyzes to *explain* a phenomenon. Grades no system and proposes no
+technique. Often paired with theory.
 
 **Rubric — expect all of:**
-- [ ] A question about reality, not a proposed solution
-- [ ] Controlled comparison or systematic measurement
-- [ ] Headline result stated as a quantity or rate
-- [ ] Introduces no named technique for others to adopt
+- [ ] A why/how question about a mechanism
+- [ ] Controlled experiments or formal analysis isolating a cause
+- [ ] No named technique offered for adoption
+- [ ] No pass/fail verdict on a named system
 
-**Includes negative / replication results:** "the claimed effect doesn't hold as
-stated" is an empirical claim. *Mind Your Step* — showing CoT *hurts* on some tasks —
-belongs here despite sitting in a prompting topic.
+**Includes negative results about mechanisms:** *Mind Your Step* shows CoT *hurts* on
+tasks where human deliberation hurts — a claim about when a mechanism misfires, not a
+grade on any product.
 
-**How it fails:** confounds; a setup too narrow to generalize; cherry-picked task
-selection; conclusions overreaching the measurement.
+**How it fails:** a setup too narrow to generalize; confounds; theory whose assumptions
+don't hold at real scale.
 
-**In this corpus (6):** *Demystifying Agent Skills*, *Agent Skills Can Be Harmful*,
-*Evaluating AGENTS.md*, *Mind Your Step (by Step)*, *LitLLMs: Are we there yet?*,
-*Towards Understanding Mixture of Experts*
+**In this corpus (3):** *Towards Understanding Mixture of Experts*, *Mind Your Step (by
+Step)*, *Understanding and Improving Seq2Seq Pretraining for NMT*
 
 ---
 
@@ -151,13 +200,12 @@ selection; conclusions overreaching the measurement.
 
 **Claim:** "Here is what we built." Artifact disclosure, typically industrial.
 
-Describes a shipped model or system. Structured as disclosure rather than hypothesis
-testing: no controlled comparison against alternatives, and often deliberate omissions
-about data or training.
+Describes a shipped model. Structured as disclosure rather than hypothesis testing: no
+controlled comparison of design alternatives, and often deliberate omissions about data.
 
 **Rubric — expect most of:**
-- [ ] Authored by the team that built the artifact (often very many authors)
-- [ ] Describes scale, training, and eval results for one specific system
+- [ ] Authored by the team that built it (frequently hundreds of authors)
+- [ ] Describes scale, training, and evals for one specific system
 - [ ] No ablation of design choices against alternatives
 - [ ] Evaluation is a scorecard, not a hypothesis test
 
@@ -178,35 +226,14 @@ than a benchmark delta.
 
 **Rubric — expect most of:**
 - [ ] A runnable tool, framework, registry, or pipeline
-- [ ] Architecture and interface described in implementable detail
+- [ ] Architecture and interface in implementable detail
 - [ ] Evaluated on usability/coverage/throughput, not only accuracy
 - [ ] Usually open-sourced
 
-**Distinguishing from `method`:** a method's contribution survives as an *idea* you can
+**Distinguishing from `method`:** a method's contribution survives as an *idea* you
 reimplement; a system's survives as a *thing you install*.
 
-**In this corpus (4):** Skilldex, HARBOR, Insight Agents, PaperBanana
-
----
-
-### `position`
-
-**Claim:** "The field should think about this differently."
-
-Argument rather than experiment. Legitimate and useful, but evidence is rhetorical and
-illustrative, not systematic.
-
-**Rubric:**
-- [ ] A thesis about what research or practice *ought* to do
-- [ ] Reasoning and selected examples carry the argument
-- [ ] No systematic evaluation, and none claimed
-- [ ] Often titled as a question or provocation
-
-**How it fails:** unfalsifiable; strawmans the status quo; mistakes a preference for a
-finding.
-
-**In this corpus (1):** *Are We Ready For An Agent-Native Memory System?* (the title's
-question is the thesis)
+**In this corpus (3):** Skilldex, HARBOR, Insight Agents
 
 ---
 
@@ -214,8 +241,8 @@ question is the thesis)
 
 **Claim:** "Here is how to do this." Guides, specs, slide decks, industry reports.
 
-Not research papers at all — no claim of novelty and no peer review. Worth keeping and
-worth labeling honestly, so they aren't read as evidence.
+Not research papers — no novelty claim, no peer review. Worth keeping and worth
+labeling honestly, so they aren't read as evidence.
 
 **Rubric:**
 - [ ] Instructional, normative, or descriptive-of-practice
@@ -230,35 +257,44 @@ Kanban*, *Agentic SDLC*, *The New SDLC With Vibe Coding*, *AI Index Report 2022*
 
 ## Hybrids
 
-These are soft categories and overlap is normal. Two rules keep it usable:
+These are soft categories and overlap is normal. Three rules keep it usable:
 
-1. **Assign the primary type by what survives.** Ask: in two years, what will others
-   cite this for? A method paper that builds a small benchmark to prove its point is
-   still `method`. A benchmark paper that reports findings is still `benchmark`.
-2. **Allow one secondary type when the hybrid is genuine.** *Why Your Deep Research
-   Agent Fails?* is `benchmark` + `empirical`: it ships DeepHalluBench and the PING
-   taxonomy *and* reports reliability gaps across six systems. Calling it either alone
-   loses something real.
+1. **Maximum two types per paper — a hard cap.** One primary, at most one secondary.
+   A paper needing three labels has been read too generously: go back to rule 2 and
+   pick what actually survives. The cap is what keeps the taxonomy a classification
+   rather than a tag cloud, and it is what makes counts add up to the corpus size.
+2. **Assign the primary type by what survives.** In two years, what will others cite
+   this for? A method paper that builds a small benchmark to prove its point is still
+   `method`.
+3. **Add a secondary type only when the hybrid is genuine** — when dropping it would
+   lose something a reader needs. *Why Your Deep Research Agent Fails?* is `benchmark`
+   + `evaluation`: it ships DeepHalluBench and PING *and* grades six systems with them.
+   Most papers need no secondary type at all; reach for one only when the primary label
+   alone would mislead.
 
 Common legitimate pairs:
 
 | Pair | Why it happens |
 | --- | --- |
+| `benchmark` + `evaluation` | Shipping the stick and the first reading from it |
 | `method` + `benchmark` | New technique needs a new way to measure it |
-| `benchmark` + `empirical` | Shipping the stick and the first reading from it |
-| `survey` + `position` | A map that argues for where the field should go |
-| `system` + `benchmark` | Infrastructure plus a meta-dataset (e.g. Harbor-Index) |
+| `survey` + `evaluation` | A map plus a scorecard of what's on it |
+| `system` + `benchmark` | Infrastructure plus a meta-dataset (Harbor-Index) |
+| `evaluation` + `empirical` | A grade plus an explanation of the cause |
 
-**Titles mislead.** *"Why Your Deep Research Agent Fails?"* reads as pure `empirical`;
-the subtitle *"On Hallucination Evaluation..."* reveals the benchmark. Classify from the
-abstract's stated contributions, not the title — and note that this corpus's titles were
-truncated by PDF extraction until they were synced from the arXiv API
-([`sync_arxiv.py`](sync_arxiv.py)).
+**No `position` papers.** The taxonomy previously had one, *Are We Ready For An
+Agent-Native Memory System?*, assigned from its provocation-style title. Its abstract
+says it "evaluate[s] 12 representative memory systems and two reference baselines across
+five benchmark workloads spanning 11 datasets" — an `evaluation`. The category is kept
+out until a paper actually earns it, which is itself a demonstration of the
+abstract-over-title rule.
 
 ## Applying this
 
-Not yet encoded in the data. To add it, a `type` field (and optional `type_secondary`)
-alongside `topic` in both [`papers.json`](papers.json) and
-[`links.json`](links.json) — the two axes are independent, so `type` cannot be derived
-from `topic` by keyword rules the way `topic` is derived from titles. Classification
-needs the abstract, so it is a per-paper judgment, not a regex.
+Not yet encoded in the data. To add it, a `type` field (plus optional `type_secondary`)
+alongside `topic` in [`papers.json`](papers.json) and [`links.json`](links.json) —
+`type_secondary` nullable, and never a third field, per the two-type cap. The
+two axes are independent, and unlike `topic` — which `extract_papers.py` derives from
+title keywords — `type` **cannot** be derived by keyword rules. The table at the top of
+this file is the evidence: the title-based guess was wrong for at least seven papers
+here. Classification requires reading the abstract, so it is a per-paper judgment.
