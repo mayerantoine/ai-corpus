@@ -15,7 +15,8 @@
       "note": "Four-axis survey: architectural foundations (SKILL.md, progressive context loading, MCP integration), skill acquisition, deployment at scale (CUAs, OSWorld), and security frameworks.",
       "type": "survey",
       "type_secondary": null,
-      "type_evidence": "this survey provides a comprehensive treatment of the agent skills landscape"
+      "type_evidence": "this survey provides a comprehensive treatment of the agent skills landscape",
+      "author_count": 2
     },
     {
       "id": "arxiv:2602.20867",
@@ -23,11 +24,7 @@
       "authors": [
         "Yanna Jiang",
         "Delong Li",
-        "Haiyu Deng",
-        "Baihe Ma",
-        "Xu Wang",
-        "Qin Wang",
-        "Guangsheng Yu"
+        "Haiyu Deng"
       ],
       "url": "https://arxiv.org/abs/2602.20867",
       "url_source": "arxiv-verified",
@@ -36,7 +33,8 @@
       "note": "Systematization of knowledge mapping how skills transcend basic function-calling and tool-use paradigms, across the full skill lifecycle.",
       "type": "survey",
       "type_secondary": null,
-      "type_evidence": "this paper maps the skill layer and introduces two complementary taxonomies"
+      "type_evidence": "this paper maps the skill layer and introduces two complementary taxonomies",
+      "author_count": 7
     },
     {
       "id": "arxiv:2603.25158",
@@ -53,7 +51,8 @@
       "note": "Turns single-run execution trajectories into reusable, generalized agent skills; harness-agnostic.",
       "type": "method",
       "type_secondary": null,
-      "type_evidence": "distill trajectory-local lessons into transferable agent skills"
+      "type_evidence": "distill trajectory-local lessons into transferable agent skills",
+      "author_count": 3
     },
     {
       "id": "arxiv:2604.08224",
@@ -70,7 +69,8 @@
       "note": "Examines how externalized artifacts (skills, workflow memory, protocols) substitute or complement internal model weights.",
       "type": "survey",
       "type_secondary": null,
-      "type_evidence": "a unified review of memory, skills, protocols and harness engineering"
+      "type_evidence": "a unified review of memory, skills, protocols and harness engineering",
+      "author_count": 3
     },
     {
       "id": "arxiv:2604.16911",
@@ -86,7 +86,8 @@
       "note": "Package management and hierarchical scope distribution (global/shared/project) for agent skill artifacts, with format conformance scoring.",
       "type": "system",
       "type_secondary": null,
-      "type_evidence": "a package manager and registry, implemented as a TypeScript CLI with a registry backend"
+      "type_evidence": "a package manager and registry, implemented as a TypeScript CLI with a registry backend",
+      "author_count": 2
     },
     {
       "id": "arxiv:2605.18747",
@@ -94,34 +95,7 @@
       "authors": [
         "Xuying Ning",
         "Katherine Tieu",
-        "Dongqi Fu",
-        "Tianxin Wei",
-        "Zihao Li",
-        "Yuanchen Bei",
-        "Jiaru Zou",
-        "Mengting Ai",
-        "Zhining Liu",
-        "Ting-Wei Li",
-        "Lingjie Chen",
-        "Yanjun Zhao",
-        "Ke Yang",
-        "Bingxuan Li",
-        "Cheng Qian",
-        "Gaotang Li",
-        "Xiao Lin",
-        "Zhichen Zeng",
-        "Ruizhong Qiu",
-        "Sirui Chen",
-        "Yifan Sun",
-        "Xiyuan Yang",
-        "Ruida Wang",
-        "Rui Pan",
-        "Chenyuan Yang",
-        "Dylan Zhang",
-        "Liri Fang",
-        "Zikun Cui",
-        "Yang Cao",
-        "Pan Chen"
+        "Dongqi Fu"
       ],
       "author_count": 42,
       "url": "https://arxiv.org/abs/2605.18747",
@@ -148,7 +122,8 @@
       "note": "Treats skill files as trainable parameters outside frozen model weights via bounded text edits, validation gating, and rejected-edit feedback. Often cited by its Microsoft Research blog title, 'Agent Skills as Trainable Parameters'.",
       "type": "method",
       "type_secondary": null,
-      "type_evidence": "treats a skill file as a trainable parameter outside a frozen model"
+      "type_evidence": "treats a skill file as a trainable parameter outside a frozen model",
+      "author_count": 3
     },
     {
       "id": "arxiv:2606.11435",
@@ -165,7 +140,8 @@
       "note": "Automated, evaluation-driven skill evolution via execution feedback, trajectory distillation, compression, and RL; plus six skill-centric benchmark categories.",
       "type": "survey",
       "type_secondary": null,
-      "type_evidence": "in this survey, we systematically examine the landscape of skill evolution"
+      "type_evidence": "in this survey, we systematically examine the landscape of skill evolution",
+      "author_count": 3
     },
     {
       "id": "arxiv:2608.10906",
@@ -173,8 +149,7 @@
       "authors": [
         "Giuseppe Destefanis",
         "Daniel Graziotin",
-        "Matteo Vaccargiu",
-        "Marco Ortu"
+        "Matteo Vaccargiu"
       ],
       "url": "https://arxiv.org/abs/2608.10906",
       "url_source": "arxiv-verified",
@@ -183,7 +158,8 @@
       "note": "3,797,117 SKILL.md files from 282,200 public repositories, grouped into 1,877,981 distinct contents, shipped as a single searchable SQLite file.",
       "type": "benchmark",
       "type_secondary": null,
-      "type_evidence": "3.8M SKILL.md files from 282k repos, shipped as one searchable SQLite file"
+      "type_evidence": "3.8M SKILL.md files from 282k repos, shipped as one searchable SQLite file",
+      "author_count": 4
     },
     {
       "id": "arxiv:2608.11888",
@@ -200,7 +176,8 @@
       "note": "307 skill-induced failures on SkillsBench and SWE-Skills-Bench (125 functional, 182 efficiency); excessive procedural checklists and heavy implementation pipelines cut success rates and inflate cost.",
       "type": "evaluation",
       "type_secondary": null,
-      "type_evidence": "differential analysis framework instantiated on existing SkillsBench, yielding 307 failures"
+      "type_evidence": "differential analysis framework instantiated on existing SkillsBench, yielding 307 failures",
+      "author_count": 3
     },
     {
       "id": "arxiv:2608.14036",
@@ -217,7 +194,8 @@
       "note": "Contrastive study of 8,135 trial records: skills act as procedural anchors (65.7%) rather than injecting missing facts (4.5%); retrieval precision falls from 29.6% to 3.3% as pools grow 5 to 100.",
       "type": "evaluation",
       "type_secondary": null,
-      "type_evidence": "when do skills help, why do they work, where do they fail; controlled contrastive study"
+      "type_evidence": "when do skills help, why do they work, where do they fail; controlled contrastive study",
+      "author_count": 3
     },
     {
       "id": "arxiv:2609.07255",

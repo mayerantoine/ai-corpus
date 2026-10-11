@@ -119,7 +119,7 @@ NAME_STOPWORDS = {
 
 MAX_TITLE_LINES = 4
 MAX_TITLE_CHARS = 250
-MAX_AUTHORS = 30
+MAX_AUTHORS = 3
 
 
 LIGATURES = {
@@ -695,7 +695,10 @@ def generate_readme(json_path="papers.json", readme_path="README.md",
         for g in sorted(by_topic[topic], key=lambda x: (x["title"] or "~").lower()):
             title = g["title"] or f"_(title not extracted)_ `{g['filenames'][0]}`"
             names = g["authors"]
-            who = ", ".join(names[:3]) + (f", +{len(names) - 3} more" if len(names) > 3 else "")
+            # Stored lists are capped at MAX_AUTHORS, so the true total lives in
+            # author_count -- using len(names) would hide every omitted author.
+            total = g.get("author_count") or len(names)
+            who = ", ".join(names[:3]) + (f", +{total - 3} more" if total > 3 else "")
             flag = " ⚠️" if g["needs_review"] else ""
             link, host = paper_link(g)
             # Contribution type (see paper_types.md) -- a second axis beside topic.

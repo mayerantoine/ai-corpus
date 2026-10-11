@@ -106,7 +106,7 @@ What kind of claim each paper makes — independent of the topics above. See [`p
 - **A Multi-Agent Conversational Recommender System**
   `method` · Jiabao Fang, Shen Gao, Pengjie Ren, +3 more — [arxiv](https://arxiv.org/abs/2402.01135)
 - **Code as Agent Harness**
-  `survey` · Xuying Ning, Katherine Tieu, Dongqi Fu, +27 more — [arxiv](https://arxiv.org/abs/2605.18747)
+  `survey` · Xuying Ning, Katherine Tieu, Dongqi Fu, +39 more — [arxiv](https://arxiv.org/abs/2605.18747)
   Frames code as the operational substrate of agent harnesses across three layers (interface, mechanisms, scaling to multi-agent); covers coding assistants, GUI/OS automation, embodied agents, DevOps.
 - **HARBOR: A Harness Framework for Agentic Robot Reinforcement Learning**
   `system` · Zechu Li, Yufeng Jin, Xiaoyang Liu, +4 more — [arxiv](https://arxiv.org/abs/2606.08610)
@@ -135,24 +135,24 @@ What kind of claim each paper makes — independent of the topics above. See [`p
 - **Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?**
   `evaluation` · Thibaud Gloaguen, Niels Mündler-Sasahara, Mark Niklas Müller, +2 more — [arxiv](https://arxiv.org/abs/2602.11988)
 - **Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation**
-  `benchmark+evaluation` · Lin Shi, Haowei Lin, Zixuan Zhu, +27 more — [arxiv](https://arxiv.org/abs/2609.04298)
+  `benchmark+evaluation` · Lin Shi, Haowei Lin, Zixuan Zhu, +123 more — [arxiv](https://arxiv.org/abs/2609.04298)
 - **TERMINAL-BENCH: BENCHMARKING AGENTS ON HARD, REALISTIC TASKS IN COMMAND LINE INTERFACES**
-  `benchmark` · Mike A. Merrill, Alexander G. Shaw, Nicholas Carlini, +27 more — [arxiv](https://arxiv.org/abs/2601.11868)
+  `benchmark` · Mike A. Merrill, Alexander G. Shaw, Nicholas Carlini, +82 more — [arxiv](https://arxiv.org/abs/2601.11868)
 
 ## Foundation Models
 
 - **Apple Intelligence Foundation Language Models**
-  `tech-report` · Tom Gunter, Zirui Wang, Chong Wang, +27 more — [arxiv](https://arxiv.org/abs/2407.21075)
+  `tech-report` · Tom Gunter, Zirui Wang, Chong Wang, +153 more — [arxiv](https://arxiv.org/abs/2407.21075)
 - **GPT-4 Technical Report**
-  `tech-report` · OpenAI, Josh Achiam, Steven Adler, +27 more — [arxiv](https://arxiv.org/abs/2303.08774)
+  `tech-report` · OpenAI, Josh Achiam, Steven Adler, +278 more — [arxiv](https://arxiv.org/abs/2303.08774)
 - **Llama 2: Open Foundation and Fine-Tuned Chat Models**
-  `tech-report` · Hugo Touvron, Louis Martin, Kevin Stone, +27 more — [arxiv](https://arxiv.org/abs/2307.09288)
+  `tech-report` · Hugo Touvron, Louis Martin, Kevin Stone, +65 more — [arxiv](https://arxiv.org/abs/2307.09288)
 - **LLaMA: Open and Efficient Foundation Language Models**
   `tech-report` · Hugo Touvron, Thibaut Lavril, Gautier Izacard, +11 more — [arxiv](https://arxiv.org/abs/2302.13971)
 - **Mistral 7B**
   `tech-report` · Albert Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, +15 more — [arxiv](https://arxiv.org/abs/2310.06825)
 - **The Llama 3 Herd of Models**
-  `tech-report` · Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, +27 more — [arxiv](https://arxiv.org/abs/2407.21783)
+  `tech-report` · Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, +558 more — [arxiv](https://arxiv.org/abs/2407.21783)
 
 ## Deep Research & Literature Review
 
@@ -220,7 +220,7 @@ What kind of claim each paper makes — independent of the topics above. See [`p
 - **Are We Ready For An Agent-Native Memory System?**
   `evaluation` · Wei Zhou, Xuanhe Zhou, Shaokun Han, +5 more — [arxiv](https://arxiv.org/abs/2606.24775)
 - **Memory in the Age of AI Agents: A Survey**
-  `survey` · Yuyang Hu, Shichun Liu, Yanwei Yue, +27 more — [arxiv](https://arxiv.org/abs/2512.13564)
+  `survey` · Yuyang Hu, Shichun Liu, Yanwei Yue, +44 more — [arxiv](https://arxiv.org/abs/2512.13564)
 
 ## Mixture-of-Experts
 

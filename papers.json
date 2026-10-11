@@ -71,7 +71,8 @@
       "url_source": null,
       "type": "method",
       "type_secondary": null,
-      "type_evidence": "techniques to improve RNN translation performance"
+      "type_evidence": "techniques to improve RNN translation performance",
+      "author_count": 1
     },
     {
       "filename": "1701.06538.pdf",
@@ -82,11 +83,7 @@
       "authors": [
         "Noam Shazeer",
         "Azalia Mirhoseini",
-        "Krzysztof Maziarz",
-        "Andy Davis",
-        "Quoc Le",
-        "Geoffrey Hinton",
-        "Jeff Dean"
+        "Krzysztof Maziarz"
       ],
       "topic": "Mixture-of-Experts",
       "topic_score": 17.5,
@@ -227,7 +224,8 @@
       "url_source": "publisher",
       "type": "method",
       "type_secondary": null,
-      "type_evidence": "AdaMix: mixture-of-adaptations for parameter-efficient tuning"
+      "type_evidence": "AdaMix: mixture-of-adaptations for parameter-efficient tuning",
+      "author_count": 3
     },
     {
       "filename": "2106.09685.pdf",
@@ -238,12 +236,7 @@
       "authors": [
         "Edward J. Hu",
         "Yelong Shen",
-        "Phillip Wallis",
-        "Zeyuan Allen-Zhu",
-        "Yuanzhi Li",
-        "Shean Wang",
-        "Lu Wang",
-        "Weizhu Chen"
+        "Phillip Wallis"
       ],
       "topic": "Fine-tuning & PEFT",
       "topic_score": 6.0,
@@ -271,11 +264,7 @@
       "authors": [
         "Xiao Liu",
         "Kaixuan Ji",
-        "Yicheng Fu",
-        "Weng Lam Tam",
-        "Zhengxiao Du",
-        "Zhilin Yang",
-        "Jie Tang"
+        "Yicheng Fu"
       ],
       "topic": "Fine-tuning & PEFT",
       "topic_score": 14.0,
@@ -303,13 +292,7 @@
       "authors": [
         "Jason Wei",
         "Xuezhi Wang",
-        "Dale Schuurmans",
-        "Maarten Bosma",
-        "Brian Ichter",
-        "Fei Xia",
-        "Ed Chi",
-        "Quoc Le",
-        "Denny Zhou"
+        "Dale Schuurmans"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 13.5,
@@ -337,11 +320,7 @@
       "authors": [
         "Wenxuan Wang",
         "Wenxiang Jiao",
-        "Yongchang Hao",
-        "Xing Wang",
-        "Shuming Shi",
-        "Zhaopeng Tu",
-        "Michael Lyu"
+        "Yongchang Hao"
       ],
       "topic": "Other / Uncategorized",
       "topic_score": 0.0,
@@ -369,12 +348,7 @@
       "authors": [
         "Xuezhi Wang",
         "Jason Wei",
-        "Dale Schuurmans",
-        "Quoc Le",
-        "Ed Chi",
-        "Sharan Narang",
-        "Aakanksha Chowdhery",
-        "Denny Zhou"
+        "Dale Schuurmans"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 16.5,
@@ -402,15 +376,7 @@
       "authors": [
         "Denny Zhou",
         "Nathanael Schärli",
-        "Le Hou",
-        "Jason Wei",
-        "Nathan Scales",
-        "Xuezhi Wang",
-        "Dale Schuurmans",
-        "Claire Cui",
-        "Olivier Bousquet",
-        "Quoc Le",
-        "Ed Chi"
+        "Le Hou"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 15.0,
@@ -438,9 +404,7 @@
       "authors": [
         "Takeshi Kojima",
         "Shixiang Shane Gu",
-        "Machel Reid",
-        "Yutaka Matsuo",
-        "Yusuke Iwasawa"
+        "Machel Reid"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 7.5,
@@ -468,9 +432,7 @@
       "authors": [
         "Zixiang Chen",
         "Yihe Deng",
-        "Yue Wu",
-        "Quanquan Gu",
-        "Yuanzhi Li"
+        "Yue Wu"
       ],
       "topic": "Mixture-of-Experts",
       "topic_score": 12.5,
@@ -498,8 +460,7 @@
       "authors": [
         "Zhuosheng Zhang",
         "Aston Zhang",
-        "Mu Li",
-        "Alex Smola"
+        "Mu Li"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 13.5,
@@ -527,11 +488,7 @@
       "authors": [
         "Jiaxin Huang",
         "Shixiang Shane Gu",
-        "Le Hou",
-        "Yuexin Wu",
-        "Xuezhi Wang",
-        "Hongkun Yu",
-        "Jiawei Han"
+        "Le Hou"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 7.5,
@@ -559,11 +516,7 @@
       "authors": [
         "Yongchao Zhou",
         "Andrei Ioan Muresanu",
-        "Ziwen Han",
-        "Keiran Paster",
-        "Silviu Pitis",
-        "Harris Chan",
-        "Jimmy Ba"
+        "Ziwen Han"
       ],
       "topic": "Fine-tuning & PEFT",
       "topic_score": 2.0,
@@ -591,10 +544,7 @@
       "authors": [
         "Bohan Zhuang",
         "Jing Liu",
-        "Zizheng Pan",
-        "Haoyu He",
-        "Yuetian Weng",
-        "Chunhua Shen"
+        "Zizheng Pan"
       ],
       "topic": "Surveys",
       "topic_score": 3.0,
@@ -622,18 +572,7 @@
       "authors": [
         "Hugo Touvron",
         "Thibaut Lavril",
-        "Gautier Izacard",
-        "Xavier Martinet",
-        "Marie-Anne Lachaux",
-        "Timothée Lacroix",
-        "Baptiste Rozière",
-        "Naman Goyal",
-        "Eric Hambro",
-        "Faisal Azhar",
-        "Aurelien Rodriguez",
-        "Armand Joulin",
-        "Edouard Grave",
-        "Guillaume Lample"
+        "Gautier Izacard"
       ],
       "topic": "Foundation Models",
       "topic_score": 4.5,
@@ -661,34 +600,7 @@
       "authors": [
         "OpenAI",
         "Josh Achiam",
-        "Steven Adler",
-        "Sandhini Agarwal",
-        "Lama Ahmad",
-        "Ilge Akkaya",
-        "Florencia Leoni Aleman",
-        "Diogo Almeida",
-        "Janko Altenschmidt",
-        "Sam Altman",
-        "Shyamal Anadkat",
-        "Red Avila",
-        "Igor Babuschkin",
-        "Suchir Balaji",
-        "Valerie Balcom",
-        "Paul Baltescu",
-        "Haiming Bao",
-        "Mohammad Bavarian",
-        "Jeff Belgum",
-        "Irwan Bello",
-        "Jake Berdine",
-        "Gabriel Bernadett-Shapiro",
-        "Christopher Berner",
-        "Lenny Bogdonoff",
-        "Oleg Boiko",
-        "Madelaine Boyd",
-        "Anna-Luisa Brakman",
-        "Greg Brockman",
-        "Tim Brooks",
-        "Miles Brundage"
+        "Steven Adler"
       ],
       "topic": "Foundation Models",
       "topic_score": 9.0,
@@ -716,11 +628,7 @@
       "authors": [
         "Shunyu Yao",
         "Dian Yu",
-        "Jeffrey Zhao",
-        "Izhak Shafran",
-        "Thomas L. Griffiths",
-        "Yuan Cao",
-        "Karthik Narasimhan"
+        "Jeffrey Zhao"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 6.0,
@@ -748,8 +656,7 @@
       "authors": [
         "Tim Dettmers",
         "Artidoro Pagnoni",
-        "Ari Holtzman",
-        "Luke Zettlemoyer"
+        "Ari Holtzman"
       ],
       "topic": "Fine-tuning & PEFT",
       "topic_score": 22.0,
@@ -777,34 +684,7 @@
       "authors": [
         "Hugo Touvron",
         "Louis Martin",
-        "Kevin Stone",
-        "Peter Albert",
-        "Amjad Almahairi",
-        "Yasmine Babaei",
-        "Nikolay Bashlykov",
-        "Soumya Batra",
-        "Prajjwal Bhargava",
-        "Shruti Bhosale",
-        "Dan Bikel",
-        "Lukas Blecher",
-        "Cristian Canton Ferrer",
-        "Moya Chen",
-        "Guillem Cucurull",
-        "David Esiobu",
-        "Jude Fernandes",
-        "Jeremy Fu",
-        "Wenyin Fu",
-        "Brian Fuller",
-        "Cynthia Gao",
-        "Vedanuj Goswami",
-        "Naman Goyal",
-        "Anthony Hartshorn",
-        "Saghar Hosseini",
-        "Rui Hou",
-        "Hakan Inan",
-        "Marcin Kardas",
-        "Viktor Kerkez",
-        "Madian Khabsa"
+        "Kevin Stone"
       ],
       "topic": "Foundation Models",
       "topic_score": 4.5,
@@ -832,17 +712,7 @@
       "authors": [
         "Omar Khattab",
         "Arnav Singhvi",
-        "Paridhi Maheshwari",
-        "Zhiyuan Zhang",
-        "Keshav Santhanam",
-        "Sri Vardhamanan",
-        "Saiful Haq",
-        "Ashutosh Sharma",
-        "Thomas T. Joshi",
-        "Hanna Moazam",
-        "Heather Miller",
-        "Matei Zaharia",
-        "Christopher Potts"
+        "Paridhi Maheshwari"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 3.0,
@@ -870,22 +740,7 @@
       "authors": [
         "Albert Q. Jiang",
         "Alexandre Sablayrolles",
-        "Arthur Mensch",
-        "Chris Bamford",
-        "Devendra Singh Chaplot",
-        "Diego de las Casas",
-        "Florian Bressand",
-        "Gianna Lengyel",
-        "Guillaume Lample",
-        "Lucile Saulnier",
-        "Lélio Renard Lavaud",
-        "Marie-Anne Lachaux",
-        "Pierre Stock",
-        "Teven Le Scao",
-        "Thibaut Lavril",
-        "Thomas Wang",
-        "Timothée Lacroix",
-        "William El Sayed"
+        "Arthur Mensch"
       ],
       "topic": "Foundation Models",
       "topic_score": 6.0,
@@ -913,13 +768,7 @@
       "authors": [
         "Yecheng Jason Ma",
         "William Liang",
-        "Guanzhi Wang",
-        "De-An Huang",
-        "Osbert Bastani",
-        "Dinesh Jayaraman",
-        "Yuke Zhu",
-        "Linxi Fan",
-        "Anima Anandkumar"
+        "Guanzhi Wang"
       ],
       "topic": "Other / Uncategorized",
       "topic_score": 0.0,
@@ -947,10 +796,7 @@
       "authors": [
         "Jiabao Fang",
         "Shen Gao",
-        "Pengjie Ren",
-        "Xiuying Chen",
-        "Suzan Verberne",
-        "Zhaochun Ren"
+        "Pengjie Ren"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 6.0,
@@ -978,34 +824,7 @@
       "authors": [
         "Tom Gunter",
         "Zirui Wang",
-        "Chong Wang",
-        "Ruoming Pang",
-        "Andy Narayanan",
-        "Aonan Zhang",
-        "Bowen Zhang",
-        "Chen Chen",
-        "Chung-Cheng Chiu",
-        "David Qiu",
-        "Deepak Gopinath",
-        "Dian Ang Yap",
-        "Dong Yin",
-        "Feng Nan",
-        "Floris Weers",
-        "Guoli Yin",
-        "Haoshuo Huang",
-        "Jianyu Wang",
-        "Jiarui Lu",
-        "John Peebles",
-        "Ke Ye",
-        "Mark Lee",
-        "Nan Du",
-        "Qibin Chen",
-        "Quentin Keunebroek",
-        "Sam Wiseman",
-        "Syd Evans",
-        "Tao Lei",
-        "Vivek Rathod",
-        "Xiang Kong"
+        "Chong Wang"
       ],
       "topic": "Foundation Models",
       "topic_score": 6.0,
@@ -1033,34 +852,7 @@
       "authors": [
         "Aaron Grattafiori",
         "Abhimanyu Dubey",
-        "Abhinav Jauhri",
-        "Abhinav Pandey",
-        "Abhishek Kadian",
-        "Ahmad Al-Dahle",
-        "Aiesha Letman",
-        "Akhil Mathur",
-        "Alan Schelten",
-        "Alex Vaughan",
-        "Amy Yang",
-        "Angela Fan",
-        "Anirudh Goyal",
-        "Anthony Hartshorn",
-        "Aobo Yang",
-        "Archi Mitra",
-        "Archie Sravankumar",
-        "Artem Korenev",
-        "Arthur Hinsvark",
-        "Arun Rao",
-        "Aston Zhang",
-        "Aurelien Rodriguez",
-        "Austen Gregerson",
-        "Ava Spataru",
-        "Baptiste Roziere",
-        "Bethany Biron",
-        "Binh Tang",
-        "Bobbie Chern",
-        "Charlotte Caucheteux",
-        "Chaya Nayak"
+        "Abhinav Jauhri"
       ],
       "topic": "Foundation Models",
       "topic_score": 6.0,
@@ -1088,10 +880,7 @@
       "authors": [
         "Ryan Liu",
         "Jiayi Geng",
-        "Addison J. Wu",
-        "Ilia Sucholutsky",
-        "Tania Lombrozo",
-        "Thomas L. Griffiths"
+        "Addison J. Wu"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 6.0,
@@ -1119,12 +908,7 @@
       "authors": [
         "Shubham Agarwal",
         "Gaurav Sahu",
-        "Abhay Puri",
-        "Issam H. Laradji",
-        "Krishnamurthy DJ Dvijotham",
-        "Jason Stanley",
-        "Laurent Charlin",
-        "Christopher Pal"
+        "Abhay Puri"
       ],
       "topic": "Deep Research & Literature Review",
       "topic_score": 6.0,
@@ -1152,13 +936,7 @@
       "authors": [
         "Haocheng Yu",
         "Yaxiong Wu",
-        "Hao Wang",
-        "Wei Guo",
-        "Yong Liu",
-        "Yawen Li",
-        "Yuyang Ye",
-        "Junping Du",
-        "Enhong Chen"
+        "Hao Wang"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 3.0,
@@ -1186,23 +964,7 @@
       "authors": [
         "Zhuofeng Li",
         "Haoxiang Zhang",
-        "Cong Wei",
-        "Pan Lu",
-        "Ping Nie",
-        "Yi Lu",
-        "Yuyang Bai",
-        "Shangbin Feng",
-        "Hangxiao Zhu",
-        "Ming Zhong",
-        "Yuyu Zhang",
-        "Jianwen Xie",
-        "Yejin Choi",
-        "James Zou",
-        "Jiawei Han",
-        "Wenhu Chen",
-        "Jimmy Lin",
-        "Dongfu Jiang",
-        "Yu Zhang"
+        "Cong Wei"
       ],
       "topic": "RAG & Retrieval",
       "topic_score": 6.0,
@@ -1230,11 +992,7 @@
       "authors": [
         "Zechu Li",
         "Yufeng Jin",
-        "Xiaoyang Liu",
-        "Puze Liu",
-        "Vignesh Prasad",
-        "Carlo D'Eramo",
-        "Georgia Chalvatzaki"
+        "Xiaoyang Liu"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 3.0,
@@ -1262,17 +1020,7 @@
       "authors": [
         "Qizheng Zhang",
         "Changran Hu",
-        "Shubhangi Upasani",
-        "Boyuan Ma",
-        "Fenglu Hong",
-        "Vamsidhar Kamanuru",
-        "Jay Rainton",
-        "Chen Wu",
-        "Mengmeng Ji",
-        "Hanchen Li",
-        "Urmish Thakker",
-        "James Zou",
-        "Kunle Olukotun"
+        "Shubhangi Upasani"
       ],
       "topic": "Context Engineering",
       "topic_score": 6.0,
@@ -1326,34 +1074,7 @@
       "authors": [
         "Yuyang Hu",
         "Shichun Liu",
-        "Yanwei Yue",
-        "Guibin Zhang",
-        "Boyang Liu",
-        "Fangyi Zhu",
-        "Jiahang Lin",
-        "Honglin Guo",
-        "Shihan Dou",
-        "Zhiheng Xi",
-        "Senjie Jin",
-        "Jiejun Tan",
-        "Yanbin Yin",
-        "Jiongnan Liu",
-        "Zeyu Zhang",
-        "Zhongxiang Sun",
-        "Yutao Zhu",
-        "Hao Sun",
-        "Boci Peng",
-        "Zhenrong Cheng",
-        "Xuanbo Fan",
-        "Jiaxin Guo",
-        "Xinlei Yu",
-        "Zhenhong Zhou",
-        "Zewen Hu",
-        "Jiahao Huo",
-        "Junhao Wang",
-        "Yuwei Niu",
-        "Yu Wang",
-        "Zhenfei Yin"
+        "Yanwei Yue"
       ],
       "topic": "Memory",
       "topic_score": 4.5,
@@ -1381,30 +1102,7 @@
       "authors": [
         "Junyu Luo",
         "Weizhi Zhang",
-        "Ye Yuan",
-        "Yusheng Zhao",
-        "Junwei Yang",
-        "Yiyang Gu",
-        "Bohan Wu",
-        "Binqi Chen",
-        "Ziyue Qiao",
-        "Qingqing Long",
-        "Rongcheng Tu",
-        "Xiao Luo",
-        "Wei Ju",
-        "Zhiping Xiao",
-        "Yifan Wang",
-        "Meng Xiao",
-        "Chenwu Liu",
-        "Jingyang Yuan",
-        "Shichang Zhang",
-        "Yiqiao Jin",
-        "Fan Zhang",
-        "Xian Wu",
-        "Hanqing Zhao",
-        "Dacheng Tao",
-        "Philip S. Yu",
-        "Ming Zhang"
+        "Ye Yuan"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 3.0,
@@ -1432,19 +1130,7 @@
       "authors": [
         "Lingrui Mei",
         "Jiayu Yao",
-        "Yuyao Ge",
-        "Yiwei Wang",
-        "Baolong Bi",
-        "Yujun Cai",
-        "Jiazhi Liu",
-        "Mingyu Li",
-        "Zhong-Zhi Li",
-        "Duzhen Zhang",
-        "Chenlin Zhou",
-        "Jiayi Mao",
-        "Tianze Xia",
-        "Jiafeng Guo",
-        "Shenghua Liu"
+        "Yuyao Ge"
       ],
       "topic": "Context Engineering",
       "topic_score": 8.0,
@@ -1472,19 +1158,7 @@
       "authors": [
         "Lingrui Mei",
         "Jiayu Yao",
-        "Yuyao Ge",
-        "Yiwei Wang",
-        "Baolong Bi",
-        "Yujun Cai",
-        "Jiazhi Liu",
-        "Mingyu Li",
-        "Zhong-Zhi Li",
-        "Duzhen Zhang",
-        "Chenlin Zhou",
-        "Jiayi Mao",
-        "Tianze Xia",
-        "Jiafeng Guo",
-        "Shenghua Liu"
+        "Yuyao Ge"
       ],
       "topic": "Context Engineering",
       "topic_score": 8.0,
@@ -1512,20 +1186,7 @@
       "authors": [
         "Shreyansh Padarha",
         "Ryan Othniel Kearns",
-        "Tristan Naidoo",
-        "Lingyi Yang",
-        "Łukasz Borchmann",
-        "Piotr BŁaszczyk",
-        "Christian Morgenstern",
-        "Ruth McCabe",
-        "Sangeeta Bhatia",
-        "Philip H. Torr",
-        "Jakob Foerster",
-        "Scott A. Hale",
-        "Thomas Rawson",
-        "Anne Cori",
-        "Elizaveta Semenova",
-        "Adam Mahdi"
+        "Tristan Naidoo"
       ],
       "topic": "Deep Research & Literature Review",
       "topic_score": 8.0,
@@ -1553,9 +1214,7 @@
       "authors": [
         "Thibaud Gloaguen",
         "Niels Mündler-Sasahara",
-        "Mark Niklas Müller",
-        "Veselin Raychev",
-        "Martin Vechev"
+        "Mark Niklas Müller"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 4.5,
@@ -1583,14 +1242,7 @@
       "authors": [
         "Ruiying Ma",
         "Shreya Shankar",
-        "Ruiqi Chen",
-        "Yiming Lin",
-        "Sepanta Zeighami",
-        "Rajoshi Ghosh",
-        "Abhinav Gupta",
-        "Anushrut Gupta",
-        "Tanmai Gopal",
-        "Aditya G. Parameswaran"
+        "Ruiqi Chen"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 4.5,
@@ -1618,14 +1270,7 @@
       "authors": [
         "Ruiying Ma",
         "Shreya Shankar",
-        "Ruiqi Chen",
-        "Yiming Lin",
-        "Sepanta Zeighami",
-        "Rajoshi Ghosh",
-        "Abhinav Gupta",
-        "Anushrut Gupta",
-        "Tanmai Gopal",
-        "Aditya G. Parameswaran"
+        "Ruiqi Chen"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 4.5,
@@ -1653,17 +1298,7 @@
       "authors": [
         "Yuxuan Huang",
         "Yihang Chen",
-        "Haozheng Zhang",
-        "Kang Li",
-        "Huichi Zhou",
-        "Meng Fang",
-        "Linyi Yang",
-        "Xiaoguang Li",
-        "Lifeng Shang",
-        "Songcen Xu",
-        "Jianye Hao",
-        "Kun Shao",
-        "Jun Wang"
+        "Haozheng Zhang"
       ],
       "topic": "Deep Research & Literature Review",
       "topic_score": 12.0,
@@ -1706,7 +1341,8 @@
       "url_source": null,
       "type": "practitioner",
       "type_secondary": null,
-      "type_evidence": "slide deck on the SDLC with vibe coding"
+      "type_evidence": "slide deck on the SDLC with vibe coding",
+      "author_count": 3
     },
     {
       "filename": "Decentralized Context.pdf",
@@ -1717,10 +1353,7 @@
       "authors": [
         "Yuzhen Mao",
         "Jerry Gu",
-        "Aadi Chauhan",
-        "Qizheng Zhang",
-        "Hangoo Kang",
-        "Azalia Mirhoseini"
+        "Aadi Chauhan"
       ],
       "topic": "Context Engineering",
       "topic_score": 6.0,
@@ -1748,21 +1381,7 @@
       "authors": [
         "Lakshya A Agrawal",
         "Shangyin Tan",
-        "Dilara Soylu",
-        "Noah Ziems",
-        "Rishi Khare",
-        "Krista Opsahl-Ong",
-        "Arnav Singhvi",
-        "Herumb Shandilya",
-        "Michael J Ryan",
-        "Meng Jiang",
-        "Christopher Potts",
-        "Koushik Sen",
-        "Alexandros G. Dimakis",
-        "Ion Stoica",
-        "Dan Klein",
-        "Matei Zaharia",
-        "Omar Khattab"
+        "Dilara Soylu"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 1.5,
@@ -1790,10 +1409,7 @@
       "authors": [
         "Yoonho Lee",
         "Roshen Nair",
-        "Qizheng Zhang",
-        "Kangwook Lee",
-        "Omar Khattab",
-        "Chelsea Finn"
+        "Qizheng Zhang"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 3.0,
@@ -1821,13 +1437,7 @@
       "authors": [
         "Michael D. Skarlinski",
         "Sam Cox",
-        "Jon M. Laurent",
-        "James D. Braza",
-        "Michaela Hinks",
-        "Michael J. Hammerling",
-        "Manvitha Ponnapati",
-        "Samuel G. Rodriques",
-        "Andrew D. White"
+        "Jon M. Laurent"
       ],
       "topic": "RAG & Retrieval",
       "topic_score": 1.5,
@@ -1855,13 +1465,7 @@
       "authors": [
         "Zeyu Zhang",
         "Xiaohe Bo",
-        "Chen Ma",
-        "Rui Li",
-        "Xu Chen",
-        "Quanyu Dai",
-        "Jieming Zhu",
-        "Zhenhua Dong",
-        "Ji-Rong Wen"
+        "Chen Ma"
       ],
       "topic": "Memory",
       "topic_score": 4.5,
@@ -1889,10 +1493,7 @@
       "authors": [
         "Kun Zhu",
         "Lizi Liao",
-        "Yuxuan Gu",
-        "Lei Huang",
-        "Xiaocheng Feng",
-        "Bing Qin"
+        "Yuxuan Gu"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 3.0,
@@ -1920,34 +1521,7 @@
       "authors": [
         "Mike A. Merrill",
         "Alexander G. Shaw",
-        "Nicholas Carlini",
-        "Boxuan Li",
-        "Harsh Raj",
-        "Ivan Bercovich",
-        "Lin Shi",
-        "Jeong Yeon Shin",
-        "Thomas Walshe",
-        "E. Kelly Buchanan",
-        "Junhong Shen",
-        "Guanghao Ye",
-        "Haowei Lin",
-        "Jason Poulos",
-        "Maoyu Wang",
-        "Marianna Nezhurina",
-        "Jenia Jitsev",
-        "Di Lu",
-        "Orfeas Menis Mastromichalakis",
-        "Zhiwei Xu",
-        "Zizhao Chen",
-        "Yue Liu",
-        "Robert Zhang",
-        "Leon Liangyu Chen",
-        "Anurag Kashyap",
-        "Jan-Lucas Uslu",
-        "Jeffrey Li",
-        "Jianbo Wu",
-        "Minghao Yan",
-        "Song Bian"
+        "Nicholas Carlini"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 1.5,
@@ -1997,9 +1571,7 @@
       "authors": [
         "Yuhao Zhan",
         "Tianyu Fan",
-        "Linxuan Huang",
-        "Zirui Guo",
-        "Chao Huang"
+        "Linxuan Huang"
       ],
       "topic": "Deep Research & Literature Review",
       "topic_score": 6.0,
@@ -2055,11 +1627,7 @@
       "authors": [
         "Zechu Li",
         "Yufeng Jin",
-        "Xiaoyang Liu",
-        "Puze Liu",
-        "Vignesh Prasad",
-        "Carlo D'Eramo",
-        "Georgia Chalvatzaki"
+        "Xiaoyang Liu"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 3.0,
@@ -2087,34 +1655,7 @@
       "authors": [
         "Lin Shi",
         "Haowei Lin",
-        "Zixuan Zhu",
-        "Xiaoyue Zhou",
-        "Xiang Li",
-        "Xiangning Lin",
-        "Yaxuan Deng",
-        "Han Xu",
-        "Yuangang Li",
-        "Shanda Li",
-        "Zizhao Chen",
-        "Hanwen Xing",
-        "Harsh Raj",
-        "Bo Chen",
-        "Quan Shi",
-        "Steven Dillmann",
-        "Yipeng Gao",
-        "Puneesh Khanna",
-        "Ruofan Lu",
-        "Chao Beyond Zhou",
-        "Michael Yang",
-        "Robert Zhang",
-        "Siyuan Chai",
-        "Jiayu Chang",
-        "Yizhao Chen",
-        "Xiaokun Chen",
-        "Yiwei Dai",
-        "Wenting Yang",
-        "Hange Liu",
-        "Minghao Liu"
+        "Zixuan Zhu"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 4.5,
@@ -2166,8 +1707,7 @@
       "authors": [
         "Jincheng Bai",
         "Zhenyu Zhang",
-        "Jennifer Zhang",
-        "Zhihuai Zhu"
+        "Jennifer Zhang"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 6.0,
@@ -2195,11 +1735,7 @@
       "authors": [
         "Shreyas Subramanian",
         "Adewale Akinfaderin",
-        "Yanyan Zhang",
-        "Ishan Singh",
-        "Mani Khanuja",
-        "Sandeep Singh",
-        "Maira Ladeira Tanke"
+        "Yanyan Zhang"
       ],
       "topic": "RAG & Retrieval",
       "topic_score": 13.5,
@@ -2227,11 +1763,7 @@
       "authors": [
         "Rafael Teixeira de Lima",
         "Shubham Gupta",
-        "Cesar Berrospi",
-        "Lokesh Mishra",
-        "Michele Dolfi",
-        "Peter Staar",
-        "Panagiotis Vagenas"
+        "Cesar Berrospi"
       ],
       "topic": "RAG & Retrieval",
       "topic_score": 7.5,
@@ -2259,12 +1791,7 @@
       "authors": [
         "Wei Zhou",
         "Xuanhe Zhou",
-        "Shaokun Han",
-        "Hongming Xu",
-        "Guoliang Li",
-        "Zhiyu Li",
-        "Feiyu Xiong",
-        "Fan Wu"
+        "Shaokun Han"
       ],
       "topic": "Memory",
       "topic_score": 4.5,
@@ -2292,14 +1819,7 @@
       "authors": [
         "Mingyue Cheng",
         "Daoyu Wang",
-        "Qi Liu",
-        "Shuo Yu",
-        "Xiaoyu Tao",
-        "Yuqian Wang",
-        "Chengzhong Chu",
-        "Yu Duan",
-        "Mingkang Long",
-        "Enhong Chen"
+        "Qi Liu"
       ],
       "topic": "Deep Research & Literature Review",
       "topic_score": 6.0,
@@ -2327,11 +1847,7 @@
       "authors": [
         "Dawei Zhu",
         "Rui Meng",
-        "Yale Song",
-        "Xiyu Wei",
-        "Sujian Li",
-        "Tomas Pfister",
-        "Jinsung Yoon"
+        "Yale Song"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 1.0,

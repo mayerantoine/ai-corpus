@@ -16,9 +16,10 @@ Two deliberate rules:
   record omits -- e.g. "Memory in the Age of AI Agents: A Survey". Syncing
   those would lose information.
 * Author lists are capped at MAX_AUTHORS, matching the extractor's own
-  convention, with the true total recorded in author_count. Technical
-  reports list hundreds of authors (Llama 3: 561) and the README shows only
-  the first three anyway.
+  convention, with the true total recorded in author_count. The README
+  renders the first three names plus "+N more" computed from author_count,
+  so storing more than three buys nothing -- and technical reports list
+  hundreds (Llama 3: 561).
 
 Entries with "manually_edited": true are skipped unless --force.
 """
