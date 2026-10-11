@@ -89,6 +89,51 @@
       "type_evidence": "a package manager and registry, implemented as a TypeScript CLI with a registry backend"
     },
     {
+      "id": "arxiv:2605.18747",
+      "title": "Code as Agent Harness",
+      "authors": [
+        "Xuying Ning",
+        "Katherine Tieu",
+        "Dongqi Fu",
+        "Tianxin Wei",
+        "Zihao Li",
+        "Yuanchen Bei",
+        "Jiaru Zou",
+        "Mengting Ai",
+        "Zhining Liu",
+        "Ting-Wei Li",
+        "Lingjie Chen",
+        "Yanjun Zhao",
+        "Ke Yang",
+        "Bingxuan Li",
+        "Cheng Qian",
+        "Gaotang Li",
+        "Xiao Lin",
+        "Zhichen Zeng",
+        "Ruizhong Qiu",
+        "Sirui Chen",
+        "Yifan Sun",
+        "Xiyuan Yang",
+        "Ruida Wang",
+        "Rui Pan",
+        "Chenyuan Yang",
+        "Dylan Zhang",
+        "Liri Fang",
+        "Zikun Cui",
+        "Yang Cao",
+        "Pan Chen"
+      ],
+      "author_count": 42,
+      "url": "https://arxiv.org/abs/2605.18747",
+      "url_source": "arxiv-verified",
+      "topic": "Agents & Multi-Agent Systems",
+      "published": "2026-05-18",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "we organize the survey around three connected layers; this survey provides a unified roadmap",
+      "note": "Frames code as the operational substrate of agent harnesses across three layers (interface, mechanisms, scaling to multi-agent); covers coding assistants, GUI/OS automation, embodied agents, DevOps."
+    },
+    {
       "id": "arxiv:2605.23904",
       "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
       "authors": [
@@ -173,6 +218,40 @@
       "type": "evaluation",
       "type_secondary": null,
       "type_evidence": "when do skills help, why do they work, where do they fail; controlled contrastive study"
+    },
+    {
+      "id": "arxiv:2609.07255",
+      "title": "SkillAlign: Aligning Skill Interfaces for LLM-based Agents",
+      "authors": [
+        "Shuo Ren",
+        "Xiaomian Kang",
+        "Jiajun Zhang"
+      ],
+      "author_count": 3,
+      "url": "https://arxiv.org/abs/2609.07255",
+      "url_source": "arxiv-verified",
+      "topic": "Agent Skills",
+      "published": "2026-09-07",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we propose SkillAlign, a provider-agnostic framework rendering skills through alternative exposure interfaces",
+      "note": "The same skill can help or mislead depending on how it is exposed: full instructions, hints, summaries, workflows, or none. Exposure form swings ALFWorld success from 47.9% to 72.1%; compact top-k can beat full-library injection."
+    },
+    {
+      "id": "arxiv:2610.11169",
+      "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+      "authors": [
+        "Fahd Seddik"
+      ],
+      "author_count": 1,
+      "url": "https://arxiv.org/abs/2610.11169",
+      "url_source": "arxiv-verified",
+      "topic": "Agent Skills",
+      "published": "2026-10-08",
+      "type": "benchmark",
+      "type_secondary": "evaluation",
+      "type_evidence": "first dated copy network of agent skills, 2,193,119 adoptions; auditing its top-100 repos prevents 14.9% of high-risk adoptions vs 0.5% for most-starred",
+      "note": "Skill sharing is a supply chain with no registry, versions, or provenance. A few repos are the source of almost all copies and stars do not identify them; copies almost never track their source, so a fix at the source rarely reaches them."
     }
   ]
 }

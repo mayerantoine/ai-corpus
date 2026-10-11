@@ -97,6 +97,9 @@ BY_ARXIV = {
     "2608.11888": ("evaluation", None, "differential analysis framework instantiated on existing SkillsBench, yielding 307 failures"),
     "2608.14036": ("evaluation", None, "when do skills help, why do they work, where do they fail; controlled contrastive study"),
     "2609.04298": ("benchmark", "evaluation", "Harbor Adapters port 80+ benchmarks; large-scale evaluation of 8 models across 54 benchmarks"),
+    "2610.11169": ("benchmark", "evaluation", "first dated copy network of agent skills, 2,193,119 adoptions; auditing its top-100 repos prevents 14.9% of high-risk adoptions vs 0.5% for most-starred"),
+    "2609.07255": ("method", None, "we propose SkillAlign, a provider-agnostic framework rendering skills through alternative exposure interfaces"),
+    "2605.18747": ("survey", None, "we organize the survey around three connected layers; this survey provides a unified roadmap"),
 }
 
 # filename -> (type, type_secondary | None, evidence). No arXiv record; these are

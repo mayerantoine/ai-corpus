@@ -37,16 +37,16 @@ The decisive questions are all answered in the abstract, not the title:
 
 | Type | One-line test | Count here |
 | --- | --- | --- |
-| [`method`](#method) | Could I implement the thing it proposes? | 31 |
-| [`survey`](#survey) | Does it organize others' work rather than add its own? | 13 |
-| [`benchmark`](#benchmark) | Does it ship something others will measure against? | 8 |
+| [`method`](#method) | Could I implement the thing it proposes? | 32 |
+| [`survey`](#survey) | Does it organize others' work rather than add its own? | 14 |
+| [`benchmark`](#benchmark) | Does it ship something others will measure against? | 9 |
 | [`evaluation`](#evaluation) | Does it assess how well systems/practices perform? | 6 |
 | [`tech-report`](#tech-report) | Is it an artifact disclosure from whoever built it? | 6 |
 | [`practitioner`](#practitioner) | Is it a guide/spec rather than a research paper? | 5 |
 | [`empirical`](#empirical) | Does it explain a mechanism, grading nothing? | 3 |
 | [`system`](#system) | Is the contribution a thing you install? | 3 |
 
-Counts cover all 75 papers and sum to 75, each assigned one primary type from its
+Counts cover all 78 papers and sum to 78, each assigned one primary type from its
 abstract. A paper may carry **at most two types** — one primary, one optional secondary
 — see [Hybrids](#hybrids).
 
@@ -71,14 +71,14 @@ technique — that's `benchmark` or `system`.
 **How it fails:** weak or stale baselines; wins that vanish under tuning parity;
 ablations that don't isolate the mechanism.
 
-**In this corpus (31):** GEPA, LoRA, QLoRA, Chain-of-Thought, Tree of Thoughts, DSPy,
+**In this corpus (32):** GEPA, LoRA, QLoRA, Chain-of-Thought, Tree of Thoughts, DSPy,
 Self-Consistency, Least-to-Most, Auto-CoT, Zero-Shot Reasoners, LLMs Can Self-Improve,
 APE (*Human-Level Prompt Engineers*), AdaMix, P-Tuning v2, Sparsely-Gated MoE, SkillOpt,
 Trace2Skill, Mind2Report, Eureka, Meta-Harness, ACE (*Agentic Context Engineering*),
 Decentralized Multi-Agent Systems with Shared Context, Beyond Semantic Similarity (DCI),
 Ask/Retrieve/Summarize, Context-Aware Hierarchical Taxonomy Generation, LitLLMs,
 Multi-Agent Conversational Recommender, Thought-Augmented Planning, PaperBanana,
-RNN translation techniques, RL for autonomous vehicle control
+RNN translation techniques, RL for autonomous vehicle control, SkillAlign
 
 Note *LitLLMs, Are we there yet?* lands here despite its question-title: the abstract
 introduces "a novel two-step search strategy" and a re-ranking mechanism.
@@ -105,13 +105,13 @@ since the organizing argument *is* the contribution.
 **How it fails:** a taxonomy whose categories don't carve reality; coverage that stops
 at the authors' subfield; staleness.
 
-**In this corpus (13):** *A Survey of Context Engineering*, *Deep Research Agents: A
+**In this corpus (14):** *A Survey of Context Engineering*, *Deep Research Agents: A
 Systematic Examination and Roadmap*, *Agent Skills for LLMs*, *Externalization in LLM
 Agents*, *Memory in the Age of AI Agents*, *A Survey on the Memory Mechanism of
 LLM-based Agents*, *LLM Agent: A Survey on Methodology*, *A Survey on Efficient Training
 of Transformers*, *An Overview of Multi-Task Learning*, *AI Agent Systems:
 Architectures, Applications, and Evaluation*, *Understanding Random Forests*,
-*Agent Skill Evaluation and Evolution*, *SoK: Agentic Skills*
+*Agent Skill Evaluation and Evolution*, *SoK: Agentic Skills*, *Code as Agent Harness*
 
 ---
 
@@ -137,10 +137,10 @@ on existing SkillsBench → `evaluation`.
 **How it fails:** tasks unrepresentative of real use; saturation; training-data
 contamination; metrics that reward the wrong thing.
 
-**In this corpus (8):** Terminal-Bench, DAB, GitSkills, *Why Your Deep Research Agent
+**In this corpus (9):** Terminal-Bench, DAB, GitSkills, *Why Your Deep Research Agent
 Fails?* (DeepHalluBench + PING), *Know Your RAG*, Harbor-Index, AgentSLR
 (*Evaluating AI-based Scientific Knowledge Synthesis*), CoLA (*Neural Network
-Acceptability Judgments*)
+Acceptability Judgments*), Skill Constellations
 
 ---
 
@@ -300,7 +300,7 @@ Encoded in the data. Every entry in [`papers.json`](papers.json) and
 "type_evidence": "we introduce the PING Taxonomy and curate DeepHalluBench; six systems show reliability gaps"
 ```
 
-`type_secondary` is `null` for the 71 papers that need only one label.
+`type_secondary` is `null` for the 73 papers that need only one label.
 `type_evidence` quotes the abstract phrase the assignment rests on, so any
 classification can be audited without re-reading the paper.
 
