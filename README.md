@@ -22,6 +22,24 @@ Each entry shows its contribution `type` — see [`paper_types.md`](paper_types.
 - [Surveys](#surveys) (2)
 - [Other / Uncategorized](#other--uncategorized) (6)
 
+## By contribution type
+
+What kind of claim each paper makes — independent of the topics above. See [`paper_types.md`](paper_types.md) for the rubric behind each type.
+
+| Type | Papers |
+| --- | --- |
+| `method` | 31 |
+| `survey` | 13 |
+| `benchmark` | 8 |
+| `evaluation` | 6 |
+| `tech-report` | 6 |
+| `practitioner` | 5 |
+| `empirical` | 3 |
+| `system` | 3 |
+| **total** | **75** |
+
+4 papers carry a secondary type as well (shown as `primary+secondary`); a paper may have at most two.
+
 ## Prompting & Reasoning
 
 - **AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS**

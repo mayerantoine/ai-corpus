@@ -660,6 +660,35 @@ def generate_readme(json_path="papers.json", readme_path="README.md",
         lines.append(f"- [{topic}](#{anchor(topic)}) ({len(by_topic[topic])})")
     lines.append("")
 
+    # Contribution type -- the second axis, independent of topic above. Counted
+    # over unique papers, so the total matches the header count.
+    entries = [g for gs in by_topic.values() for g in gs]
+    by_type = defaultdict(int)
+    for g in entries:
+        if g.get("type"):
+            by_type[g["type"]] += 1
+    if by_type:
+        hybrids = sum(1 for g in entries if g.get("type_secondary"))
+        lines += [
+            "## By contribution type",
+            "",
+            "What kind of claim each paper makes — independent of the topics above."
+            " See [`paper_types.md`](paper_types.md) for the rubric behind each type.",
+            "",
+            "| Type | Papers |",
+            "| --- | --- |",
+        ]
+        for t, n in sorted(by_type.items(), key=lambda kv: (-kv[1], kv[0])):
+            lines.append(f"| `{t}` | {n} |")
+        lines.append(f"| **total** | **{sum(by_type.values())}** |")
+        if hybrids:
+            lines += [
+                "",
+                f"{hybrids} papers carry a secondary type as well (shown as "
+                "`primary+secondary`); a paper may have at most two.",
+            ]
+        lines.append("")
+
     for topic in order:
         lines += [f"## {topic}", ""]
         for g in sorted(by_topic[topic], key=lambda x: (x["title"] or "~").lower()):
