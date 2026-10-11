@@ -29,7 +29,9 @@
       "content_hash": "bf9397aa1838e28cdc2c0a98078baaaf",
       "title": "Understanding Random Forests: From Theory to Practice",
       "title_source": "font-size",
-      "authors": [],
+      "authors": [
+        "Gilles Louppe"
+      ],
       "topic": "Other / Uncategorized",
       "topic_score": 0.0,
       "num_pages": 226,
@@ -40,7 +42,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:49+00:00",
       "url": "https://arxiv.org/abs/1407.7502",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 1,
+      "published": "2014-07-28"
     },
     {
       "filename": "15791445.pdf",
@@ -75,8 +79,8 @@
         "Krzysztof Maziarz",
         "Andy Davis",
         "Quoc Le",
-        "Geoffrey",
-        "Hintonand Jeff Dean"
+        "Geoffrey Hinton",
+        "Jeff Dean"
       ],
       "topic": "Mixture-of-Experts",
       "topic_score": 17.5,
@@ -88,7 +92,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:49+00:00",
       "url": "https://arxiv.org/abs/1701.06538",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 7,
+      "published": "2017-01-23"
     },
     {
       "filename": "1706.05098.pdf",
@@ -97,7 +103,7 @@
       "title": "An Overview of Multi-Task Learning in Deep Neural Networks∗",
       "title_source": "font-size",
       "authors": [
-        "Sebastian Ru der"
+        "Sebastian Ruder"
       ],
       "topic": "Surveys",
       "topic_score": 3.0,
@@ -109,7 +115,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:49+00:00",
       "url": "https://arxiv.org/abs/1706.05098",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 1,
+      "published": "2017-06-15"
     },
     {
       "filename": "1805.12471.pdf",
@@ -132,7 +140,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:49+00:00",
       "url": "https://arxiv.org/abs/1805.12471",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 3,
+      "published": "2018-05-31"
     },
     {
       "filename": "2020-01-0737.pdf",
@@ -202,7 +212,7 @@
       "title": "LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS",
       "title_source": "font-size",
       "authors": [
-        "Edward Hu",
+        "Edward J. Hu",
         "Yelong Shen",
         "Phillip Wallis",
         "Zeyuan Allen-Zhu",
@@ -221,7 +231,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2106.09685",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 8,
+      "published": "2021-06-17"
     },
     {
       "filename": "2110.07602.pdf",
@@ -248,7 +260,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2110.07602",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 7,
+      "published": "2021-10-14"
     },
     {
       "filename": "2201.11903v6.pdf",
@@ -263,10 +277,9 @@
         "Maarten Bosma",
         "Brian Ichter",
         "Fei Xia",
-        "Ed H. Chi",
-        "Quoc V. Le",
-        "Denny Zhou",
-        "Brain Team"
+        "Ed Chi",
+        "Quoc Le",
+        "Denny Zhou"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 13.5,
@@ -278,7 +291,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2201.11903",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 9,
+      "published": "2022-01-28"
     },
     {
       "filename": "2203.08442.pdf",
@@ -293,7 +308,7 @@
         "Xing Wang",
         "Shuming Shi",
         "Zhaopeng Tu",
-        "Michael R. Lyu"
+        "Michael Lyu"
       ],
       "topic": "Other / Uncategorized",
       "topic_score": 0.0,
@@ -305,7 +320,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2203.08442",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 7,
+      "published": "2022-03-16"
     },
     {
       "filename": "2203.11171v4.pdf",
@@ -318,11 +335,10 @@
         "Jason Wei",
         "Dale Schuurmans",
         "Quoc Le",
-        "Ed H. Chi",
+        "Ed Chi",
         "Sharan Narang",
         "Aakanksha Chowdhery",
-        "Denny Zhou",
-        "Brain Team"
+        "Denny Zhou"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 16.5,
@@ -334,7 +350,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2203.11171",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 8,
+      "published": "2022-03-21"
     },
     {
       "filename": "2205.10625v3.pdf",
@@ -344,7 +362,7 @@
       "title_source": "font-size",
       "authors": [
         "Denny Zhou",
-        "Nathanael Scha¨rli",
+        "Nathanael Schärli",
         "Le Hou",
         "Jason Wei",
         "Nathan Scales",
@@ -353,8 +371,7 @@
         "Claire Cui",
         "Olivier Bousquet",
         "Quoc Le",
-        "Ed Chi",
-        "Brain Team"
+        "Ed Chi"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 15.0,
@@ -366,7 +383,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2205.10625",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 11,
+      "published": "2022-05-21"
     },
     {
       "filename": "2205.11916v4.pdf",
@@ -377,7 +396,9 @@
       "authors": [
         "Takeshi Kojima",
         "Shixiang Shane Gu",
-        "Brain Team"
+        "Machel Reid",
+        "Yutaka Matsuo",
+        "Yusuke Iwasawa"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 7.5,
@@ -389,7 +410,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2205.11916",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 5,
+      "published": "2022-05-24"
     },
     {
       "filename": "2208.02813.pdf",
@@ -414,7 +437,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2208.02813",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 5,
+      "published": "2022-08-04"
     },
     {
       "filename": "2210.03493v1.pdf",
@@ -426,8 +451,7 @@
         "Zhuosheng Zhang",
         "Aston Zhang",
         "Mu Li",
-        "Alex Smola",
-        "Amazon Web Services"
+        "Alex Smola"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 13.5,
@@ -439,7 +463,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2210.03493",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 4,
+      "published": "2022-10-07"
     },
     {
       "filename": "2210.11610v2.pdf",
@@ -466,7 +492,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2210.11610",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 7,
+      "published": "2022-10-20"
     },
     {
       "filename": "2211.01910v2.pdf",
@@ -493,7 +521,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2211.01910",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 7,
+      "published": "2022-11-03"
     },
     {
       "filename": "2302.01107.pdf",
@@ -519,7 +549,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:56+00:00",
       "url": "https://arxiv.org/abs/2302.01107",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 6,
+      "published": "2023-02-02"
     },
     {
       "filename": "2302.13971v1.pdf",
@@ -533,7 +565,7 @@
         "Gautier Izacard",
         "Xavier Martinet",
         "Marie-Anne Lachaux",
-        "Timothee Lacroix",
+        "Timothée Lacroix",
         "Baptiste Rozière",
         "Naman Goyal",
         "Eric Hambro",
@@ -541,8 +573,7 @@
         "Aurelien Rodriguez",
         "Armand Joulin",
         "Edouard Grave",
-        "Guillaume Lample",
-        "Meta AI"
+        "Guillaume Lample"
       ],
       "topic": "Foundation Models",
       "topic_score": 4.5,
@@ -554,7 +585,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2302.13971",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 14,
+      "published": "2023-02-27"
     },
     {
       "filename": "2303.08774v6.pdf",
@@ -563,7 +596,36 @@
       "title": "GPT-4 Technical Report",
       "title_source": "font-size",
       "authors": [
-        "Open AI"
+        "OpenAI",
+        "Josh Achiam",
+        "Steven Adler",
+        "Sandhini Agarwal",
+        "Lama Ahmad",
+        "Ilge Akkaya",
+        "Florencia Leoni Aleman",
+        "Diogo Almeida",
+        "Janko Altenschmidt",
+        "Sam Altman",
+        "Shyamal Anadkat",
+        "Red Avila",
+        "Igor Babuschkin",
+        "Suchir Balaji",
+        "Valerie Balcom",
+        "Paul Baltescu",
+        "Haiming Bao",
+        "Mohammad Bavarian",
+        "Jeff Belgum",
+        "Irwan Bello",
+        "Jake Berdine",
+        "Gabriel Bernadett-Shapiro",
+        "Christopher Berner",
+        "Lenny Bogdonoff",
+        "Oleg Boiko",
+        "Madelaine Boyd",
+        "Anna-Luisa Brakman",
+        "Greg Brockman",
+        "Tim Brooks",
+        "Miles Brundage"
       ],
       "topic": "Foundation Models",
       "topic_score": 9.0,
@@ -575,7 +637,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2303.08774",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 281,
+      "published": "2023-03-15"
     },
     {
       "filename": "2305.10601v2.pdf",
@@ -588,7 +652,6 @@
         "Dian Yu",
         "Jeffrey Zhao",
         "Izhak Shafran",
-        "Google Deep Mind",
         "Thomas L. Griffiths",
         "Yuan Cao",
         "Karthik Narasimhan"
@@ -603,7 +666,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2305.10601",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 7,
+      "published": "2023-05-17"
     },
     {
       "filename": "2305.14314.pdf",
@@ -627,7 +692,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2305.14314",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 4,
+      "published": "2023-05-23"
     },
     {
       "filename": "2307.09288v2.pdf",
@@ -652,7 +719,7 @@
         "Moya Chen",
         "Guillem Cucurull",
         "David Esiobu",
-        "Ju de Fernandes",
+        "Jude Fernandes",
         "Jeremy Fu",
         "Wenyin Fu",
         "Brian Fuller",
@@ -677,7 +744,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2307.09288",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 68,
+      "published": "2023-07-18"
     },
     {
       "filename": "2310.03714v1.pdf",
@@ -710,7 +779,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2310.03714",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 13,
+      "published": "2023-10-05"
     },
     {
       "filename": "2310.06825v1.pdf",
@@ -724,7 +795,7 @@
         "Arthur Mensch",
         "Chris Bamford",
         "Devendra Singh Chaplot",
-        "Diegodelas Casas",
+        "Diego de las Casas",
         "Florian Bressand",
         "Gianna Lengyel",
         "Guillaume Lample",
@@ -748,7 +819,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2310.06825",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 18,
+      "published": "2023-10-10"
     },
     {
       "filename": "2310.12931v2.pdf",
@@ -764,7 +837,7 @@
         "Osbert Bastani",
         "Dinesh Jayaraman",
         "Yuke Zhu",
-        "Linxi“Jim”Fan",
+        "Linxi Fan",
         "Anima Anandkumar"
       ],
       "topic": "Other / Uncategorized",
@@ -777,7 +850,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2310.12931",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 9,
+      "published": "2023-10-19"
     },
     {
       "filename": "2402.01135v1.pdf",
@@ -788,7 +863,10 @@
       "authors": [
         "Jiabao Fang",
         "Shen Gao",
-        "Pengjie Ren"
+        "Pengjie Ren",
+        "Xiuying Chen",
+        "Suzan Verberne",
+        "Zhaochun Ren"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 6.0,
@@ -800,7 +878,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2402.01135",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 6,
+      "published": "2024-02-02"
     },
     {
       "filename": "2407.21075v1.pdf",
@@ -808,7 +888,38 @@
       "content_hash": "b70023bc6db256f76d52efce822d6b85",
       "title": "Apple Intelligence Foundation Language Models",
       "title_source": "font-size",
-      "authors": [],
+      "authors": [
+        "Tom Gunter",
+        "Zirui Wang",
+        "Chong Wang",
+        "Ruoming Pang",
+        "Andy Narayanan",
+        "Aonan Zhang",
+        "Bowen Zhang",
+        "Chen Chen",
+        "Chung-Cheng Chiu",
+        "David Qiu",
+        "Deepak Gopinath",
+        "Dian Ang Yap",
+        "Dong Yin",
+        "Feng Nan",
+        "Floris Weers",
+        "Guoli Yin",
+        "Haoshuo Huang",
+        "Jianyu Wang",
+        "Jiarui Lu",
+        "John Peebles",
+        "Ke Ye",
+        "Mark Lee",
+        "Nan Du",
+        "Qibin Chen",
+        "Quentin Keunebroek",
+        "Sam Wiseman",
+        "Syd Evans",
+        "Tao Lei",
+        "Vivek Rathod",
+        "Xiang Kong"
+      ],
       "topic": "Foundation Models",
       "topic_score": 6.0,
       "num_pages": 47,
@@ -819,7 +930,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2407.21075",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 156,
+      "published": "2024-07-29"
     },
     {
       "filename": "2407.21783v3.pdf",
@@ -827,7 +940,38 @@
       "content_hash": "68e3da6b70f4516f431be53d6b83d416",
       "title": "The Llama 3 Herd of Models",
       "title_source": "font-size",
-      "authors": [],
+      "authors": [
+        "Aaron Grattafiori",
+        "Abhimanyu Dubey",
+        "Abhinav Jauhri",
+        "Abhinav Pandey",
+        "Abhishek Kadian",
+        "Ahmad Al-Dahle",
+        "Aiesha Letman",
+        "Akhil Mathur",
+        "Alan Schelten",
+        "Alex Vaughan",
+        "Amy Yang",
+        "Angela Fan",
+        "Anirudh Goyal",
+        "Anthony Hartshorn",
+        "Aobo Yang",
+        "Archi Mitra",
+        "Archie Sravankumar",
+        "Artem Korenev",
+        "Arthur Hinsvark",
+        "Arun Rao",
+        "Aston Zhang",
+        "Aurelien Rodriguez",
+        "Austen Gregerson",
+        "Ava Spataru",
+        "Baptiste Roziere",
+        "Bethany Biron",
+        "Binh Tang",
+        "Bobbie Chern",
+        "Charlotte Caucheteux",
+        "Chaya Nayak"
+      ],
       "topic": "Foundation Models",
       "topic_score": 6.0,
       "num_pages": 92,
@@ -838,7 +982,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2407.21783",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 561,
+      "published": "2024-07-31"
     },
     {
       "filename": "2410.21333v3.pdf",
@@ -864,7 +1010,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:57+00:00",
       "url": "https://arxiv.org/abs/2410.21333",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 6,
+      "published": "2024-10-27"
     },
     {
       "filename": "2412.15249v2.pdf",
@@ -872,20 +1020,29 @@
       "content_hash": "aa35a2f57541769b0076a12f29d0ac1d",
       "title": "LitLLMs, LLMs for Literature Review: Are we there yet?",
       "title_source": "font-size",
-      "authors": [],
+      "authors": [
+        "Shubham Agarwal",
+        "Gaurav Sahu",
+        "Abhay Puri",
+        "Issam H. Laradji",
+        "Krishnamurthy DJ Dvijotham",
+        "Jason Stanley",
+        "Laurent Charlin",
+        "Christopher Pal"
+      ],
       "topic": "Deep Research & Literature Review",
       "topic_score": 6.0,
       "num_pages": 34,
-      "confidence": "medium",
-      "needs_review": true,
-      "flags": [
-        "no-authors"
-      ],
+      "confidence": "high",
+      "needs_review": false,
+      "flags": [],
       "manually_edited": false,
       "error": null,
       "extracted_at": "2026-09-13T17:54:58+00:00",
       "url": "https://arxiv.org/abs/2412.15249",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 8,
+      "published": "2024-12-15"
     },
     {
       "filename": "2506.23485v1.pdf",
@@ -897,7 +1054,12 @@
         "Haocheng Yu",
         "Yaxiong Wu",
         "Hao Wang",
-        "Huawei Noah’s Ark Lab"
+        "Wei Guo",
+        "Yong Liu",
+        "Yawen Li",
+        "Yuyang Ye",
+        "Junping Du",
+        "Enhong Chen"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 3.0,
@@ -909,7 +1071,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:58+00:00",
       "url": "https://arxiv.org/abs/2506.23485",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 9,
+      "published": "2025-06-30"
     },
     {
       "filename": "2605.05242v1.pdf",
@@ -936,10 +1100,7 @@
         "Wenhu Chen",
         "Jimmy Lin",
         "Dongfu Jiang",
-        "Yu Zhang",
-        "UCSan Diego",
-        "Verdent AI",
-        "Lamb da"
+        "Yu Zhang"
       ],
       "topic": "RAG & Retrieval",
       "topic_score": 6.0,
@@ -951,7 +1112,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:58+00:00",
       "url": "https://arxiv.org/abs/2605.05242",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 19,
+      "published": "2026-05-03"
     },
     {
       "filename": "2606.08610v1.pdf",
@@ -962,9 +1125,10 @@
       "authors": [
         "Zechu Li",
         "Yufeng Jin",
-        "Xiaoyang Liu Puze Liu",
+        "Xiaoyang Liu",
+        "Puze Liu",
         "Vignesh Prasad",
-        "Carlo D’Eramo",
+        "Carlo D'Eramo",
         "Georgia Chalvatzaki"
       ],
       "topic": "Agents & Multi-Agent Systems",
@@ -977,7 +1141,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:58+00:00",
       "url": "https://arxiv.org/abs/2606.08610",
-      "url_source": "arxiv-filename"
+      "url_source": "arxiv-filename",
+      "author_count": 7,
+      "published": "2026-06-07"
     },
     {
       "filename": "ACE.pdf",
@@ -1010,7 +1176,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:58+00:00",
       "url": "https://arxiv.org/abs/2510.04618",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 13,
+      "published": "2025-10-06"
     },
     {
       "filename": "AI Agent architecture.pdf",
@@ -1018,7 +1186,9 @@
       "content_hash": "51da0daedb0e4d061f599831f6c25d0d",
       "title": "AI Agent Systems: Architectures, Applications, and Evaluation",
       "title_source": "font-size",
-      "authors": [],
+      "authors": [
+        "Bin Xu"
+      ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 4.5,
       "num_pages": 41,
@@ -1029,7 +1199,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:58+00:00",
       "url": "https://arxiv.org/abs/2601.01743",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 1,
+      "published": "2026-01-05"
     },
     {
       "filename": "Agemt memory.pdf",
@@ -1038,13 +1210,36 @@
       "title": "Memory in the Age of AI Agents: A Survey",
       "title_source": "font-size",
       "authors": [
-        "Forms",
-        "Functionsand Dynamics",
         "Yuyang Hu",
         "Shichun Liu",
         "Yanwei Yue",
         "Guibin Zhang",
-        "Boyang Liu"
+        "Boyang Liu",
+        "Fangyi Zhu",
+        "Jiahang Lin",
+        "Honglin Guo",
+        "Shihan Dou",
+        "Zhiheng Xi",
+        "Senjie Jin",
+        "Jiejun Tan",
+        "Yanbin Yin",
+        "Jiongnan Liu",
+        "Zeyu Zhang",
+        "Zhongxiang Sun",
+        "Yutao Zhu",
+        "Hao Sun",
+        "Boci Peng",
+        "Zhenrong Cheng",
+        "Xuanbo Fan",
+        "Jiaxin Guo",
+        "Xinlei Yu",
+        "Zhenhong Zhou",
+        "Zewen Hu",
+        "Jiahao Huo",
+        "Junhao Wang",
+        "Yuwei Niu",
+        "Yu Wang",
+        "Zhenfei Yin"
       ],
       "topic": "Memory",
       "topic_score": 4.5,
@@ -1056,7 +1251,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:58+00:00",
       "url": "https://arxiv.org/abs/2512.13564",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 47,
+      "published": "2025-12-15"
     },
     {
       "filename": "Agen Methodology.pdf",
@@ -1087,7 +1284,10 @@
         "Yiqiao Jin",
         "Fan Zhang",
         "Xian Wu",
-        "Hanqing Zhao"
+        "Hanqing Zhao",
+        "Dacheng Tao",
+        "Philip S. Yu",
+        "Ming Zhang"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 3.0,
@@ -1099,7 +1299,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:58+00:00",
       "url": "https://arxiv.org/abs/2503.21460",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 26,
+      "published": "2025-03-27"
     },
     {
       "filename": "Agent Context survey.pdf",
@@ -1111,12 +1313,17 @@
         "Lingrui Mei",
         "Jiayu Yao",
         "Yuyao Ge",
-        "Yiwei Wang Baolong Bi",
+        "Yiwei Wang",
+        "Baolong Bi",
         "Yujun Cai",
         "Jiazhi Liu",
         "Mingyu Li",
         "Zhong-Zhi Li",
         "Duzhen Zhang",
+        "Chenlin Zhou",
+        "Jiayi Mao",
+        "Tianze Xia",
+        "Jiafeng Guo",
         "Shenghua Liu"
       ],
       "topic": "Context Engineering",
@@ -1129,7 +1336,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:58+00:00",
       "url": "https://arxiv.org/abs/2507.13334",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 15,
+      "published": "2025-07-17"
     },
     {
       "filename": "Agent Context.pdf",
@@ -1141,12 +1350,17 @@
         "Lingrui Mei",
         "Jiayu Yao",
         "Yuyao Ge",
-        "Yiwei Wang Baolong Bi",
+        "Yiwei Wang",
+        "Baolong Bi",
         "Yujun Cai",
         "Jiazhi Liu",
         "Mingyu Li",
         "Zhong-Zhi Li",
         "Duzhen Zhang",
+        "Chenlin Zhou",
+        "Jiayi Mao",
+        "Tianze Xia",
+        "Jiafeng Guo",
         "Shenghua Liu"
       ],
       "topic": "Context Engineering",
@@ -1159,22 +1373,25 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:59+00:00",
       "url": "https://arxiv.org/abs/2507.13334",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 15,
+      "published": "2025-07-17"
     },
     {
       "filename": "AgentSLR.pdf",
       "path": "papers/AgentSLR.pdf",
       "content_hash": "256dd558ab0794b79a200f5af6631d29",
-      "title": "AgentSLR: Automating Systematic Literature Reviews in Epidemiology with Agentic AI",
-      "title_source": "font-size",
+      "title": "Evaluating AI-based Scientific Knowledge Synthesis with Epidemiological Systematic Reviews",
+      "title_source": "arxiv-api",
       "authors": [
         "Shreyansh Padarha",
         "Ryan Othniel Kearns",
         "Tristan Naidoo",
         "Lingyi Yang",
-        "Piotr Błaszczyk",
+        "Łukasz Borchmann",
+        "Piotr BŁaszczyk",
         "Christian Morgenstern",
-        "Ruth Mc Cabe",
+        "Ruth McCabe",
         "Sangeeta Bhatia",
         "Philip H. Torr",
         "Jakob Foerster",
@@ -1182,7 +1399,7 @@
         "Thomas Rawson",
         "Anne Cori",
         "Elizaveta Semenova",
-        "Adam Mah di"
+        "Adam Mahdi"
       ],
       "topic": "Deep Research & Literature Review",
       "topic_score": 8.0,
@@ -1194,7 +1411,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:59+00:00",
       "url": "https://arxiv.org/abs/2603.22327",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 16,
+      "published": "2026-03-20"
     },
     {
       "filename": "AgentsMdEval.pdf",
@@ -1204,8 +1423,10 @@
       "title_source": "font-size",
       "authors": [
         "Thibaud Gloaguen",
-        "Niels Mündler",
-        "Mark Müller"
+        "Niels Mündler-Sasahara",
+        "Mark Niklas Müller",
+        "Veselin Raychev",
+        "Martin Vechev"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 4.5,
@@ -1217,7 +1438,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:59+00:00",
       "url": "https://arxiv.org/abs/2602.11988",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 5,
+      "published": "2026-02-12"
     },
     {
       "filename": "DAB.pdf",
@@ -1235,9 +1458,7 @@
         "Abhinav Gupta",
         "Anushrut Gupta",
         "Tanmai Gopal",
-        "Aditya G. Parameswaran",
-        "UCBerkeley",
-        "Hasura Prompt QL"
+        "Aditya G. Parameswaran"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 4.5,
@@ -1249,7 +1470,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:59+00:00",
       "url": "https://arxiv.org/abs/2603.20576",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 10,
+      "published": "2026-03-21"
     },
     {
       "filename": "DABbenchmark.pdf",
@@ -1267,9 +1490,7 @@
         "Abhinav Gupta",
         "Anushrut Gupta",
         "Tanmai Gopal",
-        "Aditya G. Parameswaran",
-        "UCBerkeley",
-        "Hasura Prompt QL"
+        "Aditya G. Parameswaran"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 4.5,
@@ -1281,7 +1502,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:59+00:00",
       "url": "https://arxiv.org/abs/2603.20576",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 10,
+      "published": "2026-03-21"
     },
     {
       "filename": "DRA Systematic Exam.pdf",
@@ -1302,7 +1525,7 @@
         "Songcen Xu",
         "Jianye Hao",
         "Kun Shao",
-        "Huawei Noah’s Ark Lab"
+        "Jun Wang"
       ],
       "topic": "Deep Research & Literature Review",
       "topic_score": 12.0,
@@ -1314,7 +1537,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:59+00:00",
       "url": "https://arxiv.org/abs/2506.18096",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 13,
+      "published": "2025-06-22"
     },
     {
       "filename": "Day_1_v3 (1).pdf",
@@ -1347,6 +1572,10 @@
       "title_source": "font-size",
       "authors": [
         "Yuzhen Mao",
+        "Jerry Gu",
+        "Aadi Chauhan",
+        "Qizheng Zhang",
+        "Hangoo Kang",
         "Azalia Mirhoseini"
       ],
       "topic": "Context Engineering",
@@ -1359,7 +1588,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:59+00:00",
       "url": "https://arxiv.org/abs/2606.10662",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 6,
+      "published": "2026-06-09"
     },
     {
       "filename": "GEPA.pdf",
@@ -1396,7 +1627,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:00+00:00",
       "url": "https://arxiv.org/abs/2507.19457",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 17,
+      "published": "2025-07-25"
     },
     {
       "filename": "Meta-harness.pdf",
@@ -1408,7 +1641,9 @@
         "Yoonho Lee",
         "Roshen Nair",
         "Qizheng Zhang",
-        "Kangwook Lee"
+        "Kangwook Lee",
+        "Omar Khattab",
+        "Chelsea Finn"
       ],
       "topic": "Prompting & Reasoning",
       "topic_score": 3.0,
@@ -1420,25 +1655,26 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:00+00:00",
       "url": "https://arxiv.org/abs/2603.28052",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 6,
+      "published": "2026-03-30"
     },
     {
       "filename": "PaperQAv2.pdf",
       "path": "papers/PaperQAv2.pdf",
       "content_hash": "2b083b06397b815607f36c4bbfae7fa6",
-      "title": "LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF",
-      "title_source": "font-size",
+      "title": "Language agents achieve superhuman synthesis of scientific knowledge",
+      "title_source": "arxiv-api",
       "authors": [
-        "Michael D. Skarlinski Sam Cox",
+        "Michael D. Skarlinski",
+        "Sam Cox",
         "Jon M. Laurent",
         "James D. Braza",
         "Michaela Hinks",
         "Michael J. Hammerling",
-        "Manvitha Ponnapati Samuel G. Rodriques",
-        "Andrew D. White",
-        "Future House Inc",
-        "San Francisco",
-        "CA"
+        "Manvitha Ponnapati",
+        "Samuel G. Rodriques",
+        "Andrew D. White"
       ],
       "topic": "RAG & Retrieval",
       "topic_score": 1.5,
@@ -1450,7 +1686,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:00+00:00",
       "url": "https://arxiv.org/abs/2409.13740",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 9,
+      "published": "2024-09-10"
     },
     {
       "filename": "Survey Memory.pdf",
@@ -1479,7 +1717,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:00+00:00",
       "url": "https://arxiv.org/abs/2404.13501",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 9,
+      "published": "2024-04-21"
     },
     {
       "filename": "Taxonomy-context.pdf",
@@ -1505,7 +1745,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:00+00:00",
       "url": "https://arxiv.org/abs/2509.19125",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 6,
+      "published": "2025-09-23"
     },
     {
       "filename": "Terminalbench.pdf",
@@ -1515,23 +1757,21 @@
       "title_source": "font-size",
       "authors": [
         "Mike A. Merrill",
-        "Alexan der G. Shaw",
+        "Alexander G. Shaw",
         "Nicholas Carlini",
         "Boxuan Li",
         "Harsh Raj",
-        "Ivan",
-        "Bercovich",
+        "Ivan Bercovich",
         "Lin Shi",
         "Jeong Yeon Shin",
         "Thomas Walshe",
-        "E. Kelly Buchanan Junhong",
-        "Shen",
+        "E. Kelly Buchanan",
+        "Junhong Shen",
         "Guanghao Ye",
         "Haowei Lin",
         "Jason Poulos",
         "Maoyu Wang",
-        "Marianna",
-        "Nezhurina",
+        "Marianna Nezhurina",
         "Jenia Jitsev",
         "Di Lu",
         "Orfeas Menis Mastromichalakis",
@@ -1543,7 +1783,9 @@
         "Anurag Kashyap",
         "Jan-Lucas Uslu",
         "Jeffrey Li",
-        "Jianbo Wu"
+        "Jianbo Wu",
+        "Minghao Yan",
+        "Song Bian"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 1.5,
@@ -1555,7 +1797,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:00+00:00",
       "url": "https://arxiv.org/abs/2601.11868",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 85,
+      "published": "2026-01-17"
     },
     {
       "filename": "The-Complete-Guide-to-Building-Skill-for-Claude.pdf",
@@ -1580,22 +1824,28 @@
       "filename": "WhyDRAFails.pdf",
       "path": "papers/WhyDRAFails.pdf",
       "content_hash": "76799fb6b5905fc623e11aa67ddd70ff",
-      "title": "Why Your Deep Research Agent Fails?",
-      "title_source": "font-size",
-      "authors": [],
+      "title": "Why Your Deep Research Agent Fails? On Hallucination Evaluation in Full Research Trajectory",
+      "title_source": "arxiv-api",
+      "authors": [
+        "Yuhao Zhan",
+        "Tianyu Fan",
+        "Linxuan Huang",
+        "Zirui Guo",
+        "Chao Huang"
+      ],
       "topic": "Deep Research & Literature Review",
       "topic_score": 6.0,
       "num_pages": 29,
-      "confidence": "medium",
-      "needs_review": true,
-      "flags": [
-        "no-authors"
-      ],
+      "confidence": "high",
+      "needs_review": false,
+      "flags": [],
       "manually_edited": false,
       "error": null,
       "extracted_at": "2026-09-13T17:55:00+00:00",
       "url": "https://arxiv.org/abs/2601.22984",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 5,
+      "published": "2026-01-30"
     },
     {
       "filename": "X-sum.pdf",
@@ -1606,8 +1856,7 @@
       "authors": [
         "Pierre Achkar",
         "Tim Gollub",
-        "Martin Potthast",
-        "Fraunhofer ISILeipzig"
+        "Martin Potthast"
       ],
       "topic": "RAG & Retrieval",
       "topic_score": 4.5,
@@ -1619,7 +1868,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:00+00:00",
       "url": "https://arxiv.org/abs/2505.16349",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 3,
+      "published": "2025-05-22"
     },
     {
       "filename": "harbor.pdf",
@@ -1630,9 +1881,10 @@
       "authors": [
         "Zechu Li",
         "Yufeng Jin",
-        "Xiaoyang Liu Puze Liu",
+        "Xiaoyang Liu",
+        "Puze Liu",
         "Vignesh Prasad",
-        "Carlo D’Eramo",
+        "Carlo D'Eramo",
         "Georgia Chalvatzaki"
       ],
       "topic": "Agents & Multi-Agent Systems",
@@ -1645,7 +1897,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:01+00:00",
       "url": "https://arxiv.org/abs/2606.08610",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 7,
+      "published": "2026-06-07"
     },
     {
       "filename": "harborindex.pdf",
@@ -1654,27 +1908,24 @@
       "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
       "title_source": "font-size",
       "authors": [
-        "Organization&Execution Team",
-        "Lin Shi♠",
-        "Haowei Lin♠",
-        "Zixuan Zhu♦",
-        "Xiaoyue Zhou♦",
-        "Xiang Li♦",
-        "Xiangning Lin♦",
-        "Yaxuan Deng♦",
-        "Han Xu♦",
-        "Yuangang",
-        "Li♦",
-        "Shan da Li♦",
-        "Zizhao Chen♦",
-        "Hanwen Xing♦",
+        "Lin Shi",
+        "Haowei Lin",
+        "Zixuan Zhu",
+        "Xiaoyue Zhou",
+        "Xiang Li",
+        "Xiangning Lin",
+        "Yaxuan Deng",
+        "Han Xu",
+        "Yuangang Li",
+        "Shanda Li",
+        "Zizhao Chen",
+        "Hanwen Xing",
         "Harsh Raj",
         "Bo Chen",
         "Quan Shi",
         "Steven Dillmann",
         "Yipeng Gao",
-        "Puneesh",
-        "Khanna",
+        "Puneesh Khanna",
         "Ruofan Lu",
         "Chao Beyond Zhou",
         "Michael Yang",
@@ -1682,8 +1933,11 @@
         "Siyuan Chai",
         "Jiayu Chang",
         "Yizhao Chen",
-        "Xiaokun",
-        "Chen"
+        "Xiaokun Chen",
+        "Yiwei Dai",
+        "Wenting Yang",
+        "Hange Liu",
+        "Minghao Liu"
       ],
       "topic": "Evaluation & Benchmarks",
       "topic_score": 4.5,
@@ -1695,7 +1949,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:01+00:00",
       "url": "https://arxiv.org/abs/2609.04298",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 126,
+      "published": "2026-09-03"
     },
     {
       "filename": "hermes-kanban-v1-spec (1).pdf",
@@ -1726,7 +1982,9 @@
       "title_source": "font-size",
       "authors": [
         "Jincheng Bai",
-        "Zhenyu Zhang"
+        "Zhenyu Zhang",
+        "Jennifer Zhang",
+        "Zhihuai Zhu"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 6.0,
@@ -1738,7 +1996,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:01+00:00",
       "url": "https://arxiv.org/abs/2601.20048",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 4,
+      "published": "2026-01-27"
     },
     {
       "filename": "keywordsearch.pdf",
@@ -1753,9 +2013,7 @@
         "Ishan Singh",
         "Mani Khanuja",
         "Sandeep Singh",
-        "Maira Ladeira Tanke",
-        "Amazon Web Services",
-        "Terry Avenue North"
+        "Maira Ladeira Tanke"
       ],
       "topic": "RAG & Retrieval",
       "topic_score": 13.5,
@@ -1767,7 +2025,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:01+00:00",
       "url": "https://arxiv.org/abs/2602.23368",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 7,
+      "published": "2025-12-19"
     },
     {
       "filename": "know your rag.pdf",
@@ -1794,7 +2054,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:01+00:00",
       "url": "https://arxiv.org/abs/2411.19710",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 7,
+      "published": "2024-11-29"
     },
     {
       "filename": "memoryeval.pdf",
@@ -1807,7 +2069,10 @@
         "Xuanhe Zhou",
         "Shaokun Han",
         "Hongming Xu",
-        "Shanghai Jiao Tong"
+        "Guoliang Li",
+        "Zhiyu Li",
+        "Feiyu Xiong",
+        "Fan Wu"
       ],
       "topic": "Memory",
       "topic_score": 4.5,
@@ -1819,14 +2084,16 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:01+00:00",
       "url": "https://arxiv.org/abs/2606.24775",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 8,
+      "published": "2026-06-23"
     },
     {
       "filename": "min2report.pdf",
       "path": "papers/min2report.pdf",
       "content_hash": "7b53511f6447d4106dd84a933af31394",
-      "title": "Mind2Report: A Cognitive Deep Research Agent for Expert-Level Commercial Report Synthesis",
-      "title_source": "font-size",
+      "title": "Mind2Report: Expert-Level Commercial Report Synthesis via Cognitive Deep Research Agent",
+      "title_source": "arxiv-api",
       "authors": [
         "Mingyue Cheng",
         "Daoyu Wang",
@@ -1849,7 +2116,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:01+00:00",
       "url": "https://arxiv.org/abs/2601.04879",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 10,
+      "published": "2026-01-08"
     },
     {
       "filename": "paper_banana.pdf",
@@ -1862,7 +2131,9 @@
         "Rui Meng",
         "Yale Song",
         "Xiyu Wei",
-        "Sujian Li"
+        "Sujian Li",
+        "Tomas Pfister",
+        "Jinsung Yoon"
       ],
       "topic": "Agents & Multi-Agent Systems",
       "topic_score": 1.0,
@@ -1874,7 +2145,9 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:02+00:00",
       "url": "https://arxiv.org/abs/2601.23265",
-      "url_source": "arxiv-pdf-stamp"
+      "url_source": "arxiv-pdf-stamp",
+      "author_count": 7,
+      "published": "2026-01-30"
     },
     {
       "filename": "the-agentic-sdlc.pdf",

@@ -23,27 +23,27 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
 ## Prompting & Reasoning
 
 - **AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS**
-  Zhuosheng Zhang, Aston Zhang, Mu Li, +2 more — [arxiv](https://arxiv.org/abs/2210.03493)
+  Zhuosheng Zhang, Aston Zhang, Mu Li, +1 more — [arxiv](https://arxiv.org/abs/2210.03493)
 - **Chain-of-Thought Prompting Elicits Reasoning in Large Language Models**
-  Jason Wei, Xuezhi Wang, Dale Schuurmans, +7 more — [arxiv](https://arxiv.org/abs/2201.11903)
+  Jason Wei, Xuezhi Wang, Dale Schuurmans, +6 more — [arxiv](https://arxiv.org/abs/2201.11903)
 - **DSPY: COMPILING DECLARATIVE LANGUAGE MODEL CALLS INTO SELF-IMPROVING PIPELINES**
   Omar Khattab, Arnav Singhvi, Paridhi Maheshwari, +10 more — [arxiv](https://arxiv.org/abs/2310.03714)
 - **GEPA: REFLECTIVE PROMPT EVOLUTION CAN OUTPERFORM REINFORCEMENT LEARNING**
   Lakshya A Agrawal, Shangyin Tan, Dilara Soylu, +14 more — [arxiv](https://arxiv.org/abs/2507.19457)
 - **Large Language Models are Zero-Shot Reasoners**
-  Takeshi Kojima, Shixiang Shane Gu, Brain Team — [arxiv](https://arxiv.org/abs/2205.11916)
+  Takeshi Kojima, Shixiang Shane Gu, Machel Reid, +2 more — [arxiv](https://arxiv.org/abs/2205.11916)
 - **LARGE LANGUAGE MODELS CAN SELF-IMPROVE**
   Jiaxin Huang, Shixiang Shane Gu, Le Hou, +4 more — [arxiv](https://arxiv.org/abs/2210.11610)
 - **LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS**
-  Denny Zhou, Nathanael Scha¨rli, Le Hou, +9 more — [arxiv](https://arxiv.org/abs/2205.10625)
+  Denny Zhou, Nathanael Schärli, Le Hou, +8 more — [arxiv](https://arxiv.org/abs/2205.10625)
 - **Meta-Harness: End-to-End Optimization of Model Harnesses**
-  Yoonho Lee, Roshen Nair, Qizheng Zhang, +1 more — [arxiv](https://arxiv.org/abs/2603.28052)
+  Yoonho Lee, Roshen Nair, Qizheng Zhang, +3 more — [arxiv](https://arxiv.org/abs/2603.28052)
 - **MIND YOUR STEP (BY STEP): CHAIN-OF-THOUGHT CAN REDUCE PERFORMANCE ON TASKS WHERE THINKING MAKES HUMANS WORSE**
   Ryan Liu, Jiayi Geng, Addison J. Wu, +3 more — [arxiv](https://arxiv.org/abs/2410.21333)
 - **SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS**
-  Xuezhi Wang, Jason Wei, Dale Schuurmans, +6 more — [arxiv](https://arxiv.org/abs/2203.11171)
+  Xuezhi Wang, Jason Wei, Dale Schuurmans, +5 more — [arxiv](https://arxiv.org/abs/2203.11171)
 - **Tree of Thoughts: Deliberate Problem Solving with Large Language Models**
-  Shunyu Yao, Dian Yu, Jeffrey Zhao, +5 more — [arxiv](https://arxiv.org/abs/2305.10601)
+  Shunyu Yao, Dian Yu, Jeffrey Zhao, +4 more — [arxiv](https://arxiv.org/abs/2305.10601)
 
 ## Agent Skills
 
@@ -78,17 +78,17 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
 ## Agents & Multi-Agent Systems
 
 - **A Multi-Agent Conversational Recommender System**
-  Jiabao Fang, Shen Gao, Pengjie Ren — [arxiv](https://arxiv.org/abs/2402.01135)
+  Jiabao Fang, Shen Gao, Pengjie Ren, +3 more — [arxiv](https://arxiv.org/abs/2402.01135)
 - **HARBOR: A Harness Framework for Agentic Robot Reinforcement Learning**
-  Zechu Li, Yufeng Jin, Xiaoyang Liu Puze Liu, +3 more — [arxiv](https://arxiv.org/abs/2606.08610)
+  Zechu Li, Yufeng Jin, Xiaoyang Liu, +4 more — [arxiv](https://arxiv.org/abs/2606.08610)
 - **Insight Agents: An LLM-Based Multi-Agent System for Data Insights**
-  Jincheng Bai, Zhenyu Zhang — [arxiv](https://arxiv.org/abs/2601.20048)
+  Jincheng Bai, Zhenyu Zhang, Jennifer Zhang, +1 more — [arxiv](https://arxiv.org/abs/2601.20048)
 - **Large Language Model Agent: A Survey on Methodology, Applications and Challenges**
-  Junyu Luo, Weizhi Zhang, Ye Yuan, +20 more — [arxiv](https://arxiv.org/abs/2503.21460)
+  Junyu Luo, Weizhi Zhang, Ye Yuan, +23 more — [arxiv](https://arxiv.org/abs/2503.21460)
 - **PaperBanana: Automating Academic Illustration for AI Scientists**
-  Dawei Zhu, Rui Meng, Yale Song, +2 more — [arxiv](https://arxiv.org/abs/2601.23265)
+  Dawei Zhu, Rui Meng, Yale Song, +4 more — [arxiv](https://arxiv.org/abs/2601.23265)
 - **Thought-Augmented Planning for LLM-Powered Interactive Recommender Agent**
-  Haocheng Yu, Yaxiong Wu, Hao Wang, +1 more — [arxiv](https://arxiv.org/abs/2506.23485)
+  Haocheng Yu, Yaxiong Wu, Hao Wang, +6 more — [arxiv](https://arxiv.org/abs/2506.23485)
 - **Using Reinforcement Learning and Simulation to Develop Autonomous Vehicle Control Strategies**
   _authors not detected_ — [doi](https://doi.org/10.4271/2020-01-0737)
 
@@ -98,45 +98,45 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
   Kexin Ding, Yang Zhou, Can Jin — [arxiv](https://arxiv.org/abs/2606.11435)
   Automated, evaluation-driven skill evolution via execution feedback, trajectory distillation, compression, and RL; plus six skill-centric benchmark categories.
 - **AI Agent Systems: Architectures, Applications, and Evaluation**
-  _authors not detected_ — [arxiv](https://arxiv.org/abs/2601.01743)
+  Bin Xu — [arxiv](https://arxiv.org/abs/2601.01743)
 - **Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents**
-  Ruiying Ma, Shreya Shankar, Ruiqi Chen, +9 more — [arxiv](https://arxiv.org/abs/2603.20576)
+  Ruiying Ma, Shreya Shankar, Ruiqi Chen, +7 more — [arxiv](https://arxiv.org/abs/2603.20576)
 - **Context-Aware Hierarchical Taxonomy Generation for Scientific Papers via LLM-Guided Multi-Aspect Clustering**
   Kun Zhu, Lizi Liao, Yuxuan Gu, +3 more — [arxiv](https://arxiv.org/abs/2509.19125)
 - **Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?**
-  Thibaud Gloaguen, Niels Mündler, Mark Müller — [arxiv](https://arxiv.org/abs/2602.11988)
+  Thibaud Gloaguen, Niels Mündler-Sasahara, Mark Niklas Müller, +2 more — [arxiv](https://arxiv.org/abs/2602.11988)
 - **Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation**
-  Organization&Execution Team, Lin Shi♠, Haowei Lin♠, +27 more — [arxiv](https://arxiv.org/abs/2609.04298)
+  Lin Shi, Haowei Lin, Zixuan Zhu, +27 more — [arxiv](https://arxiv.org/abs/2609.04298)
 - **TERMINAL-BENCH: BENCHMARKING AGENTS ON HARD, REALISTIC TASKS IN COMMAND LINE INTERFACES**
-  Mike A. Merrill, Alexan der G. Shaw, Nicholas Carlini, +27 more — [arxiv](https://arxiv.org/abs/2601.11868)
+  Mike A. Merrill, Alexander G. Shaw, Nicholas Carlini, +27 more — [arxiv](https://arxiv.org/abs/2601.11868)
 
 ## Foundation Models
 
 - **Apple Intelligence Foundation Language Models**
-  _authors not detected_ — [arxiv](https://arxiv.org/abs/2407.21075)
+  Tom Gunter, Zirui Wang, Chong Wang, +27 more — [arxiv](https://arxiv.org/abs/2407.21075)
 - **GPT-4 Technical Report**
-  Open AI — [arxiv](https://arxiv.org/abs/2303.08774)
+  OpenAI, Josh Achiam, Steven Adler, +27 more — [arxiv](https://arxiv.org/abs/2303.08774)
 - **Llama 2: Open Foundation and Fine-Tuned Chat Models**
   Hugo Touvron, Louis Martin, Kevin Stone, +27 more — [arxiv](https://arxiv.org/abs/2307.09288)
 - **LLaMA: Open and Efficient Foundation Language Models**
-  Hugo Touvron, Thibaut Lavril, Gautier Izacard, +12 more — [arxiv](https://arxiv.org/abs/2302.13971)
+  Hugo Touvron, Thibaut Lavril, Gautier Izacard, +11 more — [arxiv](https://arxiv.org/abs/2302.13971)
 - **Mistral 7B**
   Albert Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, +15 more — [arxiv](https://arxiv.org/abs/2310.06825)
 - **The Llama 3 Herd of Models**
-  _authors not detected_ — [arxiv](https://arxiv.org/abs/2407.21783)
+  Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, +27 more — [arxiv](https://arxiv.org/abs/2407.21783)
 
 ## Deep Research & Literature Review
 
-- **AgentSLR: Automating Systematic Literature Reviews in Epidemiology with Agentic AI**
-  Shreyansh Padarha, Ryan Othniel Kearns, Tristan Naidoo, +12 more — [arxiv](https://arxiv.org/abs/2603.22327)
 - **DEEP RESEARCH AGENTS: A SYSTEMATIC EXAMINATION AND ROADMAP**
   Yuxuan Huang, Yihang Chen, Haozheng Zhang, +10 more — [arxiv](https://arxiv.org/abs/2506.18096)
-- **LitLLMs, LLMs for Literature Review: Are we there yet?** ⚠️
-  _authors not detected_ — [arxiv](https://arxiv.org/abs/2412.15249)
-- **Mind2Report: A Cognitive Deep Research Agent for Expert-Level Commercial Report Synthesis**
+- **Evaluating AI-based Scientific Knowledge Synthesis with Epidemiological Systematic Reviews**
+  Shreyansh Padarha, Ryan Othniel Kearns, Tristan Naidoo, +13 more — [arxiv](https://arxiv.org/abs/2603.22327)
+- **LitLLMs, LLMs for Literature Review: Are we there yet?**
+  Shubham Agarwal, Gaurav Sahu, Abhay Puri, +5 more — [arxiv](https://arxiv.org/abs/2412.15249)
+- **Mind2Report: Expert-Level Commercial Report Synthesis via Cognitive Deep Research Agent**
   Mingyue Cheng, Daoyu Wang, Qi Liu, +7 more — [arxiv](https://arxiv.org/abs/2601.04879)
-- **Why Your Deep Research Agent Fails?** ⚠️
-  _authors not detected_ — [arxiv](https://arxiv.org/abs/2601.22984)
+- **Why Your Deep Research Agent Fails? On Hallucination Evaluation in Full Research Trajectory**
+  Yuhao Zhan, Tianyu Fan, Linxuan Huang, +2 more — [arxiv](https://arxiv.org/abs/2601.22984)
 
 ## Fine-tuning & PEFT
 
@@ -145,7 +145,7 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
 - **LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS**
   Yongchao Zhou, Andrei Ioan Muresanu, Ziwen Han, +4 more — [arxiv](https://arxiv.org/abs/2211.01910)
 - **LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS**
-  Edward Hu, Yelong Shen, Phillip Wallis, +5 more — [arxiv](https://arxiv.org/abs/2106.09685)
+  Edward J. Hu, Yelong Shen, Phillip Wallis, +5 more — [arxiv](https://arxiv.org/abs/2106.09685)
 - **P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks**
   Xiao Liu, Kaixuan Ji, Yicheng Fu, +4 more — [arxiv](https://arxiv.org/abs/2110.07602)
 - **QLORA: Efficient Finetuning of Quantized LLMs**
@@ -154,15 +154,15 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
 ## RAG & Retrieval
 
 - **Ask, Retrieve, Summarize: A Modular Pipeline for Scientific Literature Summarization**
-  Pierre Achkar, Tim Gollub, Martin Potthast, +1 more — [arxiv](https://arxiv.org/abs/2505.16349)
+  Pierre Achkar, Tim Gollub, Martin Potthast — [arxiv](https://arxiv.org/abs/2505.16349)
 - **Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction**
-  Zhuofeng Li, Haoxiang Zhang, Cong Wei, +19 more — [arxiv](https://arxiv.org/abs/2605.05242)
+  Zhuofeng Li, Haoxiang Zhang, Cong Wei, +16 more — [arxiv](https://arxiv.org/abs/2605.05242)
 - **Keyword search is all you need: Achieving RAG-Level Performance without vector databases using agentic tool use**
-  Shreyas Subramanian, Adewale Akinfaderin, Yanyan Zhang, +6 more — [arxiv](https://arxiv.org/abs/2602.23368)
+  Shreyas Subramanian, Adewale Akinfaderin, Yanyan Zhang, +4 more — [arxiv](https://arxiv.org/abs/2602.23368)
 - **Know Your RAG: Dataset Taxonomy and Generation Strategies for Evaluating RAG Systems**
   Rafael Teixeira de Lima, Shubham Gupta, Cesar Berrospi, +4 more — [arxiv](https://arxiv.org/abs/2411.19710)
-- **LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF**
-  Michael D. Skarlinski Sam Cox, Jon M. Laurent, James D. Braza, +7 more — [arxiv](https://arxiv.org/abs/2409.13740)
+- **Language agents achieve superhuman synthesis of scientific knowledge**
+  Michael D. Skarlinski, Sam Cox, Jon M. Laurent, +6 more — [arxiv](https://arxiv.org/abs/2409.13740)
 
 ## Software Engineering with AI
 
@@ -178,20 +178,20 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
 ## Context Engineering
 
 - **A Survey of Context Engineering for Large Language Models**
-  Lingrui Mei, Jiayu Yao, Yuyao Ge, +7 more — [arxiv](https://arxiv.org/abs/2507.13334)
+  Lingrui Mei, Jiayu Yao, Yuyao Ge, +12 more — [arxiv](https://arxiv.org/abs/2507.13334)
 - **AGENTIC CONTEXT ENGINEERING: EVOLVING CONTEXTS FOR SELF-IMPROVING LANGUAGE MODELS**
   Qizheng Zhang, Changran Hu, Shubhangi Upasani, +10 more — [arxiv](https://arxiv.org/abs/2510.04618)
 - **Decentralized Multi-Agent Systems with Shared Context**
-  Yuzhen Mao, Azalia Mirhoseini — [arxiv](https://arxiv.org/abs/2606.10662)
+  Yuzhen Mao, Jerry Gu, Aadi Chauhan, +3 more — [arxiv](https://arxiv.org/abs/2606.10662)
 
 ## Memory
 
 - **A Survey on the Memory Mechanism of Large Language Model based Agents**
   Zeyu Zhang, Xiaohe Bo, Chen Ma, +6 more — [arxiv](https://arxiv.org/abs/2404.13501)
 - **Are We Ready For An Agent-Native Memory System?**
-  Wei Zhou, Xuanhe Zhou, Shaokun Han, +2 more — [arxiv](https://arxiv.org/abs/2606.24775)
+  Wei Zhou, Xuanhe Zhou, Shaokun Han, +5 more — [arxiv](https://arxiv.org/abs/2606.24775)
 - **Memory in the Age of AI Agents: A Survey**
-  Forms, Functionsand Dynamics, Yuyang Hu, +4 more — [arxiv](https://arxiv.org/abs/2512.13564)
+  Yuyang Hu, Shichun Liu, Yanwei Yue, +27 more — [arxiv](https://arxiv.org/abs/2512.13564)
 
 ## Mixture-of-Experts
 
@@ -205,7 +205,7 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
 - **A Survey on Efficient Training of Transformers**
   Bohan Zhuang, Jing Liu, Zizheng Pan, +3 more — [arxiv](https://arxiv.org/abs/2302.01107)
 - **An Overview of Multi-Task Learning in Deep Neural Networks∗**
-  Sebastian Ru der — [arxiv](https://arxiv.org/abs/1706.05098)
+  Sebastian Ruder — [arxiv](https://arxiv.org/abs/1706.05098)
 
 ## Other / Uncategorized
 
@@ -220,7 +220,7 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
 - **Understanding and Improving Sequence-to-Sequence Pretraining for Neural Machine Translation**
   Wenxuan Wang, Wenxiang Jiao, Yongchang Hao, +4 more — [arxiv](https://arxiv.org/abs/2203.08442)
 - **Understanding Random Forests: From Theory to Practice**
-  _authors not detected_ — [arxiv](https://arxiv.org/abs/1407.7502)
+  Gilles Louppe — [arxiv](https://arxiv.org/abs/1407.7502)
 
 ## Needs Review
 
@@ -228,6 +228,4 @@ Heuristic extraction was uncertain for these. Fix the entry in `papers.json`, se
 
 | File | Extracted title | Flags |
 | --- | --- | --- |
-| `2412.15249v2.pdf` | LitLLMs, LLMs for Literature Review: Are we there yet? | no-authors |
 | `hermes-kanban-v1-spec (1).pdf` | Hermes Kanban | no-authors |
-| `WhyDRAFails.pdf` | Why Your Deep Research Agent Fails? | no-authors |
