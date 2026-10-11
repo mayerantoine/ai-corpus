@@ -291,10 +291,26 @@ abstract-over-title rule.
 
 ## Applying this
 
-Not yet encoded in the data. To add it, a `type` field (plus optional `type_secondary`)
-alongside `topic` in [`papers.json`](papers.json) and [`links.json`](links.json) —
-`type_secondary` nullable, and never a third field, per the two-type cap. The
-two axes are independent, and unlike `topic` — which `extract_papers.py` derives from
-title keywords — `type` **cannot** be derived by keyword rules. The table at the top of
-this file is the evidence: the title-based guess was wrong for at least seven papers
-here. Classification requires reading the abstract, so it is a per-paper judgment.
+Encoded in the data. Every entry in [`papers.json`](papers.json) and
+[`links.json`](links.json) carries three fields:
+
+```json
+"type": "benchmark",
+"type_secondary": "evaluation",
+"type_evidence": "we introduce the PING Taxonomy and curate DeepHalluBench; six systems show reliability gaps"
+```
+
+`type_secondary` is `null` for the 71 papers that need only one label.
+`type_evidence` quotes the abstract phrase the assignment rests on, so any
+classification can be audited without re-reading the paper.
+
+[`apply_types.py`](apply_types.py) owns the assignments and writes both files
+(`--dry-run` to preview; idempotent). It validates on every run that each type is
+one of the eight, and that no secondary duplicates its primary or pushes a paper
+past the two-type cap.
+
+The two axes stay independent: unlike `topic`, which `extract_papers.py` derives
+from title keywords, `type` **cannot** be derived that way — the table at the top
+of this file is the evidence, since the title-based guess was wrong for seven
+papers here. New papers therefore need a row added to `apply_types.py` by hand,
+after reading the abstract.

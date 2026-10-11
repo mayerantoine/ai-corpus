@@ -4,102 +4,175 @@
     {
       "id": "arxiv:2602.12430",
       "title": "Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward",
-      "authors": ["Renjun Xu", "Yang Yan"],
+      "authors": [
+        "Renjun Xu",
+        "Yang Yan"
+      ],
       "url": "https://arxiv.org/abs/2602.12430",
       "url_source": "arxiv-verified",
       "topic": "Agent Skills",
       "published": "2026-02-12",
-      "note": "Four-axis survey: architectural foundations (SKILL.md, progressive context loading, MCP integration), skill acquisition, deployment at scale (CUAs, OSWorld), and security frameworks."
+      "note": "Four-axis survey: architectural foundations (SKILL.md, progressive context loading, MCP integration), skill acquisition, deployment at scale (CUAs, OSWorld), and security frameworks.",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "this survey provides a comprehensive treatment of the agent skills landscape"
     },
     {
       "id": "arxiv:2602.20867",
       "title": "SoK: Agentic Skills -- Beyond Tool Use in LLM Agents",
-      "authors": ["Yanna Jiang", "Delong Li", "Haiyu Deng", "Baihe Ma", "Xu Wang", "Qin Wang", "Guangsheng Yu"],
+      "authors": [
+        "Yanna Jiang",
+        "Delong Li",
+        "Haiyu Deng",
+        "Baihe Ma",
+        "Xu Wang",
+        "Qin Wang",
+        "Guangsheng Yu"
+      ],
       "url": "https://arxiv.org/abs/2602.20867",
       "url_source": "arxiv-verified",
       "topic": "Agent Skills",
       "published": "2026-02-24",
-      "note": "Systematization of knowledge mapping how skills transcend basic function-calling and tool-use paradigms, across the full skill lifecycle."
+      "note": "Systematization of knowledge mapping how skills transcend basic function-calling and tool-use paradigms, across the full skill lifecycle.",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "this paper maps the skill layer and introduces two complementary taxonomies"
     },
     {
       "id": "arxiv:2603.25158",
       "title": "Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills",
-      "authors": ["Jingwei Ni", "Yihao Liu", "Xinpeng Liu"],
+      "authors": [
+        "Jingwei Ni",
+        "Yihao Liu",
+        "Xinpeng Liu"
+      ],
       "url": "https://arxiv.org/abs/2603.25158",
       "url_source": "arxiv-verified",
       "topic": "Agent Skills",
       "published": "2026-03-26",
-      "note": "Turns single-run execution trajectories into reusable, generalized agent skills; harness-agnostic."
+      "note": "Turns single-run execution trajectories into reusable, generalized agent skills; harness-agnostic.",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "distill trajectory-local lessons into transferable agent skills"
     },
     {
       "id": "arxiv:2604.08224",
       "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
-      "authors": ["Chenyu Zhou", "Huacan Chai", "Wenteng Chen"],
+      "authors": [
+        "Chenyu Zhou",
+        "Huacan Chai",
+        "Wenteng Chen"
+      ],
       "url": "https://arxiv.org/abs/2604.08224",
       "url_source": "arxiv-verified",
       "topic": "Agent Skills",
       "published": "2026-04-09",
-      "note": "Examines how externalized artifacts (skills, workflow memory, protocols) substitute or complement internal model weights."
+      "note": "Examines how externalized artifacts (skills, workflow memory, protocols) substitute or complement internal model weights.",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "a unified review of memory, skills, protocols and harness engineering"
     },
     {
       "id": "arxiv:2604.16911",
       "title": "Skilldex: A Package Manager and Registry for Agent Skill Packages with Hierarchical Scope-Based Distribution",
-      "authors": ["Sampriti Saha", "Pranav Hemanth"],
+      "authors": [
+        "Sampriti Saha",
+        "Pranav Hemanth"
+      ],
       "url": "https://arxiv.org/abs/2604.16911",
       "url_source": "arxiv-verified",
       "topic": "Agent Skills",
       "published": "2026-04-18",
-      "note": "Package management and hierarchical scope distribution (global/shared/project) for agent skill artifacts, with format conformance scoring."
+      "note": "Package management and hierarchical scope distribution (global/shared/project) for agent skill artifacts, with format conformance scoring.",
+      "type": "system",
+      "type_secondary": null,
+      "type_evidence": "a package manager and registry, implemented as a TypeScript CLI with a registry backend"
     },
     {
       "id": "arxiv:2605.23904",
       "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
-      "authors": ["Yifan Yang", "Ziyang Gong", "Weiquan Huang"],
+      "authors": [
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Weiquan Huang"
+      ],
       "url": "https://arxiv.org/abs/2605.23904",
       "url_source": "arxiv-verified",
       "topic": "Agent Skills",
       "published": "2026-05-22",
-      "note": "Treats skill files as trainable parameters outside frozen model weights via bounded text edits, validation gating, and rejected-edit feedback. Often cited by its Microsoft Research blog title, 'Agent Skills as Trainable Parameters'."
+      "note": "Treats skill files as trainable parameters outside frozen model weights via bounded text edits, validation gating, and rejected-edit feedback. Often cited by its Microsoft Research blog title, 'Agent Skills as Trainable Parameters'.",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "treats a skill file as a trainable parameter outside a frozen model"
     },
     {
       "id": "arxiv:2606.11435",
       "title": "Agent Skill Evaluation and Evolution: Frameworks and Benchmarks",
-      "authors": ["Kexin Ding", "Yang Zhou", "Can Jin"],
+      "authors": [
+        "Kexin Ding",
+        "Yang Zhou",
+        "Can Jin"
+      ],
       "url": "https://arxiv.org/abs/2606.11435",
       "url_source": "arxiv-verified",
       "topic": "Evaluation & Benchmarks",
       "published": "2026-06-09",
-      "note": "Automated, evaluation-driven skill evolution via execution feedback, trajectory distillation, compression, and RL; plus six skill-centric benchmark categories."
+      "note": "Automated, evaluation-driven skill evolution via execution feedback, trajectory distillation, compression, and RL; plus six skill-centric benchmark categories.",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "in this survey, we systematically examine the landscape of skill evolution"
     },
     {
       "id": "arxiv:2608.10906",
       "title": "GitSkills: A Dataset of Agent Skills on GitHub",
-      "authors": ["Giuseppe Destefanis", "Daniel Graziotin", "Matteo Vaccargiu", "Marco Ortu"],
+      "authors": [
+        "Giuseppe Destefanis",
+        "Daniel Graziotin",
+        "Matteo Vaccargiu",
+        "Marco Ortu"
+      ],
       "url": "https://arxiv.org/abs/2608.10906",
       "url_source": "arxiv-verified",
       "topic": "Agent Skills",
       "published": "2026-08-11",
-      "note": "3,797,117 SKILL.md files from 282,200 public repositories, grouped into 1,877,981 distinct contents, shipped as a single searchable SQLite file."
+      "note": "3,797,117 SKILL.md files from 282,200 public repositories, grouped into 1,877,981 distinct contents, shipped as a single searchable SQLite file.",
+      "type": "benchmark",
+      "type_secondary": null,
+      "type_evidence": "3.8M SKILL.md files from 282k repos, shipped as one searchable SQLite file"
     },
     {
       "id": "arxiv:2608.11888",
       "title": "Agent Skills Can Be Harmful: An Empirical Study of Skill-Induced Failures in LLM Agents",
-      "authors": ["Gen Dong", "Yanjie Gao", "Liqun Li"],
+      "authors": [
+        "Gen Dong",
+        "Yanjie Gao",
+        "Liqun Li"
+      ],
       "url": "https://arxiv.org/abs/2608.11888",
       "url_source": "arxiv-verified",
       "topic": "Agent Skills",
       "published": "2026-08-12",
-      "note": "307 skill-induced failures on SkillsBench and SWE-Skills-Bench (125 functional, 182 efficiency); excessive procedural checklists and heavy implementation pipelines cut success rates and inflate cost."
+      "note": "307 skill-induced failures on SkillsBench and SWE-Skills-Bench (125 functional, 182 efficiency); excessive procedural checklists and heavy implementation pipelines cut success rates and inflate cost.",
+      "type": "evaluation",
+      "type_secondary": null,
+      "type_evidence": "differential analysis framework instantiated on existing SkillsBench, yielding 307 failures"
     },
     {
       "id": "arxiv:2608.14036",
       "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
-      "authors": ["Zhiyuan Jiang", "Fangrui Huang", "Hanwen Xing"],
+      "authors": [
+        "Zhiyuan Jiang",
+        "Fangrui Huang",
+        "Hanwen Xing"
+      ],
       "url": "https://arxiv.org/abs/2608.14036",
       "url_source": "arxiv-verified",
       "topic": "Agent Skills",
       "published": "2026-08-14",
-      "note": "Contrastive study of 8,135 trial records: skills act as procedural anchors (65.7%) rather than injecting missing facts (4.5%); retrieval precision falls from 29.6% to 3.3% as pools grow 5 to 100."
+      "note": "Contrastive study of 8,135 trial records: skills act as procedural anchors (65.7%) rather than injecting missing facts (4.5%); retrieval precision falls from 29.6% to 3.3% as pools grow 5 to 100.",
+      "type": "evaluation",
+      "type_secondary": null,
+      "type_evidence": "when do skills help, why do they work, where do they fail; controlled contrastive study"
     }
   ]
 }

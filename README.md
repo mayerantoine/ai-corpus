@@ -3,6 +3,8 @@
 75 papers — 65 indexed from PDFs, 10 curated links. Links only; no PDFs are stored in this repo.
 Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.json`](papers.json) and [`links.json`](links.json).
 
+Each entry shows its contribution `type` — see [`paper_types.md`](paper_types.md) for the taxonomy and rubrics.
+
 ## Contents
 
 - [Prompting & Reasoning](#prompting--reasoning) (11)
@@ -23,204 +25,204 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
 ## Prompting & Reasoning
 
 - **AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS**
-  Zhuosheng Zhang, Aston Zhang, Mu Li, +1 more — [arxiv](https://arxiv.org/abs/2210.03493)
+  `method` · Zhuosheng Zhang, Aston Zhang, Mu Li, +1 more — [arxiv](https://arxiv.org/abs/2210.03493)
 - **Chain-of-Thought Prompting Elicits Reasoning in Large Language Models**
-  Jason Wei, Xuezhi Wang, Dale Schuurmans, +6 more — [arxiv](https://arxiv.org/abs/2201.11903)
+  `method` · Jason Wei, Xuezhi Wang, Dale Schuurmans, +6 more — [arxiv](https://arxiv.org/abs/2201.11903)
 - **DSPY: COMPILING DECLARATIVE LANGUAGE MODEL CALLS INTO SELF-IMPROVING PIPELINES**
-  Omar Khattab, Arnav Singhvi, Paridhi Maheshwari, +10 more — [arxiv](https://arxiv.org/abs/2310.03714)
+  `method` · Omar Khattab, Arnav Singhvi, Paridhi Maheshwari, +10 more — [arxiv](https://arxiv.org/abs/2310.03714)
 - **GEPA: REFLECTIVE PROMPT EVOLUTION CAN OUTPERFORM REINFORCEMENT LEARNING**
-  Lakshya A Agrawal, Shangyin Tan, Dilara Soylu, +14 more — [arxiv](https://arxiv.org/abs/2507.19457)
+  `method` · Lakshya A Agrawal, Shangyin Tan, Dilara Soylu, +14 more — [arxiv](https://arxiv.org/abs/2507.19457)
 - **Large Language Models are Zero-Shot Reasoners**
-  Takeshi Kojima, Shixiang Shane Gu, Machel Reid, +2 more — [arxiv](https://arxiv.org/abs/2205.11916)
+  `method` · Takeshi Kojima, Shixiang Shane Gu, Machel Reid, +2 more — [arxiv](https://arxiv.org/abs/2205.11916)
 - **LARGE LANGUAGE MODELS CAN SELF-IMPROVE**
-  Jiaxin Huang, Shixiang Shane Gu, Le Hou, +4 more — [arxiv](https://arxiv.org/abs/2210.11610)
+  `method` · Jiaxin Huang, Shixiang Shane Gu, Le Hou, +4 more — [arxiv](https://arxiv.org/abs/2210.11610)
 - **LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS**
-  Denny Zhou, Nathanael Schärli, Le Hou, +8 more — [arxiv](https://arxiv.org/abs/2205.10625)
+  `method` · Denny Zhou, Nathanael Schärli, Le Hou, +8 more — [arxiv](https://arxiv.org/abs/2205.10625)
 - **Meta-Harness: End-to-End Optimization of Model Harnesses**
-  Yoonho Lee, Roshen Nair, Qizheng Zhang, +3 more — [arxiv](https://arxiv.org/abs/2603.28052)
+  `method` · Yoonho Lee, Roshen Nair, Qizheng Zhang, +3 more — [arxiv](https://arxiv.org/abs/2603.28052)
 - **MIND YOUR STEP (BY STEP): CHAIN-OF-THOUGHT CAN REDUCE PERFORMANCE ON TASKS WHERE THINKING MAKES HUMANS WORSE**
-  Ryan Liu, Jiayi Geng, Addison J. Wu, +3 more — [arxiv](https://arxiv.org/abs/2410.21333)
+  `empirical` · Ryan Liu, Jiayi Geng, Addison J. Wu, +3 more — [arxiv](https://arxiv.org/abs/2410.21333)
 - **SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS**
-  Xuezhi Wang, Jason Wei, Dale Schuurmans, +5 more — [arxiv](https://arxiv.org/abs/2203.11171)
+  `method` · Xuezhi Wang, Jason Wei, Dale Schuurmans, +5 more — [arxiv](https://arxiv.org/abs/2203.11171)
 - **Tree of Thoughts: Deliberate Problem Solving with Large Language Models**
-  Shunyu Yao, Dian Yu, Jeffrey Zhao, +4 more — [arxiv](https://arxiv.org/abs/2305.10601)
+  `method` · Shunyu Yao, Dian Yu, Jeffrey Zhao, +4 more — [arxiv](https://arxiv.org/abs/2305.10601)
 
 ## Agent Skills
 
 - **Agent Skills Can Be Harmful: An Empirical Study of Skill-Induced Failures in LLM Agents**
-  Gen Dong, Yanjie Gao, Liqun Li — [arxiv](https://arxiv.org/abs/2608.11888)
+  `evaluation` · Gen Dong, Yanjie Gao, Liqun Li — [arxiv](https://arxiv.org/abs/2608.11888)
   307 skill-induced failures on SkillsBench and SWE-Skills-Bench (125 functional, 182 efficiency); excessive procedural checklists and heavy implementation pipelines cut success rates and inflate cost.
 - **Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward**
-  Renjun Xu, Yang Yan — [arxiv](https://arxiv.org/abs/2602.12430)
+  `survey` · Renjun Xu, Yang Yan — [arxiv](https://arxiv.org/abs/2602.12430)
   Four-axis survey: architectural foundations (SKILL.md, progressive context loading, MCP integration), skill acquisition, deployment at scale (CUAs, OSWorld), and security frameworks.
 - **Demystifying Agent Skills: Why They Work-Until They Don't**
-  Zhiyuan Jiang, Fangrui Huang, Hanwen Xing — [arxiv](https://arxiv.org/abs/2608.14036)
+  `evaluation` · Zhiyuan Jiang, Fangrui Huang, Hanwen Xing — [arxiv](https://arxiv.org/abs/2608.14036)
   Contrastive study of 8,135 trial records: skills act as procedural anchors (65.7%) rather than injecting missing facts (4.5%); retrieval precision falls from 29.6% to 3.3% as pools grow 5 to 100.
 - **Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering**
-  Chenyu Zhou, Huacan Chai, Wenteng Chen — [arxiv](https://arxiv.org/abs/2604.08224)
+  `survey` · Chenyu Zhou, Huacan Chai, Wenteng Chen — [arxiv](https://arxiv.org/abs/2604.08224)
   Examines how externalized artifacts (skills, workflow memory, protocols) substitute or complement internal model weights.
 - **GitSkills: A Dataset of Agent Skills on GitHub**
-  Giuseppe Destefanis, Daniel Graziotin, Matteo Vaccargiu, +1 more — [arxiv](https://arxiv.org/abs/2608.10906)
+  `benchmark` · Giuseppe Destefanis, Daniel Graziotin, Matteo Vaccargiu, +1 more — [arxiv](https://arxiv.org/abs/2608.10906)
   3,797,117 SKILL.md files from 282,200 public repositories, grouped into 1,877,981 distinct contents, shipped as a single searchable SQLite file.
 - **Skilldex: A Package Manager and Registry for Agent Skill Packages with Hierarchical Scope-Based Distribution**
-  Sampriti Saha, Pranav Hemanth — [arxiv](https://arxiv.org/abs/2604.16911)
+  `system` · Sampriti Saha, Pranav Hemanth — [arxiv](https://arxiv.org/abs/2604.16911)
   Package management and hierarchical scope distribution (global/shared/project) for agent skill artifacts, with format conformance scoring.
 - **SkillOpt: Executive Strategy for Self-Evolving Agent Skills**
-  Yifan Yang, Ziyang Gong, Weiquan Huang — [arxiv](https://arxiv.org/abs/2605.23904)
+  `method` · Yifan Yang, Ziyang Gong, Weiquan Huang — [arxiv](https://arxiv.org/abs/2605.23904)
   Treats skill files as trainable parameters outside frozen model weights via bounded text edits, validation gating, and rejected-edit feedback. Often cited by its Microsoft Research blog title, 'Agent Skills as Trainable Parameters'.
 - **SoK: Agentic Skills -- Beyond Tool Use in LLM Agents**
-  Yanna Jiang, Delong Li, Haiyu Deng, +4 more — [arxiv](https://arxiv.org/abs/2602.20867)
+  `survey` · Yanna Jiang, Delong Li, Haiyu Deng, +4 more — [arxiv](https://arxiv.org/abs/2602.20867)
   Systematization of knowledge mapping how skills transcend basic function-calling and tool-use paradigms, across the full skill lifecycle.
 - **Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills**
-  Jingwei Ni, Yihao Liu, Xinpeng Liu — [arxiv](https://arxiv.org/abs/2603.25158)
+  `method` · Jingwei Ni, Yihao Liu, Xinpeng Liu — [arxiv](https://arxiv.org/abs/2603.25158)
   Turns single-run execution trajectories into reusable, generalized agent skills; harness-agnostic.
 
 ## Agents & Multi-Agent Systems
 
 - **A Multi-Agent Conversational Recommender System**
-  Jiabao Fang, Shen Gao, Pengjie Ren, +3 more — [arxiv](https://arxiv.org/abs/2402.01135)
+  `method` · Jiabao Fang, Shen Gao, Pengjie Ren, +3 more — [arxiv](https://arxiv.org/abs/2402.01135)
 - **HARBOR: A Harness Framework for Agentic Robot Reinforcement Learning**
-  Zechu Li, Yufeng Jin, Xiaoyang Liu, +4 more — [arxiv](https://arxiv.org/abs/2606.08610)
+  `system` · Zechu Li, Yufeng Jin, Xiaoyang Liu, +4 more — [arxiv](https://arxiv.org/abs/2606.08610)
 - **Insight Agents: An LLM-Based Multi-Agent System for Data Insights**
-  Jincheng Bai, Zhenyu Zhang, Jennifer Zhang, +1 more — [arxiv](https://arxiv.org/abs/2601.20048)
+  `system` · Jincheng Bai, Zhenyu Zhang, Jennifer Zhang, +1 more — [arxiv](https://arxiv.org/abs/2601.20048)
 - **Large Language Model Agent: A Survey on Methodology, Applications and Challenges**
-  Junyu Luo, Weizhi Zhang, Ye Yuan, +23 more — [arxiv](https://arxiv.org/abs/2503.21460)
+  `survey` · Junyu Luo, Weizhi Zhang, Ye Yuan, +23 more — [arxiv](https://arxiv.org/abs/2503.21460)
 - **PaperBanana: Automating Academic Illustration for AI Scientists**
-  Dawei Zhu, Rui Meng, Yale Song, +4 more — [arxiv](https://arxiv.org/abs/2601.23265)
+  `method` · Dawei Zhu, Rui Meng, Yale Song, +4 more — [arxiv](https://arxiv.org/abs/2601.23265)
 - **Thought-Augmented Planning for LLM-Powered Interactive Recommender Agent**
-  Haocheng Yu, Yaxiong Wu, Hao Wang, +6 more — [arxiv](https://arxiv.org/abs/2506.23485)
+  `method` · Haocheng Yu, Yaxiong Wu, Hao Wang, +6 more — [arxiv](https://arxiv.org/abs/2506.23485)
 - **Using Reinforcement Learning and Simulation to Develop Autonomous Vehicle Control Strategies**
-  _authors not detected_ — [doi](https://doi.org/10.4271/2020-01-0737)
+  `method` · _authors not detected_ — [doi](https://doi.org/10.4271/2020-01-0737)
 
 ## Evaluation & Benchmarks
 
 - **Agent Skill Evaluation and Evolution: Frameworks and Benchmarks**
-  Kexin Ding, Yang Zhou, Can Jin — [arxiv](https://arxiv.org/abs/2606.11435)
+  `survey` · Kexin Ding, Yang Zhou, Can Jin — [arxiv](https://arxiv.org/abs/2606.11435)
   Automated, evaluation-driven skill evolution via execution feedback, trajectory distillation, compression, and RL; plus six skill-centric benchmark categories.
 - **AI Agent Systems: Architectures, Applications, and Evaluation**
-  Bin Xu — [arxiv](https://arxiv.org/abs/2601.01743)
+  `survey` · Bin Xu — [arxiv](https://arxiv.org/abs/2601.01743)
 - **Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents**
-  Ruiying Ma, Shreya Shankar, Ruiqi Chen, +7 more — [arxiv](https://arxiv.org/abs/2603.20576)
+  `benchmark` · Ruiying Ma, Shreya Shankar, Ruiqi Chen, +7 more — [arxiv](https://arxiv.org/abs/2603.20576)
 - **Context-Aware Hierarchical Taxonomy Generation for Scientific Papers via LLM-Guided Multi-Aspect Clustering**
-  Kun Zhu, Lizi Liao, Yuxuan Gu, +3 more — [arxiv](https://arxiv.org/abs/2509.19125)
+  `method` · Kun Zhu, Lizi Liao, Yuxuan Gu, +3 more — [arxiv](https://arxiv.org/abs/2509.19125)
 - **Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?**
-  Thibaud Gloaguen, Niels Mündler-Sasahara, Mark Niklas Müller, +2 more — [arxiv](https://arxiv.org/abs/2602.11988)
+  `evaluation` · Thibaud Gloaguen, Niels Mündler-Sasahara, Mark Niklas Müller, +2 more — [arxiv](https://arxiv.org/abs/2602.11988)
 - **Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation**
-  Lin Shi, Haowei Lin, Zixuan Zhu, +27 more — [arxiv](https://arxiv.org/abs/2609.04298)
+  `benchmark+evaluation` · Lin Shi, Haowei Lin, Zixuan Zhu, +27 more — [arxiv](https://arxiv.org/abs/2609.04298)
 - **TERMINAL-BENCH: BENCHMARKING AGENTS ON HARD, REALISTIC TASKS IN COMMAND LINE INTERFACES**
-  Mike A. Merrill, Alexander G. Shaw, Nicholas Carlini, +27 more — [arxiv](https://arxiv.org/abs/2601.11868)
+  `benchmark` · Mike A. Merrill, Alexander G. Shaw, Nicholas Carlini, +27 more — [arxiv](https://arxiv.org/abs/2601.11868)
 
 ## Foundation Models
 
 - **Apple Intelligence Foundation Language Models**
-  Tom Gunter, Zirui Wang, Chong Wang, +27 more — [arxiv](https://arxiv.org/abs/2407.21075)
+  `tech-report` · Tom Gunter, Zirui Wang, Chong Wang, +27 more — [arxiv](https://arxiv.org/abs/2407.21075)
 - **GPT-4 Technical Report**
-  OpenAI, Josh Achiam, Steven Adler, +27 more — [arxiv](https://arxiv.org/abs/2303.08774)
+  `tech-report` · OpenAI, Josh Achiam, Steven Adler, +27 more — [arxiv](https://arxiv.org/abs/2303.08774)
 - **Llama 2: Open Foundation and Fine-Tuned Chat Models**
-  Hugo Touvron, Louis Martin, Kevin Stone, +27 more — [arxiv](https://arxiv.org/abs/2307.09288)
+  `tech-report` · Hugo Touvron, Louis Martin, Kevin Stone, +27 more — [arxiv](https://arxiv.org/abs/2307.09288)
 - **LLaMA: Open and Efficient Foundation Language Models**
-  Hugo Touvron, Thibaut Lavril, Gautier Izacard, +11 more — [arxiv](https://arxiv.org/abs/2302.13971)
+  `tech-report` · Hugo Touvron, Thibaut Lavril, Gautier Izacard, +11 more — [arxiv](https://arxiv.org/abs/2302.13971)
 - **Mistral 7B**
-  Albert Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, +15 more — [arxiv](https://arxiv.org/abs/2310.06825)
+  `tech-report` · Albert Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, +15 more — [arxiv](https://arxiv.org/abs/2310.06825)
 - **The Llama 3 Herd of Models**
-  Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, +27 more — [arxiv](https://arxiv.org/abs/2407.21783)
+  `tech-report` · Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, +27 more — [arxiv](https://arxiv.org/abs/2407.21783)
 
 ## Deep Research & Literature Review
 
 - **DEEP RESEARCH AGENTS: A SYSTEMATIC EXAMINATION AND ROADMAP**
-  Yuxuan Huang, Yihang Chen, Haozheng Zhang, +10 more — [arxiv](https://arxiv.org/abs/2506.18096)
+  `survey` · Yuxuan Huang, Yihang Chen, Haozheng Zhang, +10 more — [arxiv](https://arxiv.org/abs/2506.18096)
 - **Evaluating AI-based Scientific Knowledge Synthesis with Epidemiological Systematic Reviews**
-  Shreyansh Padarha, Ryan Othniel Kearns, Tristan Naidoo, +13 more — [arxiv](https://arxiv.org/abs/2603.22327)
+  `benchmark+evaluation` · Shreyansh Padarha, Ryan Othniel Kearns, Tristan Naidoo, +13 more — [arxiv](https://arxiv.org/abs/2603.22327)
 - **LitLLMs, LLMs for Literature Review: Are we there yet?**
-  Shubham Agarwal, Gaurav Sahu, Abhay Puri, +5 more — [arxiv](https://arxiv.org/abs/2412.15249)
+  `method` · Shubham Agarwal, Gaurav Sahu, Abhay Puri, +5 more — [arxiv](https://arxiv.org/abs/2412.15249)
 - **Mind2Report: Expert-Level Commercial Report Synthesis via Cognitive Deep Research Agent**
-  Mingyue Cheng, Daoyu Wang, Qi Liu, +7 more — [arxiv](https://arxiv.org/abs/2601.04879)
+  `method` · Mingyue Cheng, Daoyu Wang, Qi Liu, +7 more — [arxiv](https://arxiv.org/abs/2601.04879)
 - **Why Your Deep Research Agent Fails? On Hallucination Evaluation in Full Research Trajectory**
-  Yuhao Zhan, Tianyu Fan, Linxuan Huang, +2 more — [arxiv](https://arxiv.org/abs/2601.22984)
+  `benchmark+evaluation` · Yuhao Zhan, Tianyu Fan, Linxuan Huang, +2 more — [arxiv](https://arxiv.org/abs/2601.22984)
 
 ## Fine-tuning & PEFT
 
 - **AdaMix: Mixture-of-Adaptations for Parameter-efficient Model Tuning**
-  Yaqing Wang, Sahaj Agarwal, Subhabrata Mukherjee — [link](https://aclanthology.org/2022.emnlp-main.388/)
+  `method` · Yaqing Wang, Sahaj Agarwal, Subhabrata Mukherjee — [link](https://aclanthology.org/2022.emnlp-main.388/)
 - **LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS**
-  Yongchao Zhou, Andrei Ioan Muresanu, Ziwen Han, +4 more — [arxiv](https://arxiv.org/abs/2211.01910)
+  `method` · Yongchao Zhou, Andrei Ioan Muresanu, Ziwen Han, +4 more — [arxiv](https://arxiv.org/abs/2211.01910)
 - **LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS**
-  Edward J. Hu, Yelong Shen, Phillip Wallis, +5 more — [arxiv](https://arxiv.org/abs/2106.09685)
+  `method` · Edward J. Hu, Yelong Shen, Phillip Wallis, +5 more — [arxiv](https://arxiv.org/abs/2106.09685)
 - **P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks**
-  Xiao Liu, Kaixuan Ji, Yicheng Fu, +4 more — [arxiv](https://arxiv.org/abs/2110.07602)
+  `method` · Xiao Liu, Kaixuan Ji, Yicheng Fu, +4 more — [arxiv](https://arxiv.org/abs/2110.07602)
 - **QLORA: Efficient Finetuning of Quantized LLMs**
-  Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, +1 more — [arxiv](https://arxiv.org/abs/2305.14314)
+  `method` · Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, +1 more — [arxiv](https://arxiv.org/abs/2305.14314)
 
 ## RAG & Retrieval
 
 - **Ask, Retrieve, Summarize: A Modular Pipeline for Scientific Literature Summarization**
-  Pierre Achkar, Tim Gollub, Martin Potthast — [arxiv](https://arxiv.org/abs/2505.16349)
+  `method` · Pierre Achkar, Tim Gollub, Martin Potthast — [arxiv](https://arxiv.org/abs/2505.16349)
 - **Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction**
-  Zhuofeng Li, Haoxiang Zhang, Cong Wei, +16 more — [arxiv](https://arxiv.org/abs/2605.05242)
+  `method` · Zhuofeng Li, Haoxiang Zhang, Cong Wei, +16 more — [arxiv](https://arxiv.org/abs/2605.05242)
 - **Keyword search is all you need: Achieving RAG-Level Performance without vector databases using agentic tool use**
-  Shreyas Subramanian, Adewale Akinfaderin, Yanyan Zhang, +4 more — [arxiv](https://arxiv.org/abs/2602.23368)
+  `evaluation` · Shreyas Subramanian, Adewale Akinfaderin, Yanyan Zhang, +4 more — [arxiv](https://arxiv.org/abs/2602.23368)
 - **Know Your RAG: Dataset Taxonomy and Generation Strategies for Evaluating RAG Systems**
-  Rafael Teixeira de Lima, Shubham Gupta, Cesar Berrospi, +4 more — [arxiv](https://arxiv.org/abs/2411.19710)
+  `benchmark` · Rafael Teixeira de Lima, Shubham Gupta, Cesar Berrospi, +4 more — [arxiv](https://arxiv.org/abs/2411.19710)
 - **Language agents achieve superhuman synthesis of scientific knowledge**
-  Michael D. Skarlinski, Sam Cox, Jon M. Laurent, +6 more — [arxiv](https://arxiv.org/abs/2409.13740)
+  `evaluation` · Michael D. Skarlinski, Sam Cox, Jon M. Laurent, +6 more — [arxiv](https://arxiv.org/abs/2409.13740)
 
 ## Software Engineering with AI
 
 - **Agentic SDLC**
-  _authors not detected_ — [search](https://www.semanticscholar.org/search?q=Agentic+SDLC)
+  `practitioner` · _authors not detected_ — [search](https://www.semanticscholar.org/search?q=Agentic+SDLC)
 - **Hermes Kanban** ⚠️
-  _authors not detected_ — [search](https://www.semanticscholar.org/search?q=Hermes+Kanban)
+  `practitioner` · _authors not detected_ — [search](https://www.semanticscholar.org/search?q=Hermes+Kanban)
 - **The Complete Guide to Building Skills for Claude**
-  _authors not detected_ — [search](https://www.semanticscholar.org/search?q=The+Complete+Guide+to+Building+Skills+for+Claude)
+  `practitioner` · _authors not detected_ — [search](https://www.semanticscholar.org/search?q=The+Complete+Guide+to+Building+Skills+for+Claude)
 - **The New SDLC With Vibe Coding F rom ad-hoc prompting to Agentic Engineering**
-  Addy Osmani, Shubham Saboo, Sokratis Kartakis — [search](https://www.semanticscholar.org/search?q=The+New+SDLC+With+Vibe+Coding+F+rom+ad-hoc+prompting+to+Agentic+Engineering)
+  `practitioner` · Addy Osmani, Shubham Saboo, Sokratis Kartakis — [search](https://www.semanticscholar.org/search?q=The+New+SDLC+With+Vibe+Coding+F+rom+ad-hoc+prompting+to+Agentic+Engineering)
 
 ## Context Engineering
 
 - **A Survey of Context Engineering for Large Language Models**
-  Lingrui Mei, Jiayu Yao, Yuyao Ge, +12 more — [arxiv](https://arxiv.org/abs/2507.13334)
+  `survey` · Lingrui Mei, Jiayu Yao, Yuyao Ge, +12 more — [arxiv](https://arxiv.org/abs/2507.13334)
 - **AGENTIC CONTEXT ENGINEERING: EVOLVING CONTEXTS FOR SELF-IMPROVING LANGUAGE MODELS**
-  Qizheng Zhang, Changran Hu, Shubhangi Upasani, +10 more — [arxiv](https://arxiv.org/abs/2510.04618)
+  `method` · Qizheng Zhang, Changran Hu, Shubhangi Upasani, +10 more — [arxiv](https://arxiv.org/abs/2510.04618)
 - **Decentralized Multi-Agent Systems with Shared Context**
-  Yuzhen Mao, Jerry Gu, Aadi Chauhan, +3 more — [arxiv](https://arxiv.org/abs/2606.10662)
+  `method` · Yuzhen Mao, Jerry Gu, Aadi Chauhan, +3 more — [arxiv](https://arxiv.org/abs/2606.10662)
 
 ## Memory
 
 - **A Survey on the Memory Mechanism of Large Language Model based Agents**
-  Zeyu Zhang, Xiaohe Bo, Chen Ma, +6 more — [arxiv](https://arxiv.org/abs/2404.13501)
+  `survey` · Zeyu Zhang, Xiaohe Bo, Chen Ma, +6 more — [arxiv](https://arxiv.org/abs/2404.13501)
 - **Are We Ready For An Agent-Native Memory System?**
-  Wei Zhou, Xuanhe Zhou, Shaokun Han, +5 more — [arxiv](https://arxiv.org/abs/2606.24775)
+  `evaluation` · Wei Zhou, Xuanhe Zhou, Shaokun Han, +5 more — [arxiv](https://arxiv.org/abs/2606.24775)
 - **Memory in the Age of AI Agents: A Survey**
-  Yuyang Hu, Shichun Liu, Yanwei Yue, +27 more — [arxiv](https://arxiv.org/abs/2512.13564)
+  `survey` · Yuyang Hu, Shichun Liu, Yanwei Yue, +27 more — [arxiv](https://arxiv.org/abs/2512.13564)
 
 ## Mixture-of-Experts
 
 - **OUTRAGEOUSLY LARGE NEURAL NETWORKS: THE SPARSELY-GATED MIXTURE-OF-EXPERTS LAYER**
-  Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, +4 more — [arxiv](https://arxiv.org/abs/1701.06538)
+  `method` · Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, +4 more — [arxiv](https://arxiv.org/abs/1701.06538)
 - **Towards Understanding Mixture of Experts in Deep Learning**
-  Zixiang Chen, Yihe Deng, Yue Wu, +2 more — [arxiv](https://arxiv.org/abs/2208.02813)
+  `empirical` · Zixiang Chen, Yihe Deng, Yue Wu, +2 more — [arxiv](https://arxiv.org/abs/2208.02813)
 
 ## Surveys
 
 - **A Survey on Efficient Training of Transformers**
-  Bohan Zhuang, Jing Liu, Zizheng Pan, +3 more — [arxiv](https://arxiv.org/abs/2302.01107)
+  `survey` · Bohan Zhuang, Jing Liu, Zizheng Pan, +3 more — [arxiv](https://arxiv.org/abs/2302.01107)
 - **An Overview of Multi-Task Learning in Deep Neural Networks∗**
-  Sebastian Ruder — [arxiv](https://arxiv.org/abs/1706.05098)
+  `survey` · Sebastian Ruder — [arxiv](https://arxiv.org/abs/1706.05098)
 
 ## Other / Uncategorized
 
 - **Artificial Intelligence Index Report 2022**
-  _authors not detected_ — [link](https://hai.stanford.edu/ai-index/2022-ai-index-report)
+  `practitioner` · _authors not detected_ — [link](https://hai.stanford.edu/ai-index/2022-ai-index-report)
 - **EUREKA: HUMAN-LEVEL REWARD DESIGN VIA CODING LARGE LANGUAGE MODELS**
-  Yecheng Jason Ma, William Liang, Guanzhi Wang, +6 more — [arxiv](https://arxiv.org/abs/2310.12931)
+  `method` · Yecheng Jason Ma, William Liang, Guanzhi Wang, +6 more — [arxiv](https://arxiv.org/abs/2310.12931)
 - **Exploring techniques to improve RNN translation performance**
-  Patrick Kelly — [search](https://www.semanticscholar.org/search?q=Exploring+techniques+to+improve+RNN+translation+performance)
+  `method` · Patrick Kelly — [search](https://www.semanticscholar.org/search?q=Exploring+techniques+to+improve+RNN+translation+performance)
 - **Neural Network Acceptability Judgments**
-  Alex Warstadt, Amanpreet Singh, Samuel R. Bowman — [arxiv](https://arxiv.org/abs/1805.12471)
+  `benchmark+evaluation` · Alex Warstadt, Amanpreet Singh, Samuel R. Bowman — [arxiv](https://arxiv.org/abs/1805.12471)
 - **Understanding and Improving Sequence-to-Sequence Pretraining for Neural Machine Translation**
-  Wenxuan Wang, Wenxiang Jiao, Yongchang Hao, +4 more — [arxiv](https://arxiv.org/abs/2203.08442)
+  `empirical` · Wenxuan Wang, Wenxiang Jiao, Yongchang Hao, +4 more — [arxiv](https://arxiv.org/abs/2203.08442)
 - **Understanding Random Forests: From Theory to Practice**
-  Gilles Louppe — [arxiv](https://arxiv.org/abs/1407.7502)
+  `survey` · Gilles Louppe — [arxiv](https://arxiv.org/abs/1407.7502)
 
 ## Needs Review
 

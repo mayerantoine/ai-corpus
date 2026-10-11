@@ -650,6 +650,9 @@ def generate_readme(json_path="papers.json", readme_path="README.md",
         "[`extract_papers.py`](extract_papers.py) from [`papers.json`](papers.json)"
         " and [`links.json`](links.json).",
         "",
+        "Each entry shows its contribution `type` — see "
+        "[`paper_types.md`](paper_types.md) for the taxonomy and rubrics.",
+        "",
         "## Contents",
         "",
     ]
@@ -665,8 +668,13 @@ def generate_readme(json_path="papers.json", readme_path="README.md",
             who = ", ".join(names[:3]) + (f", +{len(names) - 3} more" if len(names) > 3 else "")
             flag = " ⚠️" if g["needs_review"] else ""
             link, host = paper_link(g)
+            # Contribution type (see paper_types.md) -- a second axis beside topic.
+            kind = g.get("type") or ""
+            if kind and g.get("type_secondary"):
+                kind += f"+{g['type_secondary']}"
+            kind = f"`{kind}` · " if kind else ""
             lines.append(f"- **{title}**{flag}")
-            lines.append(f"  {who or '_authors not detected_'} — [{host}]({link})")
+            lines.append(f"  {kind}{who or '_authors not detected_'} — [{host}]({link})")
             if g.get("note"):
                 lines.append(f"  {g['note']}")
         lines.append("")

@@ -44,7 +44,10 @@
       "url": "https://arxiv.org/abs/1407.7502",
       "url_source": "arxiv-filename",
       "author_count": 1,
-      "published": "2014-07-28"
+      "published": "2014-07-28",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "book-length treatment of random forests theory and practice"
     },
     {
       "filename": "15791445.pdf",
@@ -65,7 +68,10 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:49+00:00",
       "url": null,
-      "url_source": null
+      "url_source": null,
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "techniques to improve RNN translation performance"
     },
     {
       "filename": "1701.06538.pdf",
@@ -94,7 +100,10 @@
       "url": "https://arxiv.org/abs/1701.06538",
       "url_source": "arxiv-filename",
       "author_count": 7,
-      "published": "2017-01-23"
+      "published": "2017-01-23",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we introduce a Sparsely-Gated Mixture-of-Experts layer"
     },
     {
       "filename": "1706.05098.pdf",
@@ -117,7 +126,10 @@
       "url": "https://arxiv.org/abs/1706.05098",
       "url_source": "arxiv-filename",
       "author_count": 1,
-      "published": "2017-06-15"
+      "published": "2017-06-15",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "overview of multi-task learning in deep neural networks"
     },
     {
       "filename": "1805.12471.pdf",
@@ -142,7 +154,10 @@
       "url": "https://arxiv.org/abs/1805.12471",
       "url_source": "arxiv-filename",
       "author_count": 3,
-      "published": "2018-05-31"
+      "published": "2018-05-31",
+      "type": "benchmark",
+      "type_secondary": "evaluation",
+      "type_evidence": "we introduce CoLA, 10,657 labeled sentences; as baselines we train several RNNs"
     },
     {
       "filename": "2020-01-0737.pdf",
@@ -161,7 +176,10 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:49+00:00",
       "url": "https://doi.org/10.4271/2020-01-0737",
-      "url_source": "publisher"
+      "url_source": "publisher",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "RL and simulation to develop autonomous vehicle control strategies"
     },
     {
       "filename": "2022-AI-Index-Report_Master.pdf",
@@ -180,7 +198,10 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:49+00:00",
       "url": "https://hai.stanford.edu/ai-index/2022-ai-index-report",
-      "url_source": "publisher"
+      "url_source": "publisher",
+      "type": "practitioner",
+      "type_secondary": null,
+      "type_evidence": "annual industry index report"
     },
     {
       "filename": "2022.emnlp-main.388.pdf",
@@ -203,7 +224,10 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:55+00:00",
       "url": "https://aclanthology.org/2022.emnlp-main.388/",
-      "url_source": "publisher"
+      "url_source": "publisher",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "AdaMix: mixture-of-adaptations for parameter-efficient tuning"
     },
     {
       "filename": "2106.09685.pdf",
@@ -233,7 +257,10 @@
       "url": "https://arxiv.org/abs/2106.09685",
       "url_source": "arxiv-filename",
       "author_count": 8,
-      "published": "2021-06-17"
+      "published": "2021-06-17",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we propose Low-Rank Adaptation"
     },
     {
       "filename": "2110.07602.pdf",
@@ -262,7 +289,10 @@
       "url": "https://arxiv.org/abs/2110.07602",
       "url_source": "arxiv-filename",
       "author_count": 7,
-      "published": "2021-10-14"
+      "published": "2021-10-14",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "P-Tuning v2 can be comparable to fine-tuning"
     },
     {
       "filename": "2201.11903v6.pdf",
@@ -293,7 +323,10 @@
       "url": "https://arxiv.org/abs/2201.11903",
       "url_source": "arxiv-filename",
       "author_count": 9,
-      "published": "2022-01-28"
+      "published": "2022-01-28",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "chain-of-thought prompting improves reasoning ability"
     },
     {
       "filename": "2203.08442.pdf",
@@ -322,7 +355,10 @@
       "url": "https://arxiv.org/abs/2203.08442",
       "url_source": "arxiv-filename",
       "author_count": 7,
-      "published": "2022-03-16"
+      "published": "2022-03-16",
+      "type": "empirical",
+      "type_secondary": null,
+      "type_evidence": "we find Seq2Seq pretraining is a double-edged sword"
     },
     {
       "filename": "2203.11171v4.pdf",
@@ -352,7 +388,10 @@
       "url": "https://arxiv.org/abs/2203.11171",
       "url_source": "arxiv-filename",
       "author_count": 8,
-      "published": "2022-03-21"
+      "published": "2022-03-21",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we propose a new decoding strategy, self-consistency"
     },
     {
       "filename": "2205.10625v3.pdf",
@@ -385,7 +424,10 @@
       "url": "https://arxiv.org/abs/2205.10625",
       "url_source": "arxiv-filename",
       "author_count": 11,
-      "published": "2022-05-21"
+      "published": "2022-05-21",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we propose least-to-most prompting"
     },
     {
       "filename": "2205.11916v4.pdf",
@@ -412,7 +454,10 @@
       "url": "https://arxiv.org/abs/2205.11916",
       "url_source": "arxiv-filename",
       "author_count": 5,
-      "published": "2022-05-24"
+      "published": "2022-05-24",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "LLMs are decent zero-shot reasoners by adding 'Let's think step by step'"
     },
     {
       "filename": "2208.02813.pdf",
@@ -439,7 +484,10 @@
       "url": "https://arxiv.org/abs/2208.02813",
       "url_source": "arxiv-filename",
       "author_count": 5,
-      "published": "2022-08-04"
+      "published": "2022-08-04",
+      "type": "empirical",
+      "type_secondary": null,
+      "type_evidence": "we formally study how the MoE layer improves learning and why it will not collapse"
     },
     {
       "filename": "2210.03493v1.pdf",
@@ -465,7 +513,10 @@
       "url": "https://arxiv.org/abs/2210.03493",
       "url_source": "arxiv-filename",
       "author_count": 4,
-      "published": "2022-10-07"
+      "published": "2022-10-07",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we propose Auto-CoT, which automatically constructs demonstrations"
     },
     {
       "filename": "2210.11610v2.pdf",
@@ -494,7 +545,10 @@
       "url": "https://arxiv.org/abs/2210.11610",
       "url_source": "arxiv-filename",
       "author_count": 7,
-      "published": "2022-10-20"
+      "published": "2022-10-20",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we use a pre-trained LLM to generate high-confidence rationale-augmented answers"
     },
     {
       "filename": "2211.01910v2.pdf",
@@ -523,7 +577,10 @@
       "url": "https://arxiv.org/abs/2211.01910",
       "url_source": "arxiv-filename",
       "author_count": 7,
-      "published": "2022-11-03"
+      "published": "2022-11-03",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we propose Automatic Prompt Engineer (APE)"
     },
     {
       "filename": "2302.01107.pdf",
@@ -551,7 +608,10 @@
       "url": "https://arxiv.org/abs/2302.01107",
       "url_source": "arxiv-filename",
       "author_count": 6,
-      "published": "2023-02-02"
+      "published": "2023-02-02",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "survey of efficient training of transformers"
     },
     {
       "filename": "2302.13971v1.pdf",
@@ -587,7 +647,10 @@
       "url": "https://arxiv.org/abs/2302.13971",
       "url_source": "arxiv-filename",
       "author_count": 14,
-      "published": "2023-02-27"
+      "published": "2023-02-27",
+      "type": "tech-report",
+      "type_secondary": null,
+      "type_evidence": "we introduce LLaMA, a collection of foundation language models"
     },
     {
       "filename": "2303.08774v6.pdf",
@@ -639,7 +702,10 @@
       "url": "https://arxiv.org/abs/2303.08774",
       "url_source": "arxiv-filename",
       "author_count": 281,
-      "published": "2023-03-15"
+      "published": "2023-03-15",
+      "type": "tech-report",
+      "type_secondary": null,
+      "type_evidence": "we report the development of GPT-4"
     },
     {
       "filename": "2305.10601v2.pdf",
@@ -668,7 +734,10 @@
       "url": "https://arxiv.org/abs/2305.10601",
       "url_source": "arxiv-filename",
       "author_count": 7,
-      "published": "2023-05-17"
+      "published": "2023-05-17",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we introduce Tree of Thoughts, a new framework for LM inference"
     },
     {
       "filename": "2305.14314.pdf",
@@ -694,7 +763,10 @@
       "url": "https://arxiv.org/abs/2305.14314",
       "url_source": "arxiv-filename",
       "author_count": 4,
-      "published": "2023-05-23"
+      "published": "2023-05-23",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we present QLoRA, an efficient finetuning approach"
     },
     {
       "filename": "2307.09288v2.pdf",
@@ -746,7 +818,10 @@
       "url": "https://arxiv.org/abs/2307.09288",
       "url_source": "arxiv-filename",
       "author_count": 68,
-      "published": "2023-07-18"
+      "published": "2023-07-18",
+      "type": "tech-report",
+      "type_secondary": null,
+      "type_evidence": "we develop and release Llama 2"
     },
     {
       "filename": "2310.03714v1.pdf",
@@ -781,7 +856,10 @@
       "url": "https://arxiv.org/abs/2310.03714",
       "url_source": "arxiv-filename",
       "author_count": 13,
-      "published": "2023-10-05"
+      "published": "2023-10-05",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we introduce DSPy, a programming model abstracting LM pipelines"
     },
     {
       "filename": "2310.06825v1.pdf",
@@ -821,7 +899,10 @@
       "url": "https://arxiv.org/abs/2310.06825",
       "url_source": "arxiv-filename",
       "author_count": 18,
-      "published": "2023-10-10"
+      "published": "2023-10-10",
+      "type": "tech-report",
+      "type_secondary": null,
+      "type_evidence": "we introduce Mistral 7B"
     },
     {
       "filename": "2310.12931v2.pdf",
@@ -852,7 +933,10 @@
       "url": "https://arxiv.org/abs/2310.12931",
       "url_source": "arxiv-filename",
       "author_count": 9,
-      "published": "2023-10-19"
+      "published": "2023-10-19",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we introduce EUREKA, a human-level reward design algorithm"
     },
     {
       "filename": "2402.01135v1.pdf",
@@ -880,7 +964,10 @@
       "url": "https://arxiv.org/abs/2402.01135",
       "url_source": "arxiv-filename",
       "author_count": 6,
-      "published": "2024-02-02"
+      "published": "2024-02-02",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we propose a multi-agent conversational recommender system"
     },
     {
       "filename": "2407.21075v1.pdf",
@@ -932,7 +1019,10 @@
       "url": "https://arxiv.org/abs/2407.21075",
       "url_source": "arxiv-filename",
       "author_count": 156,
-      "published": "2024-07-29"
+      "published": "2024-07-29",
+      "type": "tech-report",
+      "type_secondary": null,
+      "type_evidence": "we present the foundation language models for Apple Intelligence"
     },
     {
       "filename": "2407.21783v3.pdf",
@@ -984,7 +1074,10 @@
       "url": "https://arxiv.org/abs/2407.21783",
       "url_source": "arxiv-filename",
       "author_count": 561,
-      "published": "2024-07-31"
+      "published": "2024-07-31",
+      "type": "tech-report",
+      "type_secondary": null,
+      "type_evidence": "we present a new set of foundation models, Llama 3"
     },
     {
       "filename": "2410.21333v3.pdf",
@@ -1012,7 +1105,10 @@
       "url": "https://arxiv.org/abs/2410.21333",
       "url_source": "arxiv-filename",
       "author_count": 6,
-      "published": "2024-10-27"
+      "published": "2024-10-27",
+      "type": "empirical",
+      "type_secondary": null,
+      "type_evidence": "we identify characteristics of tasks where CoT reduces performance"
     },
     {
       "filename": "2412.15249v2.pdf",
@@ -1042,7 +1138,10 @@
       "url": "https://arxiv.org/abs/2412.15249",
       "url_source": "arxiv-filename",
       "author_count": 8,
-      "published": "2024-12-15"
+      "published": "2024-12-15",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we introduce a novel two-step search strategy and a prompting-based re-ranking mechanism"
     },
     {
       "filename": "2506.23485v1.pdf",
@@ -1073,7 +1172,10 @@
       "url": "https://arxiv.org/abs/2506.23485",
       "url_source": "arxiv-filename",
       "author_count": 9,
-      "published": "2025-06-30"
+      "published": "2025-06-30",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "thought-augmented planning for interactive recommender agents"
     },
     {
       "filename": "2605.05242v1.pdf",
@@ -1114,7 +1216,10 @@
       "url": "https://arxiv.org/abs/2605.05242",
       "url_source": "arxiv-filename",
       "author_count": 19,
-      "published": "2026-05-03"
+      "published": "2026-05-03",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we study direct corpus interaction, searching the raw corpus with terminal tools"
     },
     {
       "filename": "2606.08610v1.pdf",
@@ -1143,7 +1248,10 @@
       "url": "https://arxiv.org/abs/2606.08610",
       "url_source": "arxiv-filename",
       "author_count": 7,
-      "published": "2026-06-07"
+      "published": "2026-06-07",
+      "type": "system",
+      "type_secondary": null,
+      "type_evidence": "a harness framework for agentic robot reinforcement learning"
     },
     {
       "filename": "ACE.pdf",
@@ -1178,7 +1286,10 @@
       "url": "https://arxiv.org/abs/2510.04618",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 13,
-      "published": "2025-10-06"
+      "published": "2025-10-06",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we propose ACE, a framework for evolving contexts"
     },
     {
       "filename": "AI Agent architecture.pdf",
@@ -1201,7 +1312,10 @@
       "url": "https://arxiv.org/abs/2601.01743",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 1,
-      "published": "2026-01-05"
+      "published": "2026-01-05",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "architectures, applications, and evaluation of AI agent systems"
     },
     {
       "filename": "Agemt memory.pdf",
@@ -1253,7 +1367,10 @@
       "url": "https://arxiv.org/abs/2512.13564",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 47,
-      "published": "2025-12-15"
+      "published": "2025-12-15",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "survey of memory in the age of AI agents"
     },
     {
       "filename": "Agen Methodology.pdf",
@@ -1301,7 +1418,10 @@
       "url": "https://arxiv.org/abs/2503.21460",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 26,
-      "published": "2025-03-27"
+      "published": "2025-03-27",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "this survey covers methodology, applications and challenges"
     },
     {
       "filename": "Agent Context survey.pdf",
@@ -1338,7 +1458,10 @@
       "url": "https://arxiv.org/abs/2507.13334",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 15,
-      "published": "2025-07-17"
+      "published": "2025-07-17",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "a survey of context engineering, with a taxonomy"
     },
     {
       "filename": "Agent Context.pdf",
@@ -1375,7 +1498,10 @@
       "url": "https://arxiv.org/abs/2507.13334",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 15,
-      "published": "2025-07-17"
+      "published": "2025-07-17",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "a survey of context engineering, with a taxonomy"
     },
     {
       "filename": "AgentSLR.pdf",
@@ -1413,7 +1539,10 @@
       "url": "https://arxiv.org/abs/2603.22327",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 16,
-      "published": "2026-03-20"
+      "published": "2026-03-20",
+      "type": "benchmark",
+      "type_secondary": "evaluation",
+      "type_evidence": "we introduce AgentSLR, an evaluation harness plus an expert-annotated dataset of 16,248 articles"
     },
     {
       "filename": "AgentsMdEval.pdf",
@@ -1440,7 +1569,10 @@
       "url": "https://arxiv.org/abs/2602.11988",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 5,
-      "published": "2026-02-12"
+      "published": "2026-02-12",
+      "type": "evaluation",
+      "type_secondary": null,
+      "type_evidence": "we evaluate coding agents' task completion; context files do not generally improve success rates"
     },
     {
       "filename": "DAB.pdf",
@@ -1472,7 +1604,10 @@
       "url": "https://arxiv.org/abs/2603.20576",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 10,
-      "published": "2026-03-21"
+      "published": "2026-03-21",
+      "type": "benchmark",
+      "type_secondary": null,
+      "type_evidence": "a benchmark for data agents"
     },
     {
       "filename": "DABbenchmark.pdf",
@@ -1504,7 +1639,10 @@
       "url": "https://arxiv.org/abs/2603.20576",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 10,
-      "published": "2026-03-21"
+      "published": "2026-03-21",
+      "type": "benchmark",
+      "type_secondary": null,
+      "type_evidence": "a benchmark for data agents"
     },
     {
       "filename": "DRA Systematic Exam.pdf",
@@ -1539,7 +1677,10 @@
       "url": "https://arxiv.org/abs/2506.18096",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 13,
-      "published": "2025-06-22"
+      "published": "2025-06-22",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "a systematic examination and roadmap of deep research agents"
     },
     {
       "filename": "Day_1_v3 (1).pdf",
@@ -1562,7 +1703,10 @@
       "error": null,
       "extracted_at": "2026-09-13T17:54:59+00:00",
       "url": null,
-      "url_source": null
+      "url_source": null,
+      "type": "practitioner",
+      "type_secondary": null,
+      "type_evidence": "slide deck on the SDLC with vibe coding"
     },
     {
       "filename": "Decentralized Context.pdf",
@@ -1590,7 +1734,10 @@
       "url": "https://arxiv.org/abs/2606.10662",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 6,
-      "published": "2026-06-09"
+      "published": "2026-06-09",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "decentralized multi-agent systems with shared context"
     },
     {
       "filename": "GEPA.pdf",
@@ -1629,7 +1776,10 @@
       "url": "https://arxiv.org/abs/2507.19457",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 17,
-      "published": "2025-07-25"
+      "published": "2025-07-25",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we propose GEPA, a prompt optimizer that outperforms GRPO"
     },
     {
       "filename": "Meta-harness.pdf",
@@ -1657,7 +1807,10 @@
       "url": "https://arxiv.org/abs/2603.28052",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 6,
-      "published": "2026-03-30"
+      "published": "2026-03-30",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "end-to-end optimization of model harnesses"
     },
     {
       "filename": "PaperQAv2.pdf",
@@ -1688,7 +1841,10 @@
       "url": "https://arxiv.org/abs/2409.13740",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 9,
-      "published": "2024-09-10"
+      "published": "2024-09-10",
+      "type": "evaluation",
+      "type_secondary": null,
+      "type_evidence": "we developed a rigorous human-AI comparison methodology to evaluate agents"
     },
     {
       "filename": "Survey Memory.pdf",
@@ -1719,7 +1875,10 @@
       "url": "https://arxiv.org/abs/2404.13501",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 9,
-      "published": "2024-04-21"
+      "published": "2024-04-21",
+      "type": "survey",
+      "type_secondary": null,
+      "type_evidence": "we propose a comprehensive survey of the memory mechanism"
     },
     {
       "filename": "Taxonomy-context.pdf",
@@ -1747,7 +1906,10 @@
       "url": "https://arxiv.org/abs/2509.19125",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 6,
-      "published": "2025-09-23"
+      "published": "2025-09-23",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "LLM-guided multi-aspect clustering for taxonomy generation"
     },
     {
       "filename": "Terminalbench.pdf",
@@ -1799,7 +1961,10 @@
       "url": "https://arxiv.org/abs/2601.11868",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 85,
-      "published": "2026-01-17"
+      "published": "2026-01-17",
+      "type": "benchmark",
+      "type_secondary": null,
+      "type_evidence": "we present Terminal-Bench 2.0, a curated hard benchmark of 89 tasks"
     },
     {
       "filename": "The-Complete-Guide-to-Building-Skill-for-Claude.pdf",
@@ -1818,7 +1983,10 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:00+00:00",
       "url": null,
-      "url_source": null
+      "url_source": null,
+      "type": "practitioner",
+      "type_secondary": null,
+      "type_evidence": "how-to guide"
     },
     {
       "filename": "WhyDRAFails.pdf",
@@ -1845,7 +2013,10 @@
       "url": "https://arxiv.org/abs/2601.22984",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 5,
-      "published": "2026-01-30"
+      "published": "2026-01-30",
+      "type": "benchmark",
+      "type_secondary": "evaluation",
+      "type_evidence": "we introduce the PING Taxonomy and curate DeepHalluBench; six systems show reliability gaps"
     },
     {
       "filename": "X-sum.pdf",
@@ -1870,7 +2041,10 @@
       "url": "https://arxiv.org/abs/2505.16349",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 3,
-      "published": "2025-05-22"
+      "published": "2025-05-22",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "a modular pipeline for scientific literature summarization"
     },
     {
       "filename": "harbor.pdf",
@@ -1899,7 +2073,10 @@
       "url": "https://arxiv.org/abs/2606.08610",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 7,
-      "published": "2026-06-07"
+      "published": "2026-06-07",
+      "type": "system",
+      "type_secondary": null,
+      "type_evidence": "a harness framework for agentic robot reinforcement learning"
     },
     {
       "filename": "harborindex.pdf",
@@ -1951,7 +2128,10 @@
       "url": "https://arxiv.org/abs/2609.04298",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 126,
-      "published": "2026-09-03"
+      "published": "2026-09-03",
+      "type": "benchmark",
+      "type_secondary": "evaluation",
+      "type_evidence": "Harbor Adapters port 80+ benchmarks; large-scale evaluation of 8 models across 54 benchmarks"
     },
     {
       "filename": "hermes-kanban-v1-spec (1).pdf",
@@ -1972,7 +2152,10 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:01+00:00",
       "url": null,
-      "url_source": null
+      "url_source": null,
+      "type": "practitioner",
+      "type_secondary": null,
+      "type_evidence": "internal product spec"
     },
     {
       "filename": "insight_data_agent.pdf",
@@ -1998,7 +2181,10 @@
       "url": "https://arxiv.org/abs/2601.20048",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 4,
-      "published": "2026-01-27"
+      "published": "2026-01-27",
+      "type": "system",
+      "type_secondary": null,
+      "type_evidence": "an LLM-based multi-agent system for data insights"
     },
     {
       "filename": "keywordsearch.pdf",
@@ -2027,7 +2213,10 @@
       "url": "https://arxiv.org/abs/2602.23368",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 7,
-      "published": "2025-12-19"
+      "published": "2025-12-19",
+      "type": "evaluation",
+      "type_secondary": null,
+      "type_evidence": "we question how much value vector databases bring; systematic comparison"
     },
     {
       "filename": "know your rag.pdf",
@@ -2056,7 +2245,10 @@
       "url": "https://arxiv.org/abs/2411.19710",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 7,
-      "published": "2024-11-29"
+      "published": "2024-11-29",
+      "type": "benchmark",
+      "type_secondary": null,
+      "type_evidence": "dataset taxonomy and generation strategies for evaluating RAG"
     },
     {
       "filename": "memoryeval.pdf",
@@ -2086,7 +2278,10 @@
       "url": "https://arxiv.org/abs/2606.24775",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 8,
-      "published": "2026-06-23"
+      "published": "2026-06-23",
+      "type": "evaluation",
+      "type_secondary": null,
+      "type_evidence": "we evaluate 12 representative memory systems and two baselines across 11 datasets"
     },
     {
       "filename": "min2report.pdf",
@@ -2118,7 +2313,10 @@
       "url": "https://arxiv.org/abs/2601.04879",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 10,
-      "published": "2026-01-08"
+      "published": "2026-01-08",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "we propose Mind2Report, a cognitive deep research agent"
     },
     {
       "filename": "paper_banana.pdf",
@@ -2147,7 +2345,10 @@
       "url": "https://arxiv.org/abs/2601.23265",
       "url_source": "arxiv-pdf-stamp",
       "author_count": 7,
-      "published": "2026-01-30"
+      "published": "2026-01-30",
+      "type": "method",
+      "type_secondary": null,
+      "type_evidence": "automating academic illustration for AI scientists"
     },
     {
       "filename": "the-agentic-sdlc.pdf",
@@ -2166,7 +2367,10 @@
       "error": null,
       "extracted_at": "2026-09-13T17:55:02+00:00",
       "url": null,
-      "url_source": null
+      "url_source": null,
+      "type": "practitioner",
+      "type_secondary": null,
+      "type_evidence": "practitioner overview of the agentic SDLC"
     }
   ]
 }
