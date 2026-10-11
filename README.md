@@ -1,13 +1,14 @@
 # AI Corpus
 
-65 unique papers. Links only — no PDFs are stored in this repo.
-Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.json`](papers.json).
+75 papers — 65 indexed from PDFs, 10 curated links. Links only; no PDFs are stored in this repo.
+Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.json`](papers.json) and [`links.json`](links.json).
 
 ## Contents
 
 - [Prompting & Reasoning](#prompting--reasoning) (11)
+- [Agent Skills](#agent-skills) (9)
 - [Agents & Multi-Agent Systems](#agents--multi-agent-systems) (7)
-- [Evaluation & Benchmarks](#evaluation--benchmarks) (6)
+- [Evaluation & Benchmarks](#evaluation--benchmarks) (7)
 - [Foundation Models](#foundation-models) (6)
 - [Deep Research & Literature Review](#deep-research--literature-review) (5)
 - [Fine-tuning & PEFT](#fine-tuning--peft) (5)
@@ -44,6 +45,36 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
 - **Tree of Thoughts: Deliberate Problem Solving with Large Language Models**
   Shunyu Yao, Dian Yu, Jeffrey Zhao, +5 more — [arxiv](https://arxiv.org/abs/2305.10601)
 
+## Agent Skills
+
+- **Agent Skills Can Be Harmful: An Empirical Study of Skill-Induced Failures in LLM Agents**
+  Gen Dong, Yanjie Gao, Liqun Li — [arxiv](https://arxiv.org/abs/2608.11888)
+  307 skill-induced failures on SkillsBench and SWE-Skills-Bench (125 functional, 182 efficiency); excessive procedural checklists and heavy implementation pipelines cut success rates and inflate cost.
+- **Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward**
+  Renjun Xu, Yang Yan — [arxiv](https://arxiv.org/abs/2602.12430)
+  Four-axis survey: architectural foundations (SKILL.md, progressive context loading, MCP integration), skill acquisition, deployment at scale (CUAs, OSWorld), and security frameworks.
+- **Demystifying Agent Skills: Why They Work-Until They Don't**
+  Zhiyuan Jiang, Fangrui Huang, Hanwen Xing — [arxiv](https://arxiv.org/abs/2608.14036)
+  Contrastive study of 8,135 trial records: skills act as procedural anchors (65.7%) rather than injecting missing facts (4.5%); retrieval precision falls from 29.6% to 3.3% as pools grow 5 to 100.
+- **Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering**
+  Chenyu Zhou, Huacan Chai, Wenteng Chen — [arxiv](https://arxiv.org/abs/2604.08224)
+  Examines how externalized artifacts (skills, workflow memory, protocols) substitute or complement internal model weights.
+- **GitSkills: A Dataset of Agent Skills on GitHub**
+  Giuseppe Destefanis, Daniel Graziotin, Matteo Vaccargiu, +1 more — [arxiv](https://arxiv.org/abs/2608.10906)
+  3,797,117 SKILL.md files from 282,200 public repositories, grouped into 1,877,981 distinct contents, shipped as a single searchable SQLite file.
+- **Skilldex: A Package Manager and Registry for Agent Skill Packages with Hierarchical Scope-Based Distribution**
+  Sampriti Saha, Pranav Hemanth — [arxiv](https://arxiv.org/abs/2604.16911)
+  Package management and hierarchical scope distribution (global/shared/project) for agent skill artifacts, with format conformance scoring.
+- **SkillOpt: Executive Strategy for Self-Evolving Agent Skills**
+  Yifan Yang, Ziyang Gong, Weiquan Huang — [arxiv](https://arxiv.org/abs/2605.23904)
+  Treats skill files as trainable parameters outside frozen model weights via bounded text edits, validation gating, and rejected-edit feedback. Often cited by its Microsoft Research blog title, 'Agent Skills as Trainable Parameters'.
+- **SoK: Agentic Skills -- Beyond Tool Use in LLM Agents**
+  Yanna Jiang, Delong Li, Haiyu Deng, +4 more — [arxiv](https://arxiv.org/abs/2602.20867)
+  Systematization of knowledge mapping how skills transcend basic function-calling and tool-use paradigms, across the full skill lifecycle.
+- **Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills**
+  Jingwei Ni, Yihao Liu, Xinpeng Liu — [arxiv](https://arxiv.org/abs/2603.25158)
+  Turns single-run execution trajectories into reusable, generalized agent skills; harness-agnostic.
+
 ## Agents & Multi-Agent Systems
 
 - **A Multi-Agent Conversational Recommender System**
@@ -63,6 +94,9 @@ Generated 2026-09-13 by [`extract_papers.py`](extract_papers.py) from [`papers.j
 
 ## Evaluation & Benchmarks
 
+- **Agent Skill Evaluation and Evolution: Frameworks and Benchmarks**
+  Kexin Ding, Yang Zhou, Can Jin — [arxiv](https://arxiv.org/abs/2606.11435)
+  Automated, evaluation-driven skill evolution via execution feedback, trajectory distillation, compression, and RL; plus six skill-centric benchmark categories.
 - **AI Agent Systems: Architectures, Applications, and Evaluation**
   _authors not detected_ — [arxiv](https://arxiv.org/abs/2601.01743)
 - **Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents**

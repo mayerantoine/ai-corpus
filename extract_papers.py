@@ -64,6 +64,13 @@ TOPIC_RULES = {
     "Evaluation & Benchmarks": (1.5, ["benchmark", "evaluation", "evaluating", "hallucination"]),
     "Software Engineering with AI": (1.5, ["software engineering", "sdlc", "code generation",
                                            "vibe coding", "kanban", "developer", "skills for claude"]),
+    # Must outrank the generic agent rule below: these titles all contain "agent".
+    # Keywords are matched with (?<![a-z])kw(?![a-z]), so a singular form will
+    # NOT match its plural -- list both where the plural is the common usage.
+    "Agent Skills": (2.0, ["agent skill", "agent skills", "agentic skill", "agentic skills",
+                           "skill.md", "skill library", "skill libraries",
+                           "skill registry", "skill package", "skill packages",
+                           "skill evolution", "skill-induced", "procedural knowledge"]),
     "Agents & Multi-Agent Systems": (1.0, ["agent", "multi-agent", "agentic", "tool use",
                                            "autonomous"]),
     "Surveys": (1.0, ["survey", "taxonomy", "roadmap", "overview of"]),
@@ -593,7 +600,28 @@ def anchor(topic: str) -> str:
     return re.sub(r"[^a-z0-9\s-]", "", topic.lower()).strip().replace(" ", "-")
 
 
-def generate_readme(json_path="papers.json", readme_path="README.md", quiet=False):
+def load_links(links_path="links.json"):
+    """Curated entries for papers with no local PDF.
+
+    Hand-maintained and never written by the extractor, which rebuilds its
+    records from papers/*.pdf alone and would otherwise drop them. A missing or
+    malformed file is not fatal -- the README still renders from papers.json.
+    """
+    path = Path(links_path)
+    if not path.exists():
+        return []
+    try:
+        entries = json.loads(path.read_text()).get("papers", [])
+    except (json.JSONDecodeError, AttributeError):
+        print(f"warning: ignoring unreadable {path}", file=sys.stderr)
+        return []
+    # filenames=[] keeps these off paper_link's title-search fallback; every
+    # curated entry carries a verified url.
+    return [dict(e, filenames=[], needs_review=False) for e in entries]
+
+
+def generate_readme(json_path="papers.json", readme_path="README.md",
+                    links_path="links.json", quiet=False):
     data = json.loads(Path(json_path).read_text())
     papers = data["papers"]
 
@@ -607,14 +635,20 @@ def generate_readme(json_path="papers.json", readme_path="README.md", quiet=Fals
     for g in groups.values():
         by_topic[g["topic"]].append(g)
 
+    links = load_links(links_path)
+    for e in links:
+        by_topic[e["topic"]].append(e)
+
     order = sorted(by_topic, key=lambda t: (t == UNCATEGORIZED, -len(by_topic[t]), t))
 
     lines = [
         "# AI Corpus",
         "",
-        f"{len(groups)} unique papers. Links only \u2014 no PDFs are stored in this repo.",
+        f"{len(groups) + len(links)} papers \u2014 {len(groups)} indexed from PDFs, "
+        f"{len(links)} curated links. Links only; no PDFs are stored in this repo.",
         f"Generated {data['generated_at'][:10]} by "
-        "[`extract_papers.py`](extract_papers.py) from [`papers.json`](papers.json).",
+        "[`extract_papers.py`](extract_papers.py) from [`papers.json`](papers.json)"
+        " and [`links.json`](links.json).",
         "",
         "## Contents",
         "",
@@ -633,6 +667,8 @@ def generate_readme(json_path="papers.json", readme_path="README.md", quiet=Fals
             link, host = paper_link(g)
             lines.append(f"- **{title}**{flag}")
             lines.append(f"  {who or '_authors not detected_'} — [{host}]({link})")
+            if g.get("note"):
+                lines.append(f"  {g['note']}")
         lines.append("")
 
     flagged = [g for g in groups.values() if g["needs_review"]]
@@ -654,8 +690,8 @@ def generate_readme(json_path="papers.json", readme_path="README.md", quiet=Fals
 
     Path(readme_path).write_text("\n".join(lines))
     if not quiet:
-        print(f"Wrote {readme_path} ({len(groups)} unique papers, {len(order)} topics)",
-              file=sys.stderr)
+        print(f"Wrote {readme_path} ({len(groups)} from PDFs + {len(links)} curated "
+              f"links, {len(order)} topics)", file=sys.stderr)
 
 
 def main():
@@ -675,25 +711,27 @@ def main():
     p_ex = sub.add_parser("extract", help="PDFs -> papers.json")
     add_extract_args(p_ex)
 
-    p_rd = sub.add_parser("readme", help="papers.json -> README.md")
+    p_rd = sub.add_parser("readme", help="papers.json + links.json -> README.md")
     p_rd.add_argument("-i", "--input", default="papers.json")
     p_rd.add_argument("--readme", default="README.md")
+    p_rd.add_argument("--links", default="links.json")
     p_rd.add_argument("--quiet", action="store_true")
 
     p_all = sub.add_parser("all", help="extract then readme")
     add_extract_args(p_all)
     p_all.add_argument("--readme", default="README.md")
+    p_all.add_argument("--links", default="links.json")
 
     args = ap.parse_args()
     if args.cmd in (None, "all"):
         if args.cmd is None:  # bare invocation == all, with defaults
             args = ap.parse_args(["all"])
         cmd_extract(args)
-        generate_readme(args.out, args.readme, args.quiet)
+        generate_readme(args.out, args.readme, args.links, args.quiet)
     elif args.cmd == "extract":
         cmd_extract(args)
     elif args.cmd == "readme":
-        generate_readme(args.input, args.readme, args.quiet)
+        generate_readme(args.input, args.readme, args.links, args.quiet)
 
 
 if __name__ == "__main__":

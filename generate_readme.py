@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Render README.md from papers.json (grouped by topic).
+"""Render README.md from papers.json + links.json (grouped by topic).
 
 Thin shim over extract_papers.generate_readme so the README can be regenerated
-after hand-editing papers.json, without re-parsing any PDFs.
+after hand-editing papers.json or links.json, without re-parsing any PDFs.
 
     uv run generate_readme.py
 """
@@ -16,6 +16,7 @@ if __name__ == "__main__":
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("-i", "--input", default="papers.json")
     ap.add_argument("--readme", default="README.md")
+    ap.add_argument("--links", default="links.json")
     ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args()
-    generate_readme(args.input, args.readme, args.quiet)
+    generate_readme(args.input, args.readme, args.links, args.quiet)
